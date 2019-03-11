@@ -1,0 +1,1020 @@
+2019-02-28 10:00:42 [Server] Starting 
+2019-02-28 10:00:42 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 10:00:42 [Server] Started 
+2019-02-28 10:00:42 [AutoSet] Start 
+2019-02-28 10:00:44 [10.112.125.95:51885] ClientAccept 
+2019-02-28 10:00:44 [10.112.125.95:51885] Client HandShake 
+2019-02-28 10:00:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 10:00:44 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 10:00:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 10:00:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 10:00:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 10:00:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 10:00:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 10:01:23 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoCreate 
+2019-02-28 10:01:48 [10.112.125.95:51885] EndReceive 0 - ShutDown 
+2019-02-28 10:20:18 [Server] Starting 
+2019-02-28 10:20:18 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 10:20:18 [Server] Started 
+2019-02-28 10:20:18 [AutoSet] Start 
+2019-02-28 10:20:24 [10.112.125.95:51928] ClientAccept 
+2019-02-28 10:20:24 [10.112.125.95:51928] Client HandShake 
+2019-02-28 10:20:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 10:20:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ClientInfoRPC-False 
+2019-02-28 10:20:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with ClientInfoRPC -  
+2019-02-28 10:20:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 10:20:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with ClientInfoRPC 
+2019-02-28 10:20:28 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 10:20:35 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 10:20:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoCreate 
+2019-02-28 10:41:59 [Server] Starting 
+2019-02-28 10:41:59 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 10:41:59 [Server] Started 
+2019-02-28 10:41:59 [AutoSet] Start 
+2019-02-28 10:42:07 [10.112.125.95:52017] ClientAccept 
+2019-02-28 10:42:07 [10.112.125.95:52017] Client HandShake 
+2019-02-28 10:42:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 10:42:07 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 10:42:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 10:42:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 10:42:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 10:42:11 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 10:42:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 10:42:16 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoCreate 
+2019-02-28 10:43:02 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoCreate 
+2019-02-28 10:43:02 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-02-28 10:43:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoCreate 
+2019-02-28 10:43:47 [10.112.125.95:52017] EndReceive 0 - ShutDown 
+2019-02-28 10:58:05 [Server] Starting 
+2019-02-28 10:58:05 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 10:58:06 [Server] Started 
+2019-02-28 10:58:06 [AutoSet] Start 
+2019-02-28 10:59:18 [10.112.125.95:52052] ClientAccept 
+2019-02-28 10:59:18 [10.112.125.95:52052] Client HandShake 
+2019-02-28 10:59:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 10:59:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ClientInfoRPC-False 
+2019-02-28 10:59:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with ClientInfoRPC -  
+2019-02-28 10:59:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 10:59:20 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with ClientInfoRPC 
+2019-02-28 10:59:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 10:59:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 10:59:28 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoCreate 
+2019-02-28 11:00:29 [10.112.125.95:52052] EndReceive 0 - ShutDown 
+2019-02-28 11:05:26 [Server] Starting 
+2019-02-28 11:05:26 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 11:05:26 [Server] Started 
+2019-02-28 11:05:26 [AutoSet] Start 
+2019-02-28 11:05:28 [10.112.125.95:52072] ClientAccept 
+2019-02-28 11:05:28 [10.112.125.95:52072] Client HandShake 
+2019-02-28 11:05:28 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 11:05:29 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 11:05:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 11:05:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 11:05:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 11:05:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 11:05:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-28 11:05:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 11:05:37 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 11:05:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoCreate 
+2019-02-28 11:07:35 [10.112.125.95:52072] EndReceive 0 - ShutDown 
+2019-02-28 11:14:50 [Server] Starting 
+2019-02-28 11:14:50 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 11:14:50 [Server] Started 
+2019-02-28 11:14:50 [AutoSet] Start 
+2019-02-28 11:14:53 [10.112.125.95:52095] ClientAccept 
+2019-02-28 11:14:53 [10.112.125.95:52095] Client HandShake 
+2019-02-28 11:14:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 11:14:53 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 11:14:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 11:14:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 11:14:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 11:14:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 11:14:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-28 11:14:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 11:15:01 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 11:15:02 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoCreate 
+2019-02-28 11:15:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoCreate 
+2019-02-28 11:15:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-02-28 11:15:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 13:47:06 [Server] Starting 
+2019-02-28 13:47:06 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 13:47:06 [Server] Started 
+2019-02-28 13:47:06 [AutoSet] Start 
+2019-02-28 13:47:08 [10.112.125.95:52830] ClientAccept 
+2019-02-28 13:47:08 [10.112.125.95:52830] Client HandShake 
+2019-02-28 13:47:08 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 13:47:08 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ClientInfoRPC-False 
+2019-02-28 13:47:08 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with ClientInfoRPC -  
+2019-02-28 13:47:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 13:47:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with ClientInfoRPC 
+2019-02-28 13:47:13 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 13:47:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 13:47:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoCreate 
+2019-02-28 14:00:48 [Server] Starting 
+2019-02-28 14:00:48 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 14:00:48 [Server] Started 
+2019-02-28 14:00:48 [AutoSet] Start 
+2019-02-28 14:01:03 [10.112.125.95:52883] ClientAccept 
+2019-02-28 14:01:03 [10.112.125.95:52883] Client HandShake 
+2019-02-28 14:01:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 14:01:03 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 14:01:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 14:01:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 14:01:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 14:01:08 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 14:01:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 14:01:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoCreate 
+2019-02-28 14:03:41 [Server] Starting 
+2019-02-28 14:03:41 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 14:03:42 [Server] Started 
+2019-02-28 14:03:42 [AutoSet] Start 
+2019-02-28 14:03:47 [10.112.125.95:52897] ClientAccept 
+2019-02-28 14:03:47 [10.112.125.95:52897] Client HandShake 
+2019-02-28 14:03:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 14:03:47 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 14:03:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 14:03:48 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 14:03:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 14:03:52 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 14:03:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 14:03:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoCreate 
+2019-02-28 14:04:28 [10.112.125.95:52897] EndReceive 0 - ShutDown 
+2019-02-28 14:06:50 [Server] Starting 
+2019-02-28 14:06:50 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 14:06:51 [Server] Started 
+2019-02-28 14:06:51 [AutoSet] Start 
+2019-02-28 14:06:53 [10.112.125.95:52915] ClientAccept 
+2019-02-28 14:06:53 [10.112.125.95:52915] Client HandShake 
+2019-02-28 14:06:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 14:06:54 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 14:06:54 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 14:06:54 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 14:06:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 14:06:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 14:06:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-28 14:06:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 14:07:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 14:07:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoCreate 
+2019-02-28 14:07:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoCreate 
+2019-02-28 14:07:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-02-28 14:07:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 14:07:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 14:07:58 [10.112.125.95:52915] EndReceive 0 - ShutDown 
+2019-02-28 14:08:51 [Server] Starting 
+2019-02-28 14:08:51 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 14:08:52 [Server] Started 
+2019-02-28 14:08:52 [AutoSet] Start 
+2019-02-28 14:09:07 [10.112.125.95:52945] ClientAccept 
+2019-02-28 14:09:07 [10.112.125.95:52945] Client HandShake 
+2019-02-28 14:09:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 14:09:07 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 14:09:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 14:09:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 14:09:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 14:09:11 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 14:09:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 14:09:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoCreate 
+2019-02-28 14:10:16 [10.112.125.95:52945] EndReceive 0 - ShutDown 
+2019-02-28 16:49:02 [Server] Starting 
+2019-02-28 16:49:03 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 16:49:03 [Server] Started 
+2019-02-28 16:49:03 [AutoSet] Start 
+2019-02-28 16:49:15 [10.112.125.95:53287] ClientAccept 
+2019-02-28 16:49:15 [10.112.125.95:53287] Client HandShake 
+2019-02-28 16:49:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 16:49:16 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 16:49:16 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 16:49:16 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 16:49:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 16:49:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 16:49:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 16:49:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 16:49:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 16:49:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 16:49:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 16:49:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 16:49:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 16:49:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 16:49:51 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 16:50:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 16:50:12 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 16:50:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 16:50:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 16:50:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 16:50:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 16:50:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 16:50:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 16:50:56 [10.112.125.95:53287] STML-EX-你的主机中的软件中止了一个已建立的连接。 
+2019-02-28 16:53:30 [Server] Starting 
+2019-02-28 16:53:30 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 16:53:31 [Server] Started 
+2019-02-28 16:53:31 [AutoSet] Start 
+2019-02-28 16:53:34 [10.112.125.95:53314] ClientAccept 
+2019-02-28 16:53:34 [10.112.125.95:53314] Client HandShake 
+2019-02-28 16:53:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 16:53:34 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 16:53:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 16:53:35 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 16:53:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 16:53:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 16:53:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-28 16:53:42 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 16:53:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 16:54:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 16:54:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 16:54:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 16:54:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 16:54:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 16:54:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 16:54:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 16:54:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 16:54:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 16:54:51 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 16:59:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 16:59:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 16:59:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 16:59:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 16:59:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 16:59:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 16:59:14 [10.112.125.95:53314] EndReceive 0 - ShutDown 
+2019-02-28 16:59:18 [10.112.125.95:53337] ClientAccept 
+2019-02-28 16:59:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-02-28 16:59:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Push-frmLogon 
+2019-02-28 17:00:59 [Server] Starting 
+2019-02-28 17:01:00 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 17:01:00 [Server] Started 
+2019-02-28 17:01:01 [AutoSet] Start 
+2019-02-28 17:01:22 [10.112.125.95:53390] ClientAccept 
+2019-02-28 17:01:22 [10.112.125.95:53390] Client HandShake 
+2019-02-28 17:01:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 17:01:22 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 17:01:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 17:01:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:01:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 17:01:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:01:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:01:32 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:02:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 17:02:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:02:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:02:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:02:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 17:02:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 17:02:05 [10.112.125.95:53390] EndReceive 0 - ShutDown 
+2019-02-28 17:02:12 [10.112.125.95:53403] ClientAccept 
+2019-02-28 17:02:12 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-02-28 17:02:12 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Push-frmLogon 
+2019-02-28 17:03:04 [Server] Starting 
+2019-02-28 17:03:05 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 17:03:05 [Server] Started 
+2019-02-28 17:03:06 [AutoSet] Start 
+2019-02-28 17:03:19 [10.112.125.95:53409] ClientAccept 
+2019-02-28 17:03:19 [10.112.125.95:53409] Client HandShake 
+2019-02-28 17:03:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 17:03:19 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 17:03:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 17:03:20 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:03:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 17:03:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 17:03:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-28 17:03:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 17:03:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-28 17:03:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:03:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:03:59 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:08:10 [Server] Starting 
+2019-02-28 17:08:10 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 17:08:10 [Server] Started 
+2019-02-28 17:08:10 [AutoSet] Start 
+2019-02-28 17:08:24 [10.112.125.95:53429] ClientAccept 
+2019-02-28 17:08:25 [10.112.125.95:53429] Client HandShake 
+2019-02-28 17:08:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 17:08:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ClientInfoRPC-False 
+2019-02-28 17:08:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with ClientInfoRPC -  
+2019-02-28 17:08:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:08:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with ClientInfoRPC 
+2019-02-28 17:08:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:08:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:08:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:08:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 17:08:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:08:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:08:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:08:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 17:08:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 17:09:00 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:09:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:09:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:09:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 17:09:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:09:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:09:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:09:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 17:09:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 17:09:28 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:09:32 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:09:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:09:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 17:09:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:09:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:09:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:09:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 17:09:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 17:09:52 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:09:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:09:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:11:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 17:11:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:11:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:11:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:11:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 17:11:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 17:11:25 [10.112.125.95:53429] EndReceive 0 - ShutDown 
+2019-02-28 17:17:53 [Server] Starting 
+2019-02-28 17:17:53 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 17:17:53 [Server] Started 
+2019-02-28 17:17:53 [AutoSet] Start 
+2019-02-28 17:18:35 [10.112.125.95:53479] ClientAccept 
+2019-02-28 17:18:35 [10.112.125.95:53479] Client HandShake 
+2019-02-28 17:18:35 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 17:18:35 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 17:18:35 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 17:18:35 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:18:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 17:18:43 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:18:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:18:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:18:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 17:18:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:18:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:18:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 17:18:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 17:18:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:19:08 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:19:38 [10.112.125.95:53479] EndReceive 0 - ShutDown 
+2019-02-28 17:26:53 [Server] Starting 
+2019-02-28 17:26:54 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 17:26:54 [Server] Started 
+2019-02-28 17:26:54 [AutoSet] Start 
+2019-02-28 17:27:17 [10.112.125.95:53521] ClientAccept 
+2019-02-28 17:27:17 [10.112.125.95:53521] Client HandShake 
+2019-02-28 17:27:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 17:27:17 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 17:27:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 17:27:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:27:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 17:27:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:27:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:27:32 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:27:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 17:27:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:27:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:27:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:27:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 17:27:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 17:27:42 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:27:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:27:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:37:40 [Server] Starting 
+2019-02-28 17:37:40 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 17:37:40 [Server] Started 
+2019-02-28 17:37:41 [AutoSet] Start 
+2019-02-28 17:37:45 [10.112.125.95:53562] ClientAccept 
+2019-02-28 17:37:45 [10.112.125.95:53562] Client HandShake 
+2019-02-28 17:37:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 17:37:45 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 17:37:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 17:37:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:37:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 17:37:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:37:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:37:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:38:08 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 17:38:08 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:38:08 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:38:08 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:38:08 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 17:38:08 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 17:39:07 [Server] Starting 
+2019-02-28 17:39:07 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 17:39:07 [Server] Started 
+2019-02-28 17:39:07 [AutoSet] Start 
+2019-02-28 17:39:10 [10.112.125.95:53578] ClientAccept 
+2019-02-28 17:39:10 [10.112.125.95:53578] Client HandShake 
+2019-02-28 17:39:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 17:39:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-02-28 17:39:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ClientInfoRPC-False 
+2019-02-28 17:39:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with ClientInfoRPC -  
+2019-02-28 17:39:11 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:39:12 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with ClientInfoRPC 
+2019-02-28 17:39:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:39:20 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:39:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:39:28 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 17:39:28 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:39:28 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:39:28 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:39:28 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 17:39:28 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 17:39:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:39:39 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:39:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:39:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 17:39:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:39:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:39:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:39:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 17:39:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 17:39:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:40:19 [10.112.125.95:53578] EndReceive 0 - ShutDown 
+2019-02-28 17:40:47 [10.112.125.95:53608] ClientAccept 
+2019-02-28 17:40:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:40:48 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:44:49 [Server] Starting 
+2019-02-28 17:44:49 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 17:44:49 [Server] Started 
+2019-02-28 17:44:50 [AutoSet] Start 
+2019-02-28 17:45:08 [10.112.125.95:53622] ClientAccept 
+2019-02-28 17:45:09 [10.112.125.95:53622] Client HandShake 
+2019-02-28 17:45:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 17:45:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ClientInfoRPC-False 
+2019-02-28 17:45:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with ClientInfoRPC -  
+2019-02-28 17:45:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:45:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with ClientInfoRPC 
+2019-02-28 17:45:12 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:45:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:45:27 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:46:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 17:46:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:46:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:46:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:46:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 17:46:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 17:46:34 [10.112.125.95:53622] EndReceive 0 - ShutDown 
+2019-02-28 17:47:22 [10.112.125.95:53642] ClientAccept 
+2019-02-28 17:47:22 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 17:47:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 17:47:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-28 17:47:23 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:47:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:47:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:49:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 17:49:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:49:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:49:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:49:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 17:49:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 17:49:04 [10.112.125.95:53642] EndReceive 0 - ShutDown 
+2019-02-28 17:56:01 [Server] Starting 
+2019-02-28 17:56:01 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 17:56:01 [Server] Started 
+2019-02-28 17:56:01 [AutoSet] Start 
+2019-02-28 17:56:02 [10.112.125.95:53660] ClientAccept 
+2019-02-28 17:56:02 [10.112.125.95:53660] Client HandShake 
+2019-02-28 17:56:02 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 17:56:02 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 17:56:02 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 17:56:02 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:56:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 17:56:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 17:56:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-28 17:56:06 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 17:56:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 17:56:11 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 17:56:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 17:56:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:56:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 17:56:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 17:56:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 17:56:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 17:56:44 [10.112.125.95:53660] EndReceive 0 - ShutDown 
+2019-02-28 18:00:31 [Server] Starting 
+2019-02-28 18:00:31 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 18:00:31 [Server] Started 
+2019-02-28 18:00:31 [AutoSet] Start 
+2019-02-28 18:00:34 [10.112.125.95:53675] ClientAccept 
+2019-02-28 18:00:34 [10.112.125.95:53675] Client HandShake 
+2019-02-28 18:00:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 18:00:34 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 18:00:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 18:00:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 18:00:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 18:00:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 18:00:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-28 18:00:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 18:00:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 18:00:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 18:00:54 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 18:00:54 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 18:00:54 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 18:00:54 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 18:00:54 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 18:00:54 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 18:00:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 18:09:38 [Server] Starting 
+2019-02-28 18:09:38 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 18:09:38 [Server] Started 
+2019-02-28 18:09:38 [AutoSet] Start 
+2019-02-28 18:09:39 [10.112.125.95:53701] ClientAccept 
+2019-02-28 18:09:39 [10.112.125.95:53701] Client HandShake 
+2019-02-28 18:09:39 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 18:09:40 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 18:09:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 18:09:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 18:09:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 18:09:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 18:09:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-28 18:09:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-28 18:09:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 18:09:43 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 18:09:48 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 18:09:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 18:09:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 18:09:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 18:09:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 18:09:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 18:09:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 18:09:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 18:12:34 [Server] Starting 
+2019-02-28 18:12:34 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 18:12:34 [Server] Started 
+2019-02-28 18:12:34 [AutoSet] Start 
+2019-02-28 18:12:36 [10.112.125.95:53717] ClientAccept 
+2019-02-28 18:12:36 [10.112.125.95:53717] Client HandShake 
+2019-02-28 18:12:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 18:12:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-02-28 18:12:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ClientInfoRPC-False 
+2019-02-28 18:12:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with ClientInfoRPC -  
+2019-02-28 18:12:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 18:12:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with ClientInfoRPC 
+2019-02-28 18:12:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 18:12:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 18:12:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 18:12:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 18:12:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 18:12:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 18:12:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 18:12:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 18:12:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 18:13:13 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 18:13:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 18:13:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 18:13:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 29
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-02-28 18:13:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 18:13:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-02-28 18:13:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 18:13:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-02-28 18:13:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-28 18:13:58 [10.112.125.95:53717] EndReceive 0 - ShutDown 
+2019-02-28 18:14:06 [10.112.125.95:53740] ClientAccept 
+2019-02-28 18:14:06 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-02-28 18:14:06 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Push-frmLogon 
+2019-02-28 18:14:49 [10.112.125.95:53740] EndReceive 0 - ShutDown 
+2019-02-28 18:15:06 [10.112.125.95:53750] ClientAccept 
+2019-02-28 18:15:06 [10.112.125.95:53750] Client HandShake 
+2019-02-28 18:15:06 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 18:15:06 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 18:15:06 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-28 18:15:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 18:15:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 18:15:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 18:29:07 [Server] Starting 
+2019-02-28 18:29:08 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 18:29:08 [Server] Started 
+2019-02-28 18:29:08 [AutoSet] Start 
+2019-02-28 18:29:09 [10.112.125.95:53785] ClientAccept 
+2019-02-28 18:29:09 [10.112.125.95:53785] Client HandShake 
+2019-02-28 18:29:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 18:29:09 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-28 18:29:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-28 18:29:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 18:29:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-28 18:29:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 18:29:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-28 18:29:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 18:29:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-28 18:29:13 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 18:29:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 18:29:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-02-28 18:30:18 [10.112.125.95:53785] EndReceive 0 - ShutDown 
+2019-02-28 19:01:25 [Server] Starting 
+2019-02-28 19:01:25 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-28 19:01:26 [Server] Started 
+2019-02-28 19:01:26 [AutoSet] Start 
+2019-02-28 19:01:30 [10.112.125.95:53962] ClientAccept 
+2019-02-28 19:01:30 [10.112.125.95:53962] Client HandShake 
+2019-02-28 19:01:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-28 19:01:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-02-28 19:01:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-28 19:01:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ClientInfoRPC-False 
+2019-02-28 19:01:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with ClientInfoRPC -  
+2019-02-28 19:01:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-28 19:01:32 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with ClientInfoRPC 
+2019-02-28 19:01:35 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-28 19:01:39 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-28 19:01:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 

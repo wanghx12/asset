@@ -1,0 +1,33 @@
+2018-12-25 18:23:16 [Server] Starting 
+2018-12-25 18:23:16 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\SmoSEC-master\Source\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\SmoSEC-master\Source\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\SmoSEC-master\Source\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\SmoSEC-master\Source\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\SmoSEC-master\Source\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\SmoSEC-master\Source\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\SmoSEC-master\Source\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2018-12-25 18:23:16 [AutoSet] Start 
+2018-12-25 18:23:16 [Server] Started 
+2018-12-25 18:23:28 [Server] Stoping 
+2018-12-25 18:23:28 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2018-12-25 18:25:19 [Server] Starting 
+2018-12-25 18:25:19 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\SmoSEC-master\Source\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\SmoSEC-master\Source\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\SmoSEC-master\Source\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\SmoSEC-master\Source\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\SmoSEC-master\Source\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\SmoSEC-master\Source\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\SmoSEC-master\Source\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2018-12-25 18:25:19 [Server] Started 
+2018-12-25 18:25:19 [AutoSet] Start 
+2018-12-25 18:25:20 [Server] Stoping 
+2018-12-25 18:25:20 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2018-12-25 18:25:25 [Purging-EX] 正在中止线程。 
+2018-12-25 18:25:25 [Server] Stoped 
+2018-12-25 18:25:25 [AutoSet] Stop 

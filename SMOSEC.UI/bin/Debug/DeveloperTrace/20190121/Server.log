@@ -1,0 +1,48 @@
+2019-01-21 10:22:00 [10.112.44.155:46832] ClientAccept 
+2019-01-21 10:22:00 [10.112.44.155:46832] Client HandShake 
+2019-01-21 10:22:00 [86999403244106] STTP-NewClient 
+2019-01-21 10:22:00 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"1.0.1","coreVersion":"4.6.0","autoBuild":true,"isCompany":false} 
+2019-01-21 10:22:00 [86999403244106] OnStart-Starting with NewClient -  
+2019-01-21 10:22:00 [86999403244106] Show-frmLogon 
+2019-01-21 10:22:00 [86999403244106] OnStart-Started with NewClient 
+2019-01-21 10:22:00 [86999403244106] Refresh-True 
+2019-01-21 10:22:00 [86999403244106] Refresh-Initial-frmLogon 
+2019-01-21 10:22:03 [86999403244106] Show-frmAssets 
+2019-01-21 10:22:10 [86999403244106] Show-frmMessage 
+2019-01-21 10:22:11 [86999403244106] Close-frmMessage 
+2019-01-21 10:22:11 [86999403244106] Refresh-Pop-frmAssets 
+2019-01-21 10:22:38 [86999403244106] Show-frmAssets 
+2019-01-21 10:22:46 [86999403244106] OnStop-Stoping-ReStart-False-- 
+2019-01-21 10:22:46 [86999403244106] OnStart-Starting with ReStart -  
+2019-01-21 10:22:46 [86999403244106] Show-frmLogon 
+2019-01-21 10:22:46 [86999403244106] OnStart-Started with ReStart 
+2019-01-21 10:22:46 [86999403244106] OnStop-Stoped 
+2019-01-21 10:23:04 [86999403244106] Show-frmAssets 
+2019-01-21 10:23:15 [86999403244106] Show-frmMessage 
+2019-01-21 10:23:23 [86999403244106] Close-frmMessage 
+2019-01-21 10:23:23 [86999403244106] Refresh-Pop-frmAssets 
+2019-01-21 10:23:42 [86999403244106] OnStop-Stoping-ReStart-False-- 
+2019-01-21 10:23:42 [86999403244106] OnStart-Starting with ReStart -  
+2019-01-21 10:23:42 [86999403244106] Show-frmLogon 
+2019-01-21 10:23:42 [86999403244106] OnStart-Started with ReStart 
+2019-01-21 10:23:42 [86999403244106] OnStop-Stoped 
+2019-01-21 10:28:05 [10.112.44.155:46832] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019-01-21 10:54:13 [86999403244106] SessionTimeOut- 
+2019-01-21 10:54:13 [86999403244106] OnStop-Stoped 
+2019-01-21 10:54:13 [86999403244106] OnStop-Stoping-SessionTimeOut-True-- 
+2019-01-21 21:12:24 [10.112.46.193:48515] ClientAccept 
+2019-01-21 21:12:24 [10.112.46.193:48515] Client HandShake 
+2019-01-21 21:12:24 [351886080518738] STTP-NewClient 
+2019-01-21 21:12:24 [351886080518738] OnStart-Starting with NewClient -  
+2019-01-21 21:12:24 [10.112.46.193-351886080518738] {"deviceOS":"Android","deviceOSVersion":"8.0.0","deviceModel":"XT1710-08","screenSize":{"width":1080,"height":1776},"density":3.0,"version":"1.0.1","coreVersion":"4.6.0","autoBuild":true,"isCompany":false} 
+2019-01-21 21:12:25 [351886080518738] Show-frmLogon 
+2019-01-21 21:12:25 [351886080518738] OnStart-Started with NewClient 
+2019-01-21 21:13:14 [10.112.46.193:48549] ClientAccept 
+2019-01-21 21:13:14 [351886080518738] Show-frmAssets 
+2019-01-21 21:13:16 [351886080518738] Refresh-False 
+2019-01-21 21:13:16 [351886080518738] Refresh-Push-frmAssets 
+2019-01-21 21:14:22 [10.112.46.193:48588] ClientAccept 
+2019-01-21 21:24:33 [10.112.46.193:48588] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019-01-21 21:44:25 [351886080518738] SessionTimeOut- 
+2019-01-21 21:44:25 [351886080518738] OnStop-Stoping-SessionTimeOut-True-- 
+2019-01-21 21:44:25 [351886080518738] OnStop-Stoped 

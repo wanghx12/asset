@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75ADB9C8-D14E-415A-93C9-113E5795F63A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SMOSEC.Domain</RootNamespace>
+    <AssemblyName>SMOSEC.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entity\AssetsSN.cs" />
+    <Compile Include="Entity\auth_group.cs" />
+    <Compile Include="Entity\auth_group_permissions.cs" />
+    <Compile Include="Entity\auth_permission.cs" />
+    <Compile Include="Entity\auth_user.cs" />
+    <Compile Include="Entity\auth_user_groups.cs" />
+    <Compile Include="Entity\auth_user_user_permissions.cs" />
+    <Compile Include="Entity\cmdb_asset.cs" />
+    <Compile Include="Entity\cmdb_assettouselog.cs" />
+    <Compile Include="Entity\cmdb_assettype.cs" />
+    <Compile Include="Entity\cmdb_brand.cs" />
+    <Compile Include="Entity\cmdb_loginhistory.cs" />
+    <Compile Include="Entity\cmdb_machineroom.cs" />
+    <Compile Include="Entity\cmdb_modityhistory.cs" />
+    <Compile Include="Entity\cmdb_payman.cs" />
+    <Compile Include="Entity\cmdb_project.cs" />
+    <Compile Include="Entity\cmdb_repairlog.cs" />
+    <Compile Include="Entity\cmdb_role.cs" />
+    <Compile Include="Entity\cmdb_team.cs" />
+    <Compile Include="Entity\cmdb_uselog.cs" />
+    <Compile Include="Entity\cmdb_useman.cs" />
+    <Compile Include="Entity\cmdb_userinfo.cs" />
+    <Compile Include="Entity\django_admin_log.cs" />
+    <Compile Include="Entity\django_content_type.cs" />
+    <Compile Include="Entity\django_migrations.cs" />
+    <Compile Include="Entity\django_session.cs" />
+    <Compile Include="IAggregateRoot.cs" />
+    <Compile Include="IEntity.cs" />
+    <Compile Include="IRepository\IAssBorrowOrderRepository.cs" />
+    <Compile Include="IRepository\IAssBorrowOrderRowRepository.cs" />
+    <Compile Include="IRepository\IAssetsBrandRepository.cs" />
+    <Compile Include="IRepository\IAssetsPaymanRepository.cs" />
+    <Compile Include="IRepository\IAssetsProRepository.cs" />
+    <Compile Include="IRepository\IAssetsRepository.cs" />
+    <Compile Include="IRepository\IAssetsRoleRepository.cs" />
+    <Compile Include="IRepository\IAssetsSNRepository.cs" />
+    <Compile Include="IRepository\IAssetsTeamRepository.cs" />
+    <Compile Include="IRepository\IAssetsTypeRepository.cs" />
+    <Compile Include="IRepository\IAssetsUserRepository.cs" />
+    <Compile Include="IRepository\IAssRepairOrderRepository.cs" />
+    <Compile Include="IRepository\IcoreUserRepository.cs" />
+    <Compile Include="IRepository\IDepartmentRepository.cs" />
+    <Compile Include="IRepository\IRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Smobiler.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=c28d201d12639a97, processorArchitecture=MSIL" />
+    <Reference Include="Smobiler.Core.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=276522cd3fa3b955, processorArchitecture=MSIL" />
+    <Reference Include="Smobiler.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9301bc54ca0d7a69, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

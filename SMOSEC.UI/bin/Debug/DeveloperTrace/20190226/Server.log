@@ -1,0 +1,173 @@
+2019-02-26 10:02:26 [Server] Starting 
+2019-02-26 10:02:26 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-26 10:02:26 [Server] Started 
+2019-02-26 10:02:26 [AutoSet] Start 
+2019-02-26 10:02:53 [10.112.125.95:56964] ClientAccept 
+2019-02-26 10:02:53 [10.112.125.95:56964] Client HandShake 
+2019-02-26 10:02:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-26 10:02:53 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-26 10:02:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-26 10:02:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-26 10:02:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-26 10:02:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-26 10:03:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssetsCreate 
+2019-02-26 10:03:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmAssetsCreate 
+2019-02-26 10:03:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmAssets 
+2019-02-26 10:03:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssetsDetail 
+2019-02-26 10:03:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssetsDetailEdit 
+2019-02-26 10:03:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmAssetsDetailEdit 
+2019-02-26 10:03:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmAssetsDetail 
+2019-02-26 10:03:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmAssetsDetail 
+2019-02-26 10:03:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmAssets 
+2019-02-26 10:03:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-26 10:04:55 [10.112.125.95:56964] EndReceive 0 - ShutDown 
+2019-02-26 14:42:23 [Server] Starting 
+2019-02-26 14:42:24 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-02-26 14:42:24 [Server] Started 
+2019-02-26 14:42:24 [AutoSet] Start 
+2019-02-26 14:42:29 [10.112.125.95:57861] ClientAccept 
+2019-02-26 14:42:29 [10.112.125.95:57861] Client HandShake 
+2019-02-26 14:42:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-02-26 14:42:29 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-26 14:42:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-02-26 14:42:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-26 14:42:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-02-26 14:42:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-26 14:42:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-02-26 14:42:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-26 14:42:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-26 14:42:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoCreate 
+2019-02-26 14:42:52 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-02-26 14:42:52 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Push-frmBoCreate 
+2019-02-26 14:42:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:42:53 [10.112.125.95:57861] EndReceive 0 - ShutDown 
+2019-02-26 14:42:55 [10.112.125.95:57873] ClientAccept 
+2019-02-26 14:42:55 [10.112.125.95:57873] Client HandShake 
+2019-02-26 14:42:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-02-26 14:42:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Push-frmBoCreate 
+2019-02-26 14:42:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:42:55 [10.112.125.95:57873] EndReceive 0 - ShutDown 
+2019-02-26 14:43:15 [10.112.125.95:57901] ClientAccept 
+2019-02-26 14:43:15 [10.112.125.95:57901] Client HandShake 
+2019-02-26 14:43:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-02-26 14:43:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Push-frmBoCreate 
+2019-02-26 14:43:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:43:15 [10.112.125.95:57901] EndReceive 0 - ShutDown 
+2019-02-26 14:43:18 [10.112.125.95:57904] ClientAccept 
+2019-02-26 14:43:18 [10.112.125.95:57904] Client HandShake 
+2019-02-26 14:43:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-02-26 14:43:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Push-frmBoCreate 
+2019-02-26 14:43:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:43:18 [10.112.125.95:57904] EndReceive 0 - ShutDown 
+2019-02-26 14:43:21 [10.112.125.95:57905] ClientAccept 
+2019-02-26 14:43:21 [10.112.125.95:57905] Client HandShake 
+2019-02-26 14:43:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Push-frmBoCreate 
+2019-02-26 14:43:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-02-26 14:43:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:43:21 [10.112.125.95:57905] EndReceive 0 - ShutDown 
+2019-02-26 14:43:22 [10.112.125.95:57906] ClientAccept 
+2019-02-26 14:43:22 [10.112.125.95:57906] Client HandShake 
+2019-02-26 14:43:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-02-26 14:43:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Push-frmBoCreate 
+2019-02-26 14:43:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:43:22 [10.112.125.95:57906] EndReceive 0 - ShutDown 
+2019-02-26 14:43:27 [10.112.125.95:57907] ClientAccept 
+2019-02-26 14:43:27 [10.112.125.95:57907] Client HandShake 
+2019-02-26 14:43:27 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-02-26 14:43:27 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Push-frmBoCreate 
+2019-02-26 14:43:28 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:43:28 [10.112.125.95:57907] EndReceive 0 - ShutDown 
+2019-02-26 14:43:30 [10.112.125.95:57908] ClientAccept 
+2019-02-26 14:43:30 [10.112.125.95:57908] Client HandShake 
+2019-02-26 14:43:30 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-26 14:43:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-26 14:43:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmBoCreate 
+2019-02-26 14:43:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:43:30 [10.112.125.95:57908] EndReceive 0 - ShutDown 
+2019-02-26 14:43:31 [10.112.125.95:57909] ClientAccept 
+2019-02-26 14:43:31 [10.112.125.95:57909] Client HandShake 
+2019-02-26 14:43:31 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-26 14:43:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-26 14:43:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmBoCreate 
+2019-02-26 14:43:32 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:43:32 [10.112.125.95:57909] EndReceive 0 - ShutDown 
+2019-02-26 14:43:33 [10.112.125.95:57910] ClientAccept 
+2019-02-26 14:43:33 [10.112.125.95:57910] Client HandShake 
+2019-02-26 14:43:33 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-26 14:43:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-26 14:43:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmBoCreate 
+2019-02-26 14:43:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:43:33 [10.112.125.95:57910] EndReceive 0 - ShutDown 
+2019-02-26 14:43:33 [10.112.125.95:57911] ClientAccept 
+2019-02-26 14:43:33 [10.112.125.95:57911] Client HandShake 
+2019-02-26 14:43:33 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-26 14:43:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-26 14:43:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmBoCreate 
+2019-02-26 14:43:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:43:33 [10.112.125.95:57911] EndReceive 0 - ShutDown 
+2019-02-26 14:43:34 [10.112.125.95:57912] ClientAccept 
+2019-02-26 14:43:34 [10.112.125.95:57912] Client HandShake 
+2019-02-26 14:43:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-26 14:43:34 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-26 14:43:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmBoCreate 
+2019-02-26 14:43:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:43:34 [10.112.125.95:57912] EndReceive 0 - ShutDown 
+2019-02-26 14:43:38 [10.112.125.95:57913] ClientAccept 
+2019-02-26 14:43:38 [10.112.125.95:57913] Client HandShake 
+2019-02-26 14:43:38 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-26 14:43:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-26 14:43:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmBoCreate 
+2019-02-26 14:43:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:43:38 [10.112.125.95:57913] EndReceive 0 - ShutDown 
+2019-02-26 14:43:39 [10.112.125.95:57914] ClientAccept 
+2019-02-26 14:43:39 [10.112.125.95:57914] Client HandShake 
+2019-02-26 14:43:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-26 14:43:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmBoCreate 
+2019-02-26 14:43:40 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-26 14:43:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:43:40 [10.112.125.95:57914] EndReceive 0 - ShutDown 
+2019-02-26 14:43:59 [10.112.125.95:57915] ClientAccept 
+2019-02-26 14:43:59 [10.112.125.95:57915] Client HandShake 
+2019-02-26 14:43:59 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-26 14:43:59 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmBoCreate 
+2019-02-26 14:43:59 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-26 14:43:59 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:43:59 [10.112.125.95:57915] EndReceive 0 - ShutDown 
+2019-02-26 14:44:00 [10.112.125.95:57916] ClientAccept 
+2019-02-26 14:44:00 [10.112.125.95:57916] Client HandShake 
+2019-02-26 14:44:00 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-26 14:44:00 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-02-26 14:44:00 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmBoCreate 
+2019-02-26 14:44:00 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 
+2019-02-26 14:44:00 [10.112.125.95:57916] EndReceive 0 - ShutDown 
+2019-02-26 14:44:03 [10.112.125.95:57917] ClientAccept 
+2019-02-26 14:44:03 [10.112.125.95:57917] Client HandShake 
+2019-02-26 14:44:03 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-02-26 14:44:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-PROTOCOL-Reset-False-- 
+2019-02-26 14:44:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with PROTOCOL-Reset -  
+2019-02-26 14:44:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-02-26 14:44:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with PROTOCOL-Reset 
+2019-02-26 14:44:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-02-26 14:44:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-02-26 14:44:11 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-02-26 14:44:16 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoCreate 
+2019-02-26 14:44:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-02-26 14:44:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Push-frmBoCreate 
+2019-02-26 14:44:21 [10.112.125.95:57917] EndReceive 0 - ShutDown 
+2019-02-26 14:44:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ProcessEx-could not create instance of OperCreateAssLayout 

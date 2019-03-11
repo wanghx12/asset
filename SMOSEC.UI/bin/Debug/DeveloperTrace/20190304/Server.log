@@ -1,0 +1,1107 @@
+2019-03-04 10:35:11 [Server] Starting 
+2019-03-04 10:35:11 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 10:35:11 [Server] Started 
+2019-03-04 10:35:12 [AutoSet] Start 
+2019-03-04 10:35:32 [10.112.125.95:50107] ClientAccept 
+2019-03-04 10:35:32 [10.112.125.95:50107] Client HandShake 
+2019-03-04 10:35:32 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 10:35:32 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 10:35:32 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 10:35:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 10:35:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 10:35:37 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 10:35:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 10:35:42 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 10:36:19 [10.112.125.95:50107] EndReceive 0 - ShutDown 
+2019-03-04 10:37:00 [10.112.125.95:50122] ClientAccept 
+2019-03-04 10:37:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 10:37:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 10:37:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 10:38:05 [10.112.125.95:50122] EndReceive 0 - ShutDown 
+2019-03-04 10:39:39 [10.112.125.95:50126] ClientAccept 
+2019-03-04 10:39:39 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 10:39:39 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 10:39:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 10:41:26 [Server] Starting 
+2019-03-04 10:41:27 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 10:41:27 [Server] Started 
+2019-03-04 10:41:27 [AutoSet] Start 
+2019-03-04 10:41:34 [10.112.125.95:50133] ClientAccept 
+2019-03-04 10:41:34 [10.112.125.95:50133] Client HandShake 
+2019-03-04 10:41:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 10:41:34 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 10:41:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 10:41:35 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 10:41:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 10:41:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-03-04 10:41:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-03-04 10:41:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 10:41:48 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 10:41:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 10:45:35 [Server] Starting 
+2019-03-04 10:45:35 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 10:45:35 [Server] Started 
+2019-03-04 10:45:35 [AutoSet] Start 
+2019-03-04 10:45:38 [10.112.125.95:50152] ClientAccept 
+2019-03-04 10:45:38 [10.112.125.95:50152] Client HandShake 
+2019-03-04 10:45:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 10:45:38 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 10:45:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 10:45:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 10:45:39 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 10:45:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 10:45:51 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 10:45:52 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 10:46:42 [10.112.125.95:50152] EndReceive 0 - ShutDown 
+2019-03-04 10:47:01 [10.112.125.95:50166] ClientAccept 
+2019-03-04 10:49:44 [Server] Starting 
+2019-03-04 10:49:44 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 10:49:44 [Server] Started 
+2019-03-04 10:49:44 [AutoSet] Start 
+2019-03-04 10:49:44 [10.112.125.95:50167] ClientAccept 
+2019-03-04 10:49:44 [10.112.125.95:50167] Client HandShake 
+2019-03-04 10:49:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 10:49:45 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 10:49:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 10:49:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 10:49:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 10:49:52 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 10:50:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 10:50:16 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:12:50 [Server] Starting 
+2019-03-04 11:12:51 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 11:12:51 [Server] Started 
+2019-03-04 11:12:51 [AutoSet] Start 
+2019-03-04 11:12:51 [10.112.125.95:50192] ClientAccept 
+2019-03-04 11:12:51 [10.112.125.95:50192] Client HandShake 
+2019-03-04 11:12:51 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 11:12:51 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 11:12:51 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 11:12:51 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 11:12:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 11:13:01 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 11:13:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 11:13:06 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:13:25 [Server] Starting 
+2019-03-04 11:13:25 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 11:13:25 [Server] Started 
+2019-03-04 11:13:25 [AutoSet] Start 
+2019-03-04 11:13:27 [10.112.125.95:50207] ClientAccept 
+2019-03-04 11:13:27 [10.112.125.95:50207] Client HandShake 
+2019-03-04 11:13:27 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 11:13:27 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 11:13:27 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 11:13:27 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 11:13:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 11:13:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 11:13:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 11:13:35 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:15:51 [Server] Starting 
+2019-03-04 11:15:51 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 11:15:51 [Server] Started 
+2019-03-04 11:15:51 [AutoSet] Start 
+2019-03-04 11:15:55 [10.112.125.95:50222] ClientAccept 
+2019-03-04 11:15:55 [10.112.125.95:50222] Client HandShake 
+2019-03-04 11:15:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 11:15:56 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 11:15:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 11:15:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 11:15:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 11:15:59 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 11:16:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 11:16:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:16:47 [Server] Starting 
+2019-03-04 11:16:47 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 11:16:47 [Server] Started 
+2019-03-04 11:16:47 [AutoSet] Start 
+2019-03-04 11:16:52 [10.112.125.95:50237] ClientAccept 
+2019-03-04 11:16:52 [10.112.125.95:50237] Client HandShake 
+2019-03-04 11:16:52 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 11:16:52 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 11:16:52 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 11:16:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 11:16:54 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 11:16:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 11:17:00 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 11:17:01 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:17:22 [Server] Starting 
+2019-03-04 11:17:22 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 11:17:22 [Server] Started 
+2019-03-04 11:17:22 [AutoSet] Start 
+2019-03-04 11:17:27 [10.112.125.95:50252] ClientAccept 
+2019-03-04 11:17:27 [10.112.125.95:50252] Client HandShake 
+2019-03-04 11:17:27 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 11:17:27 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 11:17:27 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 11:17:28 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 11:17:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 11:17:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-03-04 11:17:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-03-04 11:17:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 11:17:35 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 11:17:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:18:21 [Server] Starting 
+2019-03-04 11:18:22 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 11:18:22 [Server] Started 
+2019-03-04 11:18:22 [AutoSet] Start 
+2019-03-04 11:18:23 [10.112.125.95:50268] ClientAccept 
+2019-03-04 11:18:23 [10.112.125.95:50268] Client HandShake 
+2019-03-04 11:18:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 11:18:24 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 11:18:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 11:18:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 11:18:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 11:18:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-03-04 11:18:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-03-04 11:18:27 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 11:18:37 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 11:18:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:19:19 [10.112.125.95:50268] EndReceive 0 - ShutDown 
+2019-03-04 11:19:30 [10.112.125.95:50282] ClientAccept 
+2019-03-04 11:19:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 11:19:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 11:19:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:20:11 [10.112.125.95:50282] EndReceive 0 - ShutDown 
+2019-03-04 11:20:18 [10.112.125.95:50286] ClientAccept 
+2019-03-04 11:20:18 [10.112.125.95:50286] Client HandShake 
+2019-03-04 11:20:18 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 11:20:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-03-04 11:20:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmBoDetail 
+2019-03-04 11:20:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 11:20:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Push-frmBorrowOrder 
+2019-03-04 11:20:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 11:20:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 11:20:32 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:21:11 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 11:21:11 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 11:21:12 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:21:32 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 11:21:32 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 11:21:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:23:10 [Server] Starting 
+2019-03-04 11:23:10 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 11:23:10 [Server] Started 
+2019-03-04 11:23:10 [AutoSet] Start 
+2019-03-04 11:23:15 [10.112.125.95:50310] ClientAccept 
+2019-03-04 11:23:15 [10.112.125.95:50310] Client HandShake 
+2019-03-04 11:23:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 11:23:15 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 11:23:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 11:23:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 11:23:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 11:23:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 11:23:23 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 11:23:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:24:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 11:24:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 11:24:06 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:24:08 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 11:24:08 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 11:24:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:24:20 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 11:24:20 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 11:24:23 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:24:40 [10.112.125.95:50310] EndReceive 0 - ShutDown 
+2019-03-04 11:26:20 [Server] Starting 
+2019-03-04 11:26:21 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 11:26:21 [Server] Started 
+2019-03-04 11:26:21 [AutoSet] Start 
+2019-03-04 11:26:21 [10.112.125.95:50336] ClientAccept 
+2019-03-04 11:26:21 [10.112.125.95:50336] Client HandShake 
+2019-03-04 11:26:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 11:26:21 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 11:26:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 11:26:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 11:26:23 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 11:26:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 11:26:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 11:26:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:27:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 11:27:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 11:27:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:27:12 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 11:27:12 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 11:27:16 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 11:27:23 [10.112.125.95:50336] EndReceive 0 - ShutDown 
+2019-03-04 12:20:07 [Server] Starting 
+2019-03-04 12:20:07 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 12:20:08 [Server] Started 
+2019-03-04 12:20:08 [AutoSet] Start 
+2019-03-04 12:20:18 [10.112.125.95:50562] ClientAccept 
+2019-03-04 12:20:18 [10.112.125.95:50562] Client HandShake 
+2019-03-04 12:20:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 12:20:18 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 12:20:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 12:20:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 12:20:20 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 12:20:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 12:20:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 12:20:27 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:20:59 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 12:20:59 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 12:21:13 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:21:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 12:21:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 12:21:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:22:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 12:22:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 12:22:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:22:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 12:22:10 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 12:22:11 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:22:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 12:22:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 12:22:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:22:54 [10.112.125.95:50562] EndReceive 0 - ShutDown 
+2019-03-04 12:24:32 [Server] Starting 
+2019-03-04 12:24:32 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 12:24:32 [Server] Started 
+2019-03-04 12:24:32 [AutoSet] Start 
+2019-03-04 12:24:34 [10.112.125.95:50588] ClientAccept 
+2019-03-04 12:24:34 [10.112.125.95:50588] Client HandShake 
+2019-03-04 12:24:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 12:24:34 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 12:24:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 12:24:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 12:24:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 12:24:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-03-04 12:24:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-03-04 12:24:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 12:24:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 12:24:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:25:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 12:25:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 12:25:23 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:25:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 12:25:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 12:25:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:31:06 [Server] Starting 
+2019-03-04 12:31:06 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 12:31:07 [Server] Started 
+2019-03-04 12:31:07 [AutoSet] Start 
+2019-03-04 12:32:46 [10.112.125.95:50639] ClientAccept 
+2019-03-04 12:32:46 [10.112.125.95:50639] Client HandShake 
+2019-03-04 12:32:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 12:32:46 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 12:32:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 12:32:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 12:32:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 12:32:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 12:32:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 12:32:59 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:33:48 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 12:33:48 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 12:33:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:34:35 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 12:34:35 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 12:34:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:37:08 [Server] Starting 
+2019-03-04 12:37:08 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 12:37:08 [Server] Started 
+2019-03-04 12:37:09 [AutoSet] Start 
+2019-03-04 12:37:11 [10.112.125.95:50694] ClientAccept 
+2019-03-04 12:37:12 [10.112.125.95:50694] Client HandShake 
+2019-03-04 12:37:12 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 12:37:12 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 12:37:12 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 12:37:12 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 12:37:13 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 12:37:13 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-03-04 12:37:13 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-03-04 12:37:20 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 12:37:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 12:37:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:37:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 12:37:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 12:37:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:37:51 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 12:37:51 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 12:37:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:38:40 [10.112.125.95:50694] EndReceive 0 - ShutDown 
+2019-03-04 12:40:25 [10.112.125.95:50717] ClientAccept 
+2019-03-04 12:40:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 12:40:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 12:40:27 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:43:03 [Server] Starting 
+2019-03-04 12:43:03 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 12:43:03 [Server] Started 
+2019-03-04 12:43:03 [AutoSet] Start 
+2019-03-04 12:43:05 [10.112.125.95:50735] ClientAccept 
+2019-03-04 12:43:05 [10.112.125.95:50735] Client HandShake 
+2019-03-04 12:43:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 12:43:05 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 12:43:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 12:43:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 12:43:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 12:43:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-03-04 12:43:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-03-04 12:43:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-03-04 12:43:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-03-04 12:43:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 12:43:13 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 12:43:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:44:20 [10.112.125.95:50735] EndReceive 0 - ShutDown 
+2019-03-04 12:45:01 [Server] Starting 
+2019-03-04 12:45:02 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 12:45:02 [Server] Started 
+2019-03-04 12:45:02 [AutoSet] Start 
+2019-03-04 12:45:16 [10.112.125.95:50750] ClientAccept 
+2019-03-04 12:45:16 [10.112.125.95:50750] Client HandShake 
+2019-03-04 12:45:16 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 12:45:16 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 12:45:16 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 12:45:16 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 12:45:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 12:45:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 12:45:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssetsDetail 
+2019-03-04 12:45:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmAssetsDetail 
+2019-03-04 12:45:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmAssets 
+2019-03-04 12:45:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 12:45:27 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 12:45:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 12:45:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 12:45:43 [10.112.125.95:50750] EndReceive 0 - ShutDown 
+2019-03-04 13:42:54 [Server] Starting 
+2019-03-04 13:42:54 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 13:42:54 [Server] Started 
+2019-03-04 13:42:54 [AutoSet] Start 
+2019-03-04 13:44:40 [10.112.125.95:50831] ClientAccept 
+2019-03-04 13:44:40 [10.112.125.95:50831] Client HandShake 
+2019-03-04 13:44:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 13:44:40 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 13:44:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 13:44:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 13:44:42 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 13:44:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 13:44:48 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 13:45:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SMOSEC.UI.Layout.BorrowOrderLayout.Panel1_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\Layout\BorrowOrderLayout.cs:行号 37
+   在 Smobiler.Core.Controls.Panel.()
+   在 Smobiler.Core.Controls.Panel.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-03-04 13:45:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-03-04 13:45:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+未将对象引用设置到对象的实例。
+详细信息请参见Server日志 
+2019-03-04 13:45:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 13:45:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-03-04 13:45:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-03-04 13:48:47 [Server] Starting 
+2019-03-04 13:48:47 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 13:48:47 [Server] Started 
+2019-03-04 13:48:47 [AutoSet] Start 
+2019-03-04 13:49:03 [10.112.125.95:50892] ClientAccept 
+2019-03-04 13:49:03 [10.112.125.95:50892] Client HandShake 
+2019-03-04 13:49:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 13:49:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ClientInfoRPC-False 
+2019-03-04 13:49:03 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with ClientInfoRPC -  
+2019-03-04 13:49:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 13:49:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with ClientInfoRPC 
+2019-03-04 13:49:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 13:49:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 13:49:43 [Server] Starting 
+2019-03-04 13:49:43 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 13:49:43 [Server] Started 
+2019-03-04 13:49:43 [AutoSet] Start 
+2019-03-04 13:49:45 [10.112.125.95:50905] ClientAccept 
+2019-03-04 13:49:45 [10.112.125.95:50905] Client HandShake 
+2019-03-04 13:49:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 13:49:45 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 13:49:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 13:49:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 13:49:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 13:49:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-03-04 13:49:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-03-04 13:49:48 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 13:49:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 13:50:36 [Server] Starting 
+2019-03-04 13:50:37 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 13:50:37 [Server] Started 
+2019-03-04 13:50:37 [AutoSet] Start 
+2019-03-04 13:50:40 [10.112.125.95:50917] ClientAccept 
+2019-03-04 13:50:40 [10.112.125.95:50917] Client HandShake 
+2019-03-04 13:50:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 13:50:40 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 13:50:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 13:50:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 13:50:42 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 13:50:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 13:50:48 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 13:50:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBoDetail 
+2019-03-04 13:50:59 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmBoDetail 
+2019-03-04 13:50:59 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmBorrowOrder 
+2019-03-04 13:51:07 [10.112.125.95:50917] EndReceive 0 - ShutDown 
+2019-03-04 16:06:14 [Server] Starting 
+2019-03-04 16:06:14 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 16:06:14 [Server] Started 
+2019-03-04 16:06:14 [AutoSet] Start 
+2019-03-04 16:07:15 [10.112.125.95:51215] ClientAccept 
+2019-03-04 16:07:15 [10.112.125.95:51215] Client HandShake 
+2019-03-04 16:07:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 16:07:15 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 16:07:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 16:10:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-OnStart-System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'SMOSEC.Application.Services.AssRepairOrderService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'SMOSEC.Domain.IRepository.IAssetsSNRepository AssetsSNRepository' of constructor 'Void .ctor(SMOSEC.Infrastructure.IUnitOfWork, SMOSEC.Domain.IRepository.IAssRepairOrderRepository, SMOSEC.Domain.IRepository.IAssetsRepository, SMOSEC.Domain.IRepository.IAssetsSNRepository, SMOSEC.Domain.IRepository.IcoreUserRepository, SMOSEC.Infrastructure.IDbContext)'.
+   在 Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   在 SMOSEC.UI.AutofacConfig..ctor() 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\AutofacConfig.cs:行号 186
+   在 SMOSEC.UI.frmLogon..ctor() 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\frmLogon.cs:行号 13
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 ..(String ) 
+2019-03-04 16:10:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-True--系统从异常中恢复，异常信息：
+调用的目标发生了异常。
+详细信息请参见Server日志 
+2019-03-04 16:10:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-03-04 16:15:27 [Server] Starting 
+2019-03-04 16:15:27 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 16:15:27 [Server] Started 
+2019-03-04 16:15:27 [AutoSet] Start 
+2019-03-04 16:15:31 [10.112.125.95:51228] ClientAccept 
+2019-03-04 16:15:31 [10.112.125.95:51228] Client HandShake 
+2019-03-04 16:15:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 16:15:31 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 16:15:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 16:17:01 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-OnStart-System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'SMOSEC.Application.Services.AssRepairOrderService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'SMOSEC.Domain.IRepository.IAssetsSNRepository AssetsSNRepository' of constructor 'Void .ctor(SMOSEC.Infrastructure.IUnitOfWork, SMOSEC.Domain.IRepository.IAssRepairOrderRepository, SMOSEC.Domain.IRepository.IAssetsRepository, SMOSEC.Domain.IRepository.IAssetsSNRepository, SMOSEC.Domain.IRepository.IcoreUserRepository, SMOSEC.Infrastructure.IDbContext)'.
+   在 Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   在 SMOSEC.UI.AutofacConfig..ctor() 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\AutofacConfig.cs:行号 186
+   在 SMOSEC.UI.frmLogon..ctor() 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\frmLogon.cs:行号 13
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 ..(String ) 
+2019-03-04 16:17:01 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-True--系统从异常中恢复，异常信息：
+调用的目标发生了异常。
+详细信息请参见Server日志 
+2019-03-04 16:17:01 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-03-04 16:19:31 [Server] Starting 
+2019-03-04 16:19:32 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 16:19:32 [Server] Started 
+2019-03-04 16:19:32 [AutoSet] Start 
+2019-03-04 16:19:33 [10.112.125.95:51233] ClientAccept 
+2019-03-04 16:19:33 [10.112.125.95:51233] Client HandShake 
+2019-03-04 16:19:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 16:19:33 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 16:19:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 16:19:42 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-OnStart-System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'SMOSEC.Application.Services.AssRepairOrderService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'SMOSEC.Domain.IRepository.IAssetsSNRepository AssetsSNRepository' of constructor 'Void .ctor(SMOSEC.Infrastructure.IUnitOfWork, SMOSEC.Domain.IRepository.IAssRepairOrderRepository, SMOSEC.Domain.IRepository.IAssetsRepository, SMOSEC.Domain.IRepository.IAssetsSNRepository, SMOSEC.Infrastructure.IDbContext)'.
+   在 Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   在 SMOSEC.UI.AutofacConfig..ctor() 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\AutofacConfig.cs:行号 186
+   在 SMOSEC.UI.frmLogon..ctor() 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\frmLogon.cs:行号 13
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 ..(String ) 
+2019-03-04 16:19:42 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-True--系统从异常中恢复，异常信息：
+调用的目标发生了异常。
+详细信息请参见Server日志 
+2019-03-04 16:19:42 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-03-04 16:19:45 [10.112.125.95:51234] ClientAccept 
+2019-03-04 16:19:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 16:19:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ClientInfoRPC-False 
+2019-03-04 16:19:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with ClientInfoRPC -  
+2019-03-04 16:20:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-True--系统从异常中恢复，异常信息：
+调用的目标发生了异常。
+详细信息请参见Server日志 
+2019-03-04 16:20:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-OnStart-System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'SMOSEC.Application.Services.AssRepairOrderService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'SMOSEC.Domain.IRepository.IAssetsSNRepository AssetsSNRepository' of constructor 'Void .ctor(SMOSEC.Infrastructure.IUnitOfWork, SMOSEC.Domain.IRepository.IAssRepairOrderRepository, SMOSEC.Domain.IRepository.IAssetsRepository, SMOSEC.Domain.IRepository.IAssetsSNRepository, SMOSEC.Infrastructure.IDbContext)'.
+   在 Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   在 SMOSEC.UI.AutofacConfig..ctor() 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\AutofacConfig.cs:行号 186
+   在 SMOSEC.UI.frmLogon..ctor() 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\frmLogon.cs:行号 13
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 ..(String ) 
+2019-03-04 16:20:07 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-03-04 16:20:09 [10.112.125.95:51235] ClientAccept 
+2019-03-04 16:20:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 16:24:28 [Server] Starting 
+2019-03-04 16:24:28 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 16:24:28 [Server] Started 
+2019-03-04 16:24:28 [AutoSet] Start 
+2019-03-04 16:24:49 [10.112.125.95:51237] ClientAccept 
+2019-03-04 16:24:49 [10.112.125.95:51237] Client HandShake 
+2019-03-04 16:24:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 16:24:49 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 16:24:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 16:24:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 16:24:59 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 16:25:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 16:25:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 16:25:12 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairCreateSN 
+2019-03-04 16:25:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.Exception: could not create instance of frmOrderCreateSNLayout
+   在 ..(String , MobileControl , Boolean )
+   在 ..(String , MobileLayoutControl , Boolean )
+   在 Smobiler.Core.Controls.ListView.get_TemplateControl()
+   在 Smobiler.Core.Controls.ListView.(MobileForm )
+   在 Smobiler.Core.Controls.MobileLayoutControl.(MobileForm , & )
+   在 Smobiler.Core.Controls.MobileLayoutControl.(MobileForm )
+   在 Smobiler.Core.Controls.MobileLayoutControl.(MobileForm , & )
+   在 Smobiler.Core.Controls.MobileForm.(MobileForm , & )
+   在 Smobiler.Core.Controls.MobileLayoutControl.(MobileForm )
+   在 Smobiler.Core.Controls.MobileForm.(STMLStackMode )
+   在 Smobiler.Core.Controls.MobileForm.(FormRedirectCallBackEventHandler , Object )
+   在 Smobiler.Core.Controls.MobileForm.Show(MobileForm form, Boolean moveClose, FormRedirectCallBackEventHandler callback, Object args)
+   在 Smobiler.Core.Controls.MobileForm.Show(MobileForm form, FormRedirectCallBackEventHandler callback, Object args)
+   在 SMOSEC.UI.AssetsManager.frmRepairRowsSN.btnCreate_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\AssetsManager\frmRepairRowsSN.cs:行号 25
+   在 Smobiler.Core.Controls.Button.()
+   在 Smobiler.Core.Controls.Button.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-03-04 16:25:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+could not create instance of frmOrderCreateSNLayout
+详细信息请参见Server日志 
+2019-03-04 16:25:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+could not create instance of frmOrderCreateSNLayout
+详细信息请参见Server日志 
+2019-03-04 16:25:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 16:25:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-03-04 16:25:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-03-04 16:25:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 16:25:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 16:25:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 16:25:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 16:26:06 [10.112.125.95:51237] EndReceive 0 - ShutDown 
+2019-03-04 16:34:14 [Server] Starting 
+2019-03-04 16:34:14 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 16:34:14 [Server] Started 
+2019-03-04 16:34:14 [AutoSet] Start 
+2019-03-04 16:34:18 [10.112.125.95:51324] ClientAccept 
+2019-03-04 16:34:18 [10.112.125.95:51324] Client HandShake 
+2019-03-04 16:34:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 16:34:18 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 16:34:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 16:34:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 16:34:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 16:34:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 16:34:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 16:35:48 [10.112.125.95:51324] EndReceive 0 - ShutDown 
+2019-03-04 16:44:00 [Server] Starting 
+2019-03-04 16:44:01 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 16:44:01 [Server] Started 
+2019-03-04 16:44:01 [AutoSet] Start 
+2019-03-04 16:44:10 [10.112.125.95:51348] ClientAccept 
+2019-03-04 16:44:10 [10.112.125.95:51348] Client HandShake 
+2019-03-04 16:44:11 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 16:44:11 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 16:44:11 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 16:44:11 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 16:44:12 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 16:44:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 16:44:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 16:44:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 16:45:02 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 16:45:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmMessage 
+2019-03-04 16:45:20 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmMessage 
+2019-03-04 16:45:20 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmRepairRowsSN 
+2019-03-04 16:45:23 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 16:45:27 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 16:47:32 [Server] Starting 
+2019-03-04 16:47:33 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 16:47:33 [Server] Started 
+2019-03-04 16:47:33 [AutoSet] Start 
+2019-03-04 16:47:44 [10.112.125.95:51381] ClientAccept 
+2019-03-04 16:47:44 [10.112.125.95:51381] Client HandShake 
+2019-03-04 16:47:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 16:47:44 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 16:47:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 16:47:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 16:47:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 16:47:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 16:47:55 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 16:48:01 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 16:48:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 16:49:29 [10.112.125.95:51381] EndReceive 0 - ShutDown 
+2019-03-04 16:50:12 [Server] Starting 
+2019-03-04 16:50:12 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 16:50:12 [Server] Started 
+2019-03-04 16:50:12 [AutoSet] Start 
+2019-03-04 16:50:21 [10.112.125.95:51404] ClientAccept 
+2019-03-04 16:50:21 [10.112.125.95:51404] Client HandShake 
+2019-03-04 16:50:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 16:50:21 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 16:50:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 16:50:22 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 16:50:23 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 16:50:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 16:50:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 16:55:47 [Server] Starting 
+2019-03-04 16:55:47 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 16:55:47 [Server] Started 
+2019-03-04 16:55:47 [AutoSet] Start 
+2019-03-04 16:55:49 [10.112.125.95:51414] ClientAccept 
+2019-03-04 16:55:49 [10.112.125.95:51414] Client HandShake 
+2019-03-04 16:55:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 16:55:49 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 16:55:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 16:55:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 16:55:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 16:55:51 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-03-04 16:55:51 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-03-04 16:55:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 16:55:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssetsDetail 
+2019-03-04 16:55:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmAssetsDetail 
+2019-03-04 16:55:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmAssets 
+2019-03-04 16:56:02 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 16:57:51 [10.112.125.95:51414] EndReceive 0 - ShutDown 
+2019-03-04 16:57:59 [10.112.125.95:51427] ClientAccept 
+2019-03-04 16:57:59 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-03-04 16:57:59 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Push-frmRepairRowsSN 
+2019-03-04 16:58:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 16:58:29 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 16:58:44 [Server] Starting 
+2019-03-04 16:58:44 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 16:58:44 [Server] Started 
+2019-03-04 16:58:44 [AutoSet] Start 
+2019-03-04 16:58:58 [10.112.125.95:51442] ClientAccept 
+2019-03-04 16:58:58 [10.112.125.95:51442] Client HandShake 
+2019-03-04 16:58:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 16:58:58 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 16:58:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 16:58:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 16:58:59 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 16:59:01 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 16:59:05 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 16:59:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 16:59:13 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 17:00:34 [Server] Starting 
+2019-03-04 17:00:35 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 17:00:35 [Server] Started 
+2019-03-04 17:00:35 [AutoSet] Start 
+2019-03-04 17:00:36 [10.112.125.95:51465] ClientAccept 
+2019-03-04 17:00:36 [10.112.125.95:51465] Client HandShake 
+2019-03-04 17:00:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 17:00:36 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 17:00:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 17:00:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 17:00:37 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 17:00:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-03-04 17:00:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-03-04 17:00:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 17:00:43 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 17:01:19 [Server] Starting 
+2019-03-04 17:01:20 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 17:01:20 [Server] Started 
+2019-03-04 17:01:20 [AutoSet] Start 
+2019-03-04 17:01:24 [10.112.125.95:51479] ClientAccept 
+2019-03-04 17:01:24 [10.112.125.95:51479] Client HandShake 
+2019-03-04 17:01:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 17:01:24 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 17:01:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 17:01:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 17:01:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 17:01:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 17:01:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019-03-04 17:01:42 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 17:01:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 17:01:54 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairCreateSN 
+2019-03-04 17:02:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.Exception: could not create instance of frmOrderCreateSNLayout
+   在 ..(String , MobileControl , Boolean )
+   在 ..(String , MobileLayoutControl , Boolean )
+   在 Smobiler.Core.Controls.ListView.get_TemplateControl()
+   在 Smobiler.Core.Controls.ListView.(MobileForm )
+   在 Smobiler.Core.Controls.MobileLayoutControl.(MobileForm , & )
+   在 Smobiler.Core.Controls.MobileLayoutControl.(MobileForm )
+   在 Smobiler.Core.Controls.MobileLayoutControl.(MobileForm , & )
+   在 Smobiler.Core.Controls.MobileForm.(MobileForm , & )
+   在 Smobiler.Core.Controls.MobileLayoutControl.(MobileForm )
+   在 Smobiler.Core.Controls.MobileForm.(STMLStackMode )
+   在 Smobiler.Core.Controls.MobileForm.(FormRedirectCallBackEventHandler , Object )
+   在 Smobiler.Core.Controls.MobileForm.Show(MobileForm form, Boolean moveClose, FormRedirectCallBackEventHandler callback, Object args)
+   在 Smobiler.Core.Controls.MobileForm.Show(MobileForm form, FormRedirectCallBackEventHandler callback, Object args)
+   在 SMOSEC.UI.AssetsManager.frmRepairRowsSN.btnCreate_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\AssetsManager\frmRepairRowsSN.cs:行号 25
+   在 Smobiler.Core.Controls.Button.()
+   在 Smobiler.Core.Controls.Button.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-03-04 17:02:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+could not create instance of frmOrderCreateSNLayout
+详细信息请参见Server日志 
+2019-03-04 17:02:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+could not create instance of frmOrderCreateSNLayout
+详细信息请参见Server日志 
+2019-03-04 17:02:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 17:02:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-03-04 17:02:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-03-04 17:02:16 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 17:02:21 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 17:02:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairCreateSN 
+2019-03-04 17:03:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Dump-BeginDataProcess-System.Exception: could not create instance of frmOrderCreateSNLayout
+   在 ..(String , MobileControl , Boolean )
+   在 ..(String , MobileLayoutControl , Boolean )
+   在 Smobiler.Core.Controls.ListView.get_TemplateControl()
+   在 Smobiler.Core.Controls.ListView.(MobileForm )
+   在 Smobiler.Core.Controls.MobileLayoutControl.(MobileForm , & )
+   在 Smobiler.Core.Controls.MobileLayoutControl.(MobileForm )
+   在 Smobiler.Core.Controls.MobileLayoutControl.(MobileForm , & )
+   在 Smobiler.Core.Controls.MobileForm.(MobileForm , & )
+   在 Smobiler.Core.Controls.MobileLayoutControl.(MobileForm )
+   在 Smobiler.Core.Controls.MobileForm.(STMLStackMode )
+   在 Smobiler.Core.Controls.MobileForm.(FormRedirectCallBackEventHandler , Object )
+   在 Smobiler.Core.Controls.MobileForm.Show(MobileForm form, Boolean moveClose, FormRedirectCallBackEventHandler callback, Object args)
+   在 Smobiler.Core.Controls.MobileForm.Show(MobileForm form, FormRedirectCallBackEventHandler callback, Object args)
+   在 SMOSEC.UI.AssetsManager.frmRepairRowsSN.btnCreate_Press(Object sender, EventArgs e) 位置 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\AssetsManager\frmRepairRowsSN.cs:行号 25
+   在 Smobiler.Core.Controls.Button.()
+   在 Smobiler.Core.Controls.Button.(String , Dictionary`2 )
+   在 ..( )
+   在 ..( ) 
+2019-03-04 17:03:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-DUMP-False--系统从异常中恢复，异常信息：
+could not create instance of frmOrderCreateSNLayout
+详细信息请参见Server日志 
+2019-03-04 17:03:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with DUMP - 系统从异常中恢复，异常信息：
+could not create instance of frmOrderCreateSNLayout
+详细信息请参见Server日志 
+2019-03-04 17:03:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 17:03:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with DUMP 
+2019-03-04 17:03:09 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019-03-04 17:03:09 [10.112.125.95:51479] EndReceive 0 - ShutDown 
+2019-03-04 17:03:11 [10.112.125.95:51512] ClientAccept 
+2019-03-04 17:03:11 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-False 
+2019-03-04 17:03:11 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Push-frmLogon 
+2019-03-04 17:03:40 [10.112.125.95:51512] EndReceive 0 - ShutDown 
+2019-03-04 17:03:44 [10.112.125.95:51514] ClientAccept 
+2019-03-04 17:03:44 [10.112.125.95:51514] Client HandShake 
+2019-03-04 17:03:44 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 17:03:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-03-04 17:03:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-03-04 17:03:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 17:03:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 17:03:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairCreateSN 
+2019-03-04 17:12:43 [Server] Starting 
+2019-03-04 17:12:43 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-04 17:12:43 [Server] Started 
+2019-03-04 17:12:43 [AutoSet] Start 
+2019-03-04 17:12:45 [10.112.125.95:51531] ClientAccept 
+2019-03-04 17:12:45 [10.112.125.95:51531] Client HandShake 
+2019-03-04 17:12:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019-03-04 17:12:45 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019-03-04 17:12:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019-03-04 17:12:46 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019-03-04 17:12:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019-03-04 17:12:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
+2019-03-04 17:12:47 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
+2019-03-04 17:12:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019-03-04 17:13:01 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019-03-04 17:13:02 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairCreateSN 
+2019-03-04 17:13:08 [10.112.125.95:51531] EndReceive 0 - ShutDown 
+2019-03-04 17:24:54 [10.112.125.95:51592] ClientAccept 

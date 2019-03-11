@@ -1,0 +1,11 @@
+2019-01-18 12:24:57 [10.112.46.193:41217] ClientAccept 
+2019-01-18 12:24:57 [10.112.46.193:41217] Client HandShake 
+2019-01-18 12:24:57 [351886080518738] STTP-NewClient 
+2019-01-18 12:24:57 [10.112.46.193-351886080518738] {"deviceOS":"Android","deviceOSVersion":"8.0.0","deviceModel":"XT1710-08","screenSize":{"width":1080,"height":1776},"density":3.0,"version":"1.0.1","coreVersion":"4.6.0","autoBuild":true,"isCompany":false} 
+2019-01-18 12:24:57 [351886080518738] OnStart-Starting with NewClient -  
+2019-01-18 12:24:58 [351886080518738] Show-frmLogon 
+2019-01-18 12:24:59 [351886080518738] OnStart-Started with NewClient 
+2019-01-18 12:48:40 [10.112.46.193:41217] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019-01-18 12:58:50 [351886080518738] SessionTimeOut- 
+2019-01-18 12:58:50 [351886080518738] OnStop-Stoping-SessionTimeOut-True-- 
+2019-01-18 12:58:50 [351886080518738] OnStop-Stoped 

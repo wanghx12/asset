@@ -1,0 +1,340 @@
+2019-01-07 09:34:01 [10.112.44.155:38177] ClientAccept 
+2019-01-07 09:34:01 [10.112.44.155:38177] Client HandShake 
+2019-01-07 09:34:01 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"4.5","coreVersion":"4.5.0"} 
+2019-01-07 09:34:01 [86999403244106] STTP-NewClient 
+2019-01-07 09:34:01 [86999403244106] OnStart-Starting with NewClient -  
+2019-01-07 09:34:01 [86999403244106] Show-frmLogon 
+2019-01-07 09:34:01 [86999403244106] OnStart-Started with NewClient 
+2019-01-07 09:34:15 [86999403244106] Show-frmAssets 
+2019-01-07 09:35:01 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 09:35:11 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 09:35:29 [86999403244106] Close-frmAssetsDetailEdit 
+2019-01-07 09:35:29 [86999403244106] Refresh-Pop-frmAssetsDetail 
+2019-01-07 09:35:31 [86999403244106] Close-frmAssetsDetail 
+2019-01-07 09:35:31 [86999403244106] Refresh-Pop-frmAssets 
+2019-01-07 09:35:36 [86999403244106] Show-frmAssets 
+2019-01-07 09:35:49 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 09:35:51 [86999403244106] Close-frmAssetsDetail 
+2019-01-07 09:35:51 [86999403244106] Refresh-Pop-frmAssets 
+2019-01-07 09:36:18 [86999403244106] OnStop-Stoping-ReStart-False-- 
+2019-01-07 09:36:18 [86999403244106] OnStart-Starting with ReStart -  
+2019-01-07 09:36:18 [86999403244106] Show-frmLogon 
+2019-01-07 09:36:18 [86999403244106] OnStart-Started with ReStart 
+2019-01-07 09:36:18 [86999403244106] OnStop-Stoped 
+2019-01-07 09:36:32 [86999403244106] Show-frmAssets 
+2019-01-07 09:37:19 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 09:37:27 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 09:37:44 [86999403244106] Close-frmAssetsDetailEdit 
+2019-01-07 09:37:44 [86999403244106] Refresh-Pop-frmAssetsDetail 
+2019-01-07 09:37:45 [86999403244106] Close-frmAssetsDetail 
+2019-01-07 09:37:45 [86999403244106] Refresh-Pop-frmAssets 
+2019-01-07 09:39:24 [86999403244106] OnStop-Stoping-ReStart-False-- 
+2019-01-07 09:39:24 [86999403244106] OnStart-Starting with ReStart -  
+2019-01-07 09:39:24 [86999403244106] Show-frmLogon 
+2019-01-07 09:39:24 [86999403244106] OnStop-Stoped 
+2019-01-07 09:39:24 [86999403244106] OnStart-Started with ReStart 
+2019-01-07 09:39:25 [86999403244106] Show-frmAssets 
+2019-01-07 09:40:04 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 09:40:10 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 09:40:27 [86999403244106] Close-frmAssetsDetailEdit 
+2019-01-07 09:40:27 [86999403244106] Refresh-Pop-frmAssetsDetail 
+2019-01-07 09:40:28 [86999403244106] Refresh-Pop-frmAssets 
+2019-01-07 09:40:28 [86999403244106] Close-frmAssetsDetail 
+2019-01-07 09:44:39 [10.112.44.155:38177] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019-01-07 10:15:22 [Server] Starting 
+2019-01-07 10:15:23 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-01-07 10:15:23 [Server] Started 
+2019-01-07 10:15:23 [AutoSet] Start 
+2019-01-07 10:15:25 [10.112.44.155:38705] ClientAccept 
+2019-01-07 10:15:25 [10.112.44.155:38705] Client HandShake 
+2019-01-07 10:15:25 [86999403244106] STTP-NewClient 
+2019-01-07 10:15:26 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"4.5","coreVersion":"4.5.0"} 
+2019-01-07 10:15:26 [86999403244106] OnStart-Starting with NewClient -  
+2019-01-07 10:15:26 [86999403244106] Show-frmLogon 
+2019-01-07 10:15:28 [86999403244106] OnStart-Started with NewClient 
+2019-01-07 10:15:28 [86999403244106] Refresh-True 
+2019-01-07 10:15:28 [86999403244106] Refresh-Initial-frmLogon 
+2019-01-07 10:15:28 [86999403244106] Refresh-True 
+2019-01-07 10:15:28 [86999403244106] Refresh-Initial-frmLogon 
+2019-01-07 10:15:32 [86999403244106] Show-frmAssets 
+2019-01-07 10:15:48 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 10:15:49 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 10:18:06 [Server] Starting 
+2019-01-07 10:18:07 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-01-07 10:18:07 [Server] Started 
+2019-01-07 10:18:07 [AutoSet] Start 
+2019-01-07 10:18:15 [10.112.44.155:38753] ClientAccept 
+2019-01-07 10:18:15 [10.112.44.155:38753] Client HandShake 
+2019-01-07 10:18:15 [86999403244106] STTP-NewClient 
+2019-01-07 10:18:15 [86999403244106] Refresh-False 
+2019-01-07 10:18:15 [86999403244106] ClientInfoRPC-False 
+2019-01-07 10:18:15 [86999403244106] OnStart-Starting with ClientInfoRPC -  
+2019-01-07 10:18:16 [86999403244106] Show-frmLogon 
+2019-01-07 10:18:17 [86999403244106] OnStart-Started with ClientInfoRPC 
+2019-01-07 10:18:20 [86999403244106] Show-frmAssets 
+2019-01-07 10:18:37 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 10:18:39 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 10:19:24 [Server] Starting 
+2019-01-07 10:19:24 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-01-07 10:19:24 [Server] Started 
+2019-01-07 10:19:24 [AutoSet] Start 
+2019-01-07 10:19:26 [10.112.44.155:38787] ClientAccept 
+2019-01-07 10:19:26 [10.112.44.155:38787] Client HandShake 
+2019-01-07 10:19:26 [86999403244106] STTP-NewClient 
+2019-01-07 10:19:26 [86999403244106] Refresh-True 
+2019-01-07 10:19:26 [86999403244106] ClientInfoRPC-False 
+2019-01-07 10:19:26 [86999403244106] OnStart-Starting with ClientInfoRPC -  
+2019-01-07 10:19:27 [86999403244106] Show-frmLogon 
+2019-01-07 10:19:28 [86999403244106] OnStart-Started with ClientInfoRPC 
+2019-01-07 10:19:37 [86999403244106] Show-frmAssets 
+2019-01-07 10:19:52 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 10:19:54 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 10:23:17 [Server] Starting 
+2019-01-07 10:23:17 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-01-07 10:23:17 [Server] Started 
+2019-01-07 10:23:17 [AutoSet] Start 
+2019-01-07 10:23:21 [10.112.44.155:38831] ClientAccept 
+2019-01-07 10:23:21 [10.112.44.155:38831] Client HandShake 
+2019-01-07 10:23:21 [86999403244106] STTP-NewClient 
+2019-01-07 10:23:21 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"4.5","coreVersion":"4.5.0"} 
+2019-01-07 10:23:21 [86999403244106] OnStart-Starting with NewClient -  
+2019-01-07 10:23:21 [86999403244106] Show-frmLogon 
+2019-01-07 10:23:23 [86999403244106] OnStart-Started with NewClient 
+2019-01-07 10:23:27 [86999403244106] Show-frmAssets 
+2019-01-07 10:23:41 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 10:23:43 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 10:30:35 [Server] Starting 
+2019-01-07 10:30:35 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-01-07 10:30:35 [Server] Started 
+2019-01-07 10:30:35 [AutoSet] Start 
+2019-01-07 10:30:38 [10.112.44.155:38873] ClientAccept 
+2019-01-07 10:30:38 [10.112.44.155:38873] Client HandShake 
+2019-01-07 10:30:38 [86999403244106] STTP-NewClient 
+2019-01-07 10:30:38 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"4.5","coreVersion":"4.5.0"} 
+2019-01-07 10:30:38 [86999403244106] OnStart-Starting with NewClient -  
+2019-01-07 10:30:38 [86999403244106] Show-frmLogon 
+2019-01-07 10:30:40 [86999403244106] OnStart-Started with NewClient 
+2019-01-07 10:30:42 [86999403244106] Show-frmAssets 
+2019-01-07 10:30:57 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 10:30:58 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 10:47:43 [Server] Starting 
+2019-01-07 10:47:43 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-01-07 10:47:43 [Server] Started 
+2019-01-07 10:47:43 [AutoSet] Start 
+2019-01-07 10:47:47 [10.112.44.155:39051] ClientAccept 
+2019-01-07 10:47:47 [10.112.44.155:39051] Client HandShake 
+2019-01-07 10:47:47 [86999403244106] STTP-NewClient 
+2019-01-07 10:47:48 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"4.5","coreVersion":"4.5.0"} 
+2019-01-07 10:47:48 [86999403244106] OnStart-Starting with NewClient -  
+2019-01-07 10:47:48 [86999403244106] Show-frmLogon 
+2019-01-07 10:47:49 [86999403244106] OnStart-Started with NewClient 
+2019-01-07 10:47:51 [86999403244106] Show-frmAssets 
+2019-01-07 10:48:06 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 10:48:08 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 11:08:58 [Server] Starting 
+2019-01-07 11:08:58 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-01-07 11:08:58 [Server] Started 
+2019-01-07 11:08:58 [AutoSet] Start 
+2019-01-07 11:09:19 [10.112.44.155:39149] ClientAccept 
+2019-01-07 11:09:19 [10.112.44.155:39149] Client HandShake 
+2019-01-07 11:09:19 [86999403244106] STTP-NewClient 
+2019-01-07 11:09:19 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"4.5","coreVersion":"4.5.0"} 
+2019-01-07 11:09:19 [86999403244106] OnStart-Starting with NewClient -  
+2019-01-07 11:09:19 [86999403244106] Show-frmLogon 
+2019-01-07 11:09:20 [86999403244106] OnStart-Started with NewClient 
+2019-01-07 11:09:23 [86999403244106] Show-frmAssets 
+2019-01-07 11:09:48 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 11:09:49 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 12:47:31 [Server] Starting 
+2019-01-07 12:47:32 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-01-07 12:47:32 [Server] Started 
+2019-01-07 12:47:32 [AutoSet] Start 
+2019-01-07 12:47:38 [10.112.44.155:39321] ClientAccept 
+2019-01-07 12:47:39 [10.112.44.155:39321] Client HandShake 
+2019-01-07 12:47:39 [86999403244106] STTP-NewClient 
+2019-01-07 12:47:39 [86999403244106] Refresh-True 
+2019-01-07 12:47:39 [86999403244106] ClientInfoRPC-False 
+2019-01-07 12:47:39 [86999403244106] OnStart-Starting with ClientInfoRPC -  
+2019-01-07 12:47:40 [86999403244106] Show-frmLogon 
+2019-01-07 12:47:41 [86999403244106] OnStart-Started with ClientInfoRPC 
+2019-01-07 12:47:44 [86999403244106] Show-frmAssets 
+2019-01-07 12:47:59 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 12:48:01 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 12:48:37 [86999403244106] Close-frmAssetsDetailEdit 
+2019-01-07 12:48:37 [86999403244106] Refresh-Pop-frmAssetsDetail 
+2019-01-07 12:49:03 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 16:04:26 [Server] Starting 
+2019-01-07 16:04:26 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-01-07 16:04:26 [Server] Started 
+2019-01-07 16:04:26 [AutoSet] Start 
+2019-01-07 16:04:58 [10.112.44.155:39895] ClientAccept 
+2019-01-07 16:04:58 [10.112.44.155:39895] Client HandShake 
+2019-01-07 16:04:58 [86999403244106] STTP-NewClient 
+2019-01-07 16:04:58 [86999403244106] Refresh-True 
+2019-01-07 16:04:58 [86999403244106] ClientInfoRPC-False 
+2019-01-07 16:04:58 [86999403244106] OnStart-Starting with ClientInfoRPC -  
+2019-01-07 16:04:59 [86999403244106] Show-frmLogon 
+2019-01-07 16:05:00 [86999403244106] OnStart-Started with ClientInfoRPC 
+2019-01-07 16:05:08 [86999403244106] Show-frmAssets 
+2019-01-07 16:05:23 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 16:05:40 [86999403244106] Close-frmAssetsDetail 
+2019-01-07 16:05:40 [86999403244106] Refresh-Pop-frmAssets 
+2019-01-07 16:05:42 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 16:06:07 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 16:06:51 [86999403244106] Close-frmAssetsDetailEdit 
+2019-01-07 16:06:51 [86999403244106] Refresh-Pop-frmAssetsDetail 
+2019-01-07 16:06:53 [86999403244106] Close-frmAssetsDetail 
+2019-01-07 16:06:53 [86999403244106] Refresh-Pop-frmAssets 
+2019-01-07 16:06:54 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 16:07:00 [86999403244106] Close-frmAssetsDetail 
+2019-01-07 16:07:00 [86999403244106] Refresh-Pop-frmAssets 
+2019-01-07 16:07:01 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 16:07:31 [86999403244106] Close-frmAssetsDetail 
+2019-01-07 16:07:31 [86999403244106] Refresh-Pop-frmAssets 
+2019-01-07 16:08:21 [86999403244106] Refresh-True 
+2019-01-07 16:08:21 [86999403244106] Refresh-Initial-frmAssets 
+2019-01-07 16:08:34 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 16:12:21 [Server] Starting 
+2019-01-07 16:12:22 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-01-07 16:12:22 [Server] Started 
+2019-01-07 16:12:22 [AutoSet] Start 
+2019-01-07 16:12:37 [10.112.44.155:40019] ClientAccept 
+2019-01-07 16:12:37 [10.112.44.155:40019] Client HandShake 
+2019-01-07 16:12:37 [86999403244106] STTP-NewClient 
+2019-01-07 16:12:38 [86999403244106] Refresh-True 
+2019-01-07 16:12:38 [86999403244106] ClientInfoRPC-False 
+2019-01-07 16:12:38 [86999403244106] OnStart-Starting with ClientInfoRPC -  
+2019-01-07 16:12:38 [86999403244106] Show-frmLogon 
+2019-01-07 16:12:39 [86999403244106] OnStart-Started with ClientInfoRPC 
+2019-01-07 16:12:42 [86999403244106] Show-frmAssets 
+2019-01-07 16:12:56 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 16:13:03 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 16:15:20 [86999403244106] Close-frmAssetsDetailEdit 
+2019-01-07 16:15:20 [86999403244106] Refresh-Pop-frmAssetsDetail 
+2019-01-07 16:15:22 [86999403244106] Close-frmAssetsDetail 
+2019-01-07 16:15:22 [86999403244106] Refresh-Pop-frmAssets 
+2019-01-07 16:15:23 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 16:15:25 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 16:15:29 [86999403244106] Close-frmAssetsDetailEdit 
+2019-01-07 16:15:29 [86999403244106] Refresh-Pop-frmAssetsDetail 
+2019-01-07 16:15:32 [86999403244106] Close-frmAssetsDetail 
+2019-01-07 16:15:32 [86999403244106] Refresh-Pop-frmAssets 
+2019-01-07 16:15:34 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 16:15:36 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 16:15:40 [86999403244106] Close-frmAssetsDetailEdit 
+2019-01-07 16:15:40 [86999403244106] Refresh-Pop-frmAssetsDetail 
+2019-01-07 16:15:41 [86999403244106] Close-frmAssetsDetail 
+2019-01-07 16:15:41 [86999403244106] Refresh-Pop-frmAssets 
+2019-01-07 16:15:42 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 16:15:45 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 16:15:51 [86999403244106] Close-frmAssetsDetailEdit 
+2019-01-07 16:15:51 [86999403244106] Refresh-Pop-frmAssetsDetail 
+2019-01-07 16:23:45 [Server] Starting 
+2019-01-07 16:23:45 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-01-07 16:23:45 [Server] Started 
+2019-01-07 16:23:45 [AutoSet] Start 
+2019-01-07 16:23:48 [10.112.44.155:40101] ClientAccept 
+2019-01-07 16:23:48 [10.112.44.155:40101] Client HandShake 
+2019-01-07 16:23:48 [86999403244106] STTP-NewClient 
+2019-01-07 16:23:48 [86999403244106] ClientInfoRPC-False 
+2019-01-07 16:23:48 [86999403244106] OnStart-Starting with ClientInfoRPC -  
+2019-01-07 16:23:48 [86999403244106] Show-frmLogon 
+2019-01-07 16:23:49 [86999403244106] OnStart-Started with ClientInfoRPC 
+2019-01-07 16:23:52 [86999403244106] Show-frmAssets 
+2019-01-07 16:24:13 [86999403244106] Show-frmAssetsDetail 
+2019-01-07 16:24:14 [86999403244106] Show-frmAssetsDetailEdit 
+2019-01-07 16:25:01 [86999403244106] Close-frmAssetsDetailEdit 
+2019-01-07 16:25:01 [86999403244106] Refresh-Pop-frmAssetsDetail 
+2019-01-07 16:25:03 [86999403244106] Close-frmAssetsDetail 
+2019-01-07 16:25:03 [86999403244106] Refresh-Pop-frmAssets 
+2019-01-07 16:55:49 [86999403244106] SessionTimeOut- 
+2019-01-07 16:55:49 [86999403244106] OnStop-Stoping-SessionTimeOut-True-- 
+2019-01-07 16:55:49 [86999403244106] OnStop-Stoped 
