@@ -77,6 +77,10 @@ namespace SMOSEC.UI.MasterData
                     throw new Exception("请选择挂账人.");
                 }
 
+                List<string> uuid_list = _autofacConfig.SettingService.GetAlluuid();
+                if (uuid_list.Contains(txtAssID.Text))
+                    throw new Exception("唯一号为" + txtAssID.Text + "的资产已存在");
+
                 //MessageBox.Show(btnBrand.Tag.ToString());
 
                 AssetsInputDto assetsInputDto = new AssetsInputDto

@@ -194,13 +194,14 @@ namespace SMOSEC.UI
             this.checkRemb,
             this.lblNote,
             this.btnLogon,
-            this.btnRegist,
-            this.btnDemo,
-            this.btnForget,
+            //this.btnRegist,
+            //this.btnDemo,
+            //this.btnForget,
             this.FontIcon1,
             this.FontIcon2,
-            this.Line1,
-            this.Line2});
+            //this.Line1,
+            //this.Line2
+            });
             this.Orientation = Smobiler.Core.Controls.FormOrientation.Portrait;
             this.KeyDown += new Smobiler.Core.Controls.KeyDownEventHandler(this.frmLogon_KeyDown);
             this.Load += new System.EventHandler(this.frmLogon_Load);

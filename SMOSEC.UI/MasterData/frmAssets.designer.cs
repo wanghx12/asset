@@ -39,7 +39,6 @@ namespace SMOSEC.UI.MasterData
             Smobiler.Core.Controls.ActionButtonItem actionButtonItem1 = new Smobiler.Core.Controls.ActionButtonItem();
             Smobiler.Core.Controls.ActionButtonItem actionButtonItem2 = new Smobiler.Core.Controls.ActionButtonItem();
             Smobiler.Core.Controls.ActionButtonItem actionButtonItem3 = new Smobiler.Core.Controls.ActionButtonItem();
-            Smobiler.Core.Controls.ActionButtonItem actionButtonItem4 = new Smobiler.Core.Controls.ActionButtonItem();
             this.txtFactor = new Smobiler.Core.Controls.TextBox();
             this.fiSearch = new Smobiler.Core.Controls.FontIcon();
             this.r2000Scanner1 = new Smobiler.Device.R2000Scanner();
@@ -58,9 +57,11 @@ namespace SMOSEC.UI.MasterData
             this.fontIcon1 = new Smobiler.Core.Controls.FontIcon();
             this.txtNote = new Smobiler.Core.Controls.TextBox();
             this.tpSearch = new Smobiler.Core.Controls.Panel();
-            this.btnType = new Smobiler.Core.Controls.Button();
             this.btnDep = new Smobiler.Core.Controls.Button();
             this.btnStatus = new Smobiler.Core.Controls.Button();
+            this.btnType = new Smobiler.Core.Controls.Button();
+            this.btnPro = new Smobiler.Core.Controls.Button();
+            this.popPro = new Smobiler.Core.Controls.PopList();
             this.gridAssRows = new Smobiler.Core.Controls.GridView();
             // 
             // txtFactor
@@ -148,6 +149,7 @@ namespace SMOSEC.UI.MasterData
             // 
             popListItem1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             popListItem1.Text = "全部";
+            popListItem2.Text = "-1";
             popListItem2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             popListItem2.Text = "在用";
             popListItem2.Value = "0";
@@ -241,32 +243,23 @@ namespace SMOSEC.UI.MasterData
             this.tpSearch.Border = new Smobiler.Core.Controls.Border(0F, 1F, 0F, 0F);
             this.tpSearch.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
             this.tpSearch.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
-            this.btnType,
             this.btnDep,
-            this.btnStatus});
+            this.btnStatus,
+            this.btnType,
+            this.btnPro});
             this.tpSearch.Dock = System.Windows.Forms.DockStyle.Top;
             this.tpSearch.Location = new System.Drawing.Point(250, 55);
             this.tpSearch.Name = "tpSearch";
-            this.tpSearch.Size = new System.Drawing.Size(40, 30);
-            // 
-            // btnType
-            // 
-            this.btnType.BackColor = System.Drawing.Color.White;
-            this.btnType.BorderRadius = 0;
-            this.btnType.ForeColor = System.Drawing.Color.Black;
-            this.btnType.Location = new System.Drawing.Point(200, 0);
-            this.btnType.Name = "btnType";
-            this.btnType.Size = new System.Drawing.Size(100, 30);
-            this.btnType.Text = "类别选择▼";
-            this.btnType.Press += new System.EventHandler(this.btnType_Press);
+            this.tpSearch.Size = new System.Drawing.Size(300, 30);
             // 
             // btnDep
             // 
             this.btnDep.BackColor = System.Drawing.Color.White;
             this.btnDep.BorderRadius = 0;
             this.btnDep.ForeColor = System.Drawing.Color.Black;
+            this.btnDep.Location = new System.Drawing.Point(10, 0);
             this.btnDep.Name = "btnDep";
-            this.btnDep.Size = new System.Drawing.Size(100, 30);
+            this.btnDep.Size = new System.Drawing.Size(70, 30);
             this.btnDep.Text = "机房选择▼";
             this.btnDep.Press += new System.EventHandler(this.btnDep_Press);
             // 
@@ -275,11 +268,39 @@ namespace SMOSEC.UI.MasterData
             this.btnStatus.BackColor = System.Drawing.Color.White;
             this.btnStatus.BorderRadius = 0;
             this.btnStatus.ForeColor = System.Drawing.Color.Black;
-            this.btnStatus.Location = new System.Drawing.Point(100, 0);
+            this.btnStatus.Location = new System.Drawing.Point(80, 0);
             this.btnStatus.Name = "btnStatus";
-            this.btnStatus.Size = new System.Drawing.Size(100, 30);
+            this.btnStatus.Size = new System.Drawing.Size(70, 30);
             this.btnStatus.Text = "资产状态▼";
             this.btnStatus.Press += new System.EventHandler(this.btnStatus_Press);
+            // 
+            // btnType
+            // 
+            this.btnType.BackColor = System.Drawing.Color.White;
+            this.btnType.BorderRadius = 0;
+            this.btnType.ForeColor = System.Drawing.Color.Black;
+            this.btnType.Location = new System.Drawing.Point(150, 0);
+            this.btnType.Name = "btnType";
+            this.btnType.Size = new System.Drawing.Size(70, 30);
+            this.btnType.Text = "类别选择▼";
+            this.btnType.Press += new System.EventHandler(this.btnType_Press);
+            // 
+            // btnPro
+            // 
+            this.btnPro.BackColor = System.Drawing.Color.White;
+            this.btnPro.BorderRadius = 0;
+            this.btnPro.ForeColor = System.Drawing.Color.Black;
+            this.btnPro.Location = new System.Drawing.Point(220, 0);
+            this.btnPro.Name = "btnPro";
+            this.btnPro.Size = new System.Drawing.Size(70, 30);
+            this.btnPro.Text = "项目选择▼";
+            this.btnPro.Press += new System.EventHandler(this.btnPro_Press);
+            // 
+            // popPro
+            // 
+            this.popPro.Name = "popPro";
+            this.popPro.Title = "项目选择";
+            this.popPro.Selected += new System.EventHandler(this.popPro_Selected);
             // 
             // gridAssRows
             // 
@@ -303,17 +324,13 @@ namespace SMOSEC.UI.MasterData
             actionButtonItem1.ImageType = Smobiler.Core.Controls.ActionButtonImageType.Text;
             actionButtonItem1.Text = "资产新增";
             actionButtonItem2.ImageType = Smobiler.Core.Controls.ActionButtonImageType.Text;
-            actionButtonItem2.ResourceID = "";
-            actionButtonItem2.Text = "资产复制";
+            actionButtonItem2.Text = "资产借用";
             actionButtonItem3.ImageType = Smobiler.Core.Controls.ActionButtonImageType.Text;
-            actionButtonItem3.Text = "资产借用";
-            actionButtonItem4.ImageType = Smobiler.Core.Controls.ActionButtonImageType.Text;
-            actionButtonItem4.Text = "维修登记";
+            actionButtonItem3.Text = "维修登记";
             this.ActionButton.Items.AddRange(new Smobiler.Core.Controls.ActionButtonItem[] {
             actionButtonItem1,
-            //actionButtonItem2,
-            actionButtonItem3,
-            actionButtonItem4});
+            actionButtonItem2,
+            actionButtonItem3});
             this.ActionButton.ItemSize = 45;
             this.BackColor = System.Drawing.Color.White;
             this.Components.AddRange(new Smobiler.Core.Controls.MobileComponent[] {
@@ -322,7 +339,8 @@ namespace SMOSEC.UI.MasterData
             this.posPrinter1,
             this.popType,
             this.popStatus,
-            this.popDep});
+            this.popDep,
+            this.popPro});
             this.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
             this.Title1,
             this.plSearch,
@@ -361,5 +379,7 @@ namespace SMOSEC.UI.MasterData
         private Smobiler.Core.Controls.Button btnDep;
         private Smobiler.Core.Controls.Button btnStatus;
         internal Smobiler.Core.Controls.GridView gridAssRows;
+        private Smobiler.Core.Controls.Button btnPro;
+        private Smobiler.Core.Controls.PopList popPro;
     }
 }

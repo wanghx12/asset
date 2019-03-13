@@ -346,7 +346,7 @@ namespace SMOSEC.UI.MasterData
                 popDep.Groups.Clear();       //数据清空
                 PopListGroup poli = new PopListGroup();
                 popDep.Groups.Add(poli);
-                poli.AddListItem("全部", "");
+                poli.AddListItem("全部", "-1");
                 List<cmdb_machineroom> deps = _autofacConfig.DepartmentService.GetAll();
                 foreach (cmdb_machineroom Row in deps)
                 {
@@ -409,7 +409,7 @@ namespace SMOSEC.UI.MasterData
                 //Smobiler.Core.Controls.PopListItem popListItem1 = new Smobiler.Core.Controls.PopListItem();
                 //popListItem1.Text = "全部";
                 //popListItem1.Value = "-1";
-                poli.AddListItem("全部", "");
+                poli.AddListItem("全部", "-1");
                 List<cmdb_assettype> types = _autofacConfig.assTypeService.GetAllFirstLevel();
                 foreach (cmdb_assettype Row in types)
                 {
@@ -439,6 +439,17 @@ namespace SMOSEC.UI.MasterData
         {
             setBtnTag(popType, btnType);
         }
+
+        /// <summary>
+        /// 选择了项目
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void popPro_Selected(object sender, EventArgs e)
+        {
+            setBtnTag(popPro, btnPro);
+        }
+
         /// <summary>
         /// 选择了部门/资产状态/资产大类
         /// </summary>
@@ -468,6 +479,44 @@ namespace SMOSEC.UI.MasterData
                 
             }
         }
+
+        /// <summary>
+        /// 项目选择
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnPro_Press(object sender, EventArgs e)
+        {
+            try
+            {
+                popPro.Groups.Clear();       //数据清空
+                PopListGroup poli = new PopListGroup();
+                popPro.Groups.Add(poli);
+                //Smobiler.Core.Controls.PopListItem popListItem1 = new Smobiler.Core.Controls.PopListItem();
+                //popListItem1.Text = "全部";
+                //popListItem1.Value = "-1";
+                poli.AddListItem("全部", "-1");
+                List<cmdb_project> types = _autofacConfig.assProService.GetAll();
+                foreach (cmdb_project Row in types)
+                {
+                    poli.AddListItem(Row.name, Row.id.ToString());
+                }
+                if (btnPro.Tag != null)   //如果已有选中项，则显示选中效果
+                {
+                    foreach (PopListItem Item in poli.Items)
+                    {
+                        if (Item.Value == btnPro.Tag.ToString())
+                            popPro.SetSelections(Item);
+                    }
+                }
+                popPro.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
+
         /// <summary>
         /// 数据绑定
         /// </summary>
@@ -478,8 +527,9 @@ namespace SMOSEC.UI.MasterData
                 String DepId = btnDep.Tag == null ? "-1" : btnDep.Tag.ToString();     //选择机房编号
                 String Status = btnStatus.Tag == null ? "-1" : btnStatus.Tag.ToString();   //选择资产状态
                 String Type = btnType.Tag == null ? "-1" : btnType.Tag.ToString();
+                String Pro = btnPro.Tag == null ? "-1" : btnPro.Tag.ToString();
 
-                DataTable table = _autofacConfig.SettingService.QueryAssets(txtNote.Text, int.Parse(DepId), int.Parse(Status), int.Parse(Type));
+                DataTable table = _autofacConfig.SettingService.QueryAssets(txtNote.Text, int.Parse(DepId), int.Parse(Status), int.Parse(Type),int.Parse(Pro));
                 gridAssRows.Cells.Clear();
                 //table.Columns.Add("IsChecked");
                 //foreach (DataRow Row in table.Rows)

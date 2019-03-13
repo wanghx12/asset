@@ -97,7 +97,7 @@ namespace SMOSEC.Application.IServices
         /// <param name="Status">资产状态</param>
         /// <param name="Type">资产类型</param>
         /// <returns></returns>
-        DataTable QueryAssets(string SNOrName, int LocationId, int Status, int Type);
+        DataTable QueryAssets(string SNOrName, int LocationId, int Status, int Type, int Pro);
 
         /// <summary>
         /// 根据SN得到资产信息
@@ -119,9 +119,14 @@ namespace SMOSEC.Application.IServices
         /// </summary>
         /// <returns></returns>
         List<string> GetAllSns();
-        
+        /// <summary>
+        /// 得到所有的唯一号
+        /// </summary>
+        /// <returns></returns>
+        List<string> GetAlluuid();
 
-            #endregion
+
+        #endregion
 
         #region 操作
         /// <summary>

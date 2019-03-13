@@ -463,7 +463,7 @@ namespace SMOSEC.Application.Services
         /// <param name="Status">资产状态</param>
         /// <param name="Type">资产类型</param>
         /// <returns></returns>
-        public DataTable QueryAssets(string SNOrName, int LocationId, int Status, int Type)
+        public DataTable QueryAssets(string SNOrName, int LocationId, int Status, int Type, int Pro)
         {
             var result = _AssetsRepository.QueryAssets(SNOrName).AsNoTracking();
 
@@ -473,6 +473,8 @@ namespace SMOSEC.Application.Services
                 result = result.Where(a => a.status == Status);
             if (Type != -1)
                 result = result.Where(a => a.asset_type_id == Type);
+            if (Pro != -1)
+                result = result.Where(a => a.project_id == Pro);
 
             DataTable table = LINQToDataTable.ToDataTable(result);
             table.Columns.Add("StatusName");
@@ -547,7 +549,16 @@ namespace SMOSEC.Application.Services
             lists = _AssetsRepository.GetAll().Select(a => a.sn).ToList();
             return lists;
         }
-
+        /// <summary>
+        /// 得到所有的唯一号
+        /// </summary>
+        /// <returns></returns>
+        public List<string> GetAlluuid()
+        {
+            var lists = new List<string>();
+            lists = _AssetsRepository.GetAll().Select(a => a.uuid).ToList();
+            return lists;
+        }
 
         #endregion
 
