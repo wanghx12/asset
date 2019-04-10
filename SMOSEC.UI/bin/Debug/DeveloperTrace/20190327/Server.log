@@ -1,0 +1,20 @@
+2019-03-27 11:23:39 [Server] Starting 
+2019-03-27 11:23:39 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-27 11:23:40 [Server] Started 
+2019-03-27 11:23:40 [AutoSet] Start 
+2019-03-27 11:23:51 [10.112.44.155:46880] ClientAccept 
+2019-03-27 11:23:51 [10.112.44.155:46880] Client HandShake 
+2019-03-27 11:23:51 [86999403244106] STTP-NewClient 
+2019-03-27 11:23:51 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"4.5","coreVersion":"4.5.0"} 
+2019-03-27 11:23:51 [86999403244106] OnStart-Starting with NewClient -  
+2019-03-27 11:23:52 [86999403244106] Show-frmLogon 
+2019-03-27 11:23:53 [86999403244106] OnStart-Started with NewClient 
+2019-03-27 11:23:56 [86999403244106] Show-frmAssets 

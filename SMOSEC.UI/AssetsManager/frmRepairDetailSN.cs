@@ -140,7 +140,7 @@ namespace SMOSEC.UI.AssetsManager
                 //    Assets assets = autofacConfig.orderCommonService.GetAssetsByID(Row.ASSID);
                 //    if (Row.STATUS == 0)
                 //    {
-                //        tableAssets.Rows.Add(Row.ASSID, assets.NAME, assets.IMAGE, Row.SN, "等待维修");
+                //        tableAssets.Rows.Add(Row.ASSID, assets.NAME, assets.IMAGE, Row.SN, "等待修");
                 //    }
                 //    else
                 //    {
@@ -155,7 +155,7 @@ namespace SMOSEC.UI.AssetsManager
                 
                 //if (Client.Session["Role"].ToString() == "SMOSECUser") plButton.Visible = false;
                 //如果维修单已完成，则隐藏维修单处理按钮
-                if (ROData.repair_status != "等待维修")
+                if (ROData.repair_status != "等待修")
                     plButton.Visible = false;
 
 

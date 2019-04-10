@@ -20,6 +20,16 @@ namespace SMOSEC.UI.AssetsManager
         public DataTable AssTable = new DataTable();   //行项数据的表格
         public List<string> SNRowData = new List<string>(); //所有行项的ASSID的集合
         private String SN;       //序列号
+        private string v;
+
+        public frmRepairCreateSN(string sn) : base()
+        {
+            //This call is required by the SmobilerForm.
+            InitializeComponent();
+            txtsns.Text = sn;
+
+            //Add any initialization after the InitializeComponent() call
+        }
         #endregion
         /// <summary>
         /// 创建报修单
@@ -63,7 +73,7 @@ namespace SMOSEC.UI.AssetsManager
                     call_date = DatePicker.Value,
                     repair_man = txtrepairman.Text,
                     repair_content = txtContent.Text,
-                    repair_status = "等待维修",
+                    repair_status = "等待修",
                     asset_id = outputDto.id
                 };
 

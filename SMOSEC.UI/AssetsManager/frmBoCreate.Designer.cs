@@ -386,8 +386,6 @@ namespace SMOSEC.UI.AssetsManager
             // 
             // Panel4
             // 
-            this.Panel4.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
-            this.ListAss});
             this.Panel4.Location = new System.Drawing.Point(0, 345);
             this.Panel4.Name = "Panel4";
             this.Panel4.Size = new System.Drawing.Size(300, 230);

@@ -97,7 +97,7 @@ namespace SMOSEC.Application.IServices
         /// <param name="Status">资产状态</param>
         /// <param name="Type">资产类型</param>
         /// <returns></returns>
-        DataTable QueryAssets(string SNOrName, int LocationId, int Status, int Type, int Pro);
+        DataTable QueryAssets(string SNOrName, int LocationId, int Status, int Type, int Pro, int payman, int useman);
 
         /// <summary>
         /// 根据SN得到资产信息

@@ -33,9 +33,11 @@ namespace SMOSEC.UI.Layout
             this.lblSN = new Smobiler.Core.Controls.Label();
             this.lblID = new Smobiler.Core.Controls.Label();
             this.lblPrice = new Smobiler.Core.Controls.Label();
+            this.lblroom = new Smobiler.Core.Controls.Label();
+            this.lblposition = new Smobiler.Core.Controls.Label();
             this.Label16 = new Smobiler.Core.Controls.Label();
             this.Label17 = new Smobiler.Core.Controls.Label();
-            this.Label18 = new Smobiler.Core.Controls.Label();
+            this.labeluuid = new Smobiler.Core.Controls.Label();
             this.checkBox1 = new Smobiler.Core.Controls.CheckBox();
             // 
             // tpRow
@@ -48,13 +50,15 @@ namespace SMOSEC.UI.Layout
             this.lblSN,
             this.lblID,
             this.lblPrice,
+            this.lblroom,
+            this.lblposition,
             this.Label16,
             this.Label17,
-            this.Label18
+            this.labeluuid
             //this.checkBox1
             });
             this.tpRow.Name = "tpRow";
-            this.tpRow.Size = new System.Drawing.Size(300, 70);
+            this.tpRow.Size = new System.Drawing.Size(300, 90);
             this.tpRow.Touchable = true;
             this.tpRow.Press += new System.EventHandler(this.touchPanel1_Press);
             //// 
@@ -70,23 +74,25 @@ namespace SMOSEC.UI.Layout
             // 
             // lblSN
             // 
+            this.lblSN.FontSize = 12F;
             this.lblSN.DataMember = "sn";
             this.lblSN.DisplayMember = "sn";
-            this.lblSN.Location = new System.Drawing.Point(80, 25);
+            this.lblSN.Location = new System.Drawing.Point(100, 25);
             this.lblSN.Name = "lblSN";
             this.lblSN.Padding = new Smobiler.Core.Controls.Padding(4F, 0F, 0F, 0F);
-            this.lblSN.Size = new System.Drawing.Size(190, 20);
+            this.lblSN.Size = new System.Drawing.Size(170, 20);
             this.lblSN.Text = "SN";
             this.lblSN.ZIndex = 1;
             // 
             // lblID
             // 
+            this.lblID.FontSize = 12F;
             this.lblID.DataMember = "Brand";
             this.lblID.DisplayMember = "Brand";
-            this.lblID.Location = new System.Drawing.Point(80, 5);
+            this.lblID.Location = new System.Drawing.Point(100, 5);
             this.lblID.Name = "lblID";
             this.lblID.Padding = new Smobiler.Core.Controls.Padding(4F, 0F, 0F, 0F);
-            this.lblID.Size = new System.Drawing.Size(190, 20);
+            this.lblID.Size = new System.Drawing.Size(170, 20);
             this.lblID.Text = "品牌型号";
             this.lblID.ZIndex = 1;
             // 
@@ -94,12 +100,12 @@ namespace SMOSEC.UI.Layout
             // 
             this.lblPrice.DataMember = "StatusName";
             this.lblPrice.DisplayMember = "StatusName";
-            //this.lblPrice.FontSize = 12F;
+            this.lblPrice.FontSize = 12F;
             this.lblPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(164)))), ((int)(((byte)(229)))));
-            this.lblPrice.Location = new System.Drawing.Point(80, 45);
+            this.lblPrice.Location = new System.Drawing.Point(100, 65);
             this.lblPrice.Name = "lblPrice";
             this.lblPrice.Padding = new Smobiler.Core.Controls.Padding(4F, 0F, 0F, 0F);
-            this.lblPrice.Size = new System.Drawing.Size(190, 20);
+            this.lblPrice.Size = new System.Drawing.Size(170, 20);
             this.lblPrice.Text = "在用";
             this.lblPrice.ZIndex = 1;
             // 
@@ -107,10 +113,10 @@ namespace SMOSEC.UI.Layout
             // 
             this.Label16.FontSize = 12F;
             this.Label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
-            this.Label16.Location = new System.Drawing.Point(20, 45);
+            this.Label16.Location = new System.Drawing.Point(20, 65);
             this.Label16.Name = "Label16";
             this.Label16.Padding = new Smobiler.Core.Controls.Padding(4F, 0F, 0F, 0F);
-            this.Label16.Size = new System.Drawing.Size(60, 20);
+            this.Label16.Size = new System.Drawing.Size(80, 20);
             this.Label16.Text = "状态";
             this.Label16.ZIndex = 1;
             this.Label16.ForeColor = System.Drawing.Color.Black;
@@ -122,23 +128,47 @@ namespace SMOSEC.UI.Layout
             this.Label17.Location = new System.Drawing.Point(20, 5);
             this.Label17.Name = "Label17";
             this.Label17.Padding = new Smobiler.Core.Controls.Padding(4F, 0F, 0F, 0F);
-            this.Label17.Size = new System.Drawing.Size(60, 20);
+            this.Label17.Size = new System.Drawing.Size(80, 20);
             this.Label17.Text = "品牌型号";
             this.Label17.ForeColor = System.Drawing.Color.Black;
             this.Label17.ZIndex = 1;
             this.Label17.ForeColor = System.Drawing.Color.Black;
             // 
-            // Label18
+            // labeluuid
             // 
-            this.Label18.FontSize = 12F;
-            this.Label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
-            this.Label18.Location = new System.Drawing.Point(20, 25);
-            this.Label18.Name = "Label18";
-            this.Label18.Padding = new Smobiler.Core.Controls.Padding(4F, 0F, 0F, 0F);
-            this.Label18.Size = new System.Drawing.Size(60, 20);
-            this.Label18.Text = "SN号";
-            this.Label18.ZIndex = 1;
-            this.Label18.ForeColor = System.Drawing.Color.Black;
+            this.labeluuid.FontSize = 12F;
+            this.labeluuid.DataMember = "uuid";
+            this.labeluuid.DisplayMember = "uuid";
+            this.labeluuid.Location = new System.Drawing.Point(20, 25);
+            this.labeluuid.Name = "labeluuid";
+            this.labeluuid.Padding = new Smobiler.Core.Controls.Padding(4F, 0F, 0F, 0F);
+            this.labeluuid.Size = new System.Drawing.Size(80, 20);
+            this.labeluuid.Text = "唯一号";
+            this.labeluuid.ZIndex = 1;
+            // 
+            // lblroom
+            // 
+            this.lblroom.FontSize = 12F;
+            this.lblroom.DataMember = "room";
+            this.lblroom.DisplayMember = "room";
+            this.lblroom.Location = new System.Drawing.Point(20, 45);
+            this.lblroom.Name = "lblroom";
+            this.lblroom.Padding = new Smobiler.Core.Controls.Padding(4F, 0F, 0F, 0F);
+            this.lblroom.Size = new System.Drawing.Size(80, 20);
+            this.lblroom.Text = "机房";
+            this.lblroom.ZIndex = 1;
+            // 
+            // lblposition
+            // 
+            this.lblposition.FontSize = 12F;
+            this.lblposition.DataMember = "position";
+            this.lblposition.DisplayMember = "position";
+            this.lblposition.Location = new System.Drawing.Point(100, 45);
+            this.lblposition.Name = "lblposition";
+            this.lblposition.Padding = new Smobiler.Core.Controls.Padding(4F, 0F, 0F, 0F);
+            this.lblposition.Size = new System.Drawing.Size(170, 20);
+            this.lblposition.Text = "位置";
+            this.lblposition.ZIndex = 1;
             // 
             // checkBox1
             // 
@@ -153,7 +183,7 @@ namespace SMOSEC.UI.Layout
             // 
             this.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
             this.tpRow});
-            this.Size = new System.Drawing.Size(300, 70);
+            this.Size = new System.Drawing.Size(300, 90);
             this.Name = "frmAssetsExLayout";
 
         }
@@ -164,9 +194,11 @@ namespace SMOSEC.UI.Layout
         private Smobiler.Core.Controls.Label lblSN;
         private Smobiler.Core.Controls.Label lblID;
         private Smobiler.Core.Controls.Label lblPrice;
+        private Smobiler.Core.Controls.Label lblroom;
+        private Smobiler.Core.Controls.Label lblposition;
         private Smobiler.Core.Controls.Label Label16;
         private Smobiler.Core.Controls.Label Label17;
-        private Smobiler.Core.Controls.Label Label18;
+        private Smobiler.Core.Controls.Label labeluuid;
 
         private Smobiler.Core.Controls.CheckBox checkBox1;
     }

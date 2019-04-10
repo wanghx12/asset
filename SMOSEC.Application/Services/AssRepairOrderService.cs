@@ -112,7 +112,7 @@ namespace SMOSEC.Application.Services
             List<cmdb_repairlog> Rows = _AssRepairOrderRepository.GetByAssetId(entity.asset_id).ToList();
             if (Rows != null && Rows.Count > 0)
             {
-                if (Rows[0].repair_status == "等待维修")
+                if (Rows[0].repair_status == "等待修")
                 {
                     RInfo.IsSuccess = false;
                     RInfo.ErrorInfo = "该资产已经报修，请等待!";
@@ -174,7 +174,7 @@ namespace SMOSEC.Application.Services
                     RInfo.IsSuccess = result;
                     RInfo.ErrorInfo = "修改成功!";
                     return RInfo;
-                    //if (aro.repair_status != "等待维修")
+                    //if (aro.repair_status != "等待修")
                     //{
                     //    throw new Exception("只有待维修中的才能确认");
                     //}

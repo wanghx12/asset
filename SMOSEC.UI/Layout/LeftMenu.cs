@@ -142,6 +142,13 @@ namespace SMOSEC.UI.Layout
             //frmTransferRowsSN frm = new frmTransferRowsSN();
             //this.Form.Show(frm);
         }
+        private void SNPayman_Press(object sender, EventArgs e)
+        {
+            frmpayman frm = new frmpayman();
+            Form.Show(frm);
+            //frmTransferRowsSN frm = new frmTransferRowsSN();
+            //this.Form.Show(frm);
+        }
         /// <summary>
         /// 固定资产报修界面
         /// </summary>

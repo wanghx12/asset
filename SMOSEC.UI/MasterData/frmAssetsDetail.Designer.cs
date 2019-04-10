@@ -31,6 +31,7 @@ namespace SMOSEC.UI.MasterData
             this.Title1 = new SMOSEC.UI.UserControl.Title();
             this.plButton = new Smobiler.Core.Controls.Panel();
             this.btnEdit = new Smobiler.Core.Controls.Button();
+            this.btnRepair = new Smobiler.Core.Controls.Button();
             this.btnDelete = new Smobiler.Core.Controls.Button();
             this.btnLog = new Smobiler.Core.Controls.Button();
             this.btnChange = new Smobiler.Core.Controls.Button();
@@ -93,7 +94,8 @@ namespace SMOSEC.UI.MasterData
             this.plButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
             this.plButton.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
             this.btnEdit,
-            this.btnDelete});
+            this.btnDelete,
+            this.btnRepair});
             this.plButton.Direction = Smobiler.Core.Controls.LayoutDirection.Row;
             this.plButton.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.plButton.Layout = Smobiler.Core.Controls.LayoutPosition.Relative;
@@ -118,6 +120,15 @@ namespace SMOSEC.UI.MasterData
             this.btnDelete.Size = new System.Drawing.Size(0, 0);
             this.btnDelete.Text = "资产删除";
             this.btnDelete.Press += new System.EventHandler(this.btnDelete_Press);
+            // 
+            // btnRepair
+            // 
+            this.btnRepair.Flex = 1;
+            this.btnRepair.Margin = new Smobiler.Core.Controls.Margin(2F, 5F, 2F, 5F);
+            this.btnRepair.Name = "btnRepair";
+            this.btnRepair.Size = new System.Drawing.Size(0, 0);
+            this.btnRepair.Text = "维修资产";
+            this.btnRepair.Press += new System.EventHandler(this.btnRepair_Press);
             // 
             // btnLog
             // 
@@ -614,6 +625,7 @@ namespace SMOSEC.UI.MasterData
         private Title Title1;
         internal Smobiler.Core.Controls.Panel plButton;
         internal Smobiler.Core.Controls.Button btnEdit;
+        internal Smobiler.Core.Controls.Button btnRepair;
         internal Smobiler.Core.Controls.Button btnLog;
         internal Smobiler.Core.Controls.Button btnChange;
         internal Smobiler.Core.Controls.Panel panel5;

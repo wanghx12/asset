@@ -56,6 +56,8 @@ namespace SMOSEC.UI.AssetsManager
             this.panelScan = new Smobiler.Core.Controls.Panel();
             this.image1 = new Smobiler.Core.Controls.Image();
             this.label10 = new Smobiler.Core.Controls.Label();
+            this.txtsn = new Smobiler.Core.Controls.TextBox();
+            this.btnadd = new Smobiler.Core.Controls.Button();
             this.Panel4 = new Smobiler.Core.Controls.Panel();
             this.ListAss = new Smobiler.Core.Controls.ListView();
             this.Panel2 = new Smobiler.Core.Controls.Panel();
@@ -339,10 +341,12 @@ namespace SMOSEC.UI.AssetsManager
             // 
             this.panelScan.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
             this.image1,
-            this.label10});
+            this.label10,
+            this.txtsn,
+            this.btnadd});
             this.panelScan.Location = new System.Drawing.Point(5, 305);
             this.panelScan.Name = "panelScan";
-            this.panelScan.Size = new System.Drawing.Size(124, 28);
+            this.panelScan.Size = new System.Drawing.Size(300, 28);
             this.panelScan.Touchable = true;
             this.panelScan.Press += new System.EventHandler(this.panelScan_Press);
             // 
@@ -357,8 +361,23 @@ namespace SMOSEC.UI.AssetsManager
             // 
             this.label10.Location = new System.Drawing.Point(38, 2);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(84, 25);
+            this.label10.Size = new System.Drawing.Size(55, 25);
             this.label10.Text = "扫码添加";
+            // 
+            // txtsn
+            // 
+            this.txtsn.Location = new System.Drawing.Point(140, 2);
+            this.txtsn.Name = "txtsn";
+            this.txtsn.Size = new System.Drawing.Size(110, 25);
+            this.txtsn.WaterMarkText = "手动输入后点击ADD";
+            // 
+            // btnadd
+            // 
+            this.btnadd.Location = new System.Drawing.Point(250, 2);
+            this.btnadd.Name = "btnadd";
+            this.btnadd.Size = new System.Drawing.Size(40, 25);
+            this.btnadd.Text = "ADD";
+            this.btnadd.Press += new System.EventHandler(this.btnadd_Press);
             // 
             // Panel4
             // 
@@ -470,5 +489,7 @@ namespace SMOSEC.UI.AssetsManager
         internal Smobiler.Core.Controls.Panel Panel2;
         internal Smobiler.Core.Controls.Button btnSave;
         internal Smobiler.Core.Controls.Button btnDelete;
+        internal Smobiler.Core.Controls.TextBox txtsn;
+        internal Smobiler.Core.Controls.Button btnadd;
     }
 }

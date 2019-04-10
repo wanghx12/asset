@@ -14,7 +14,7 @@ namespace SMOSEC.UI.Layout
     //[System.ComponentModel.ToolboxItem(true)]
     partial class frmAssetsExLayout : Smobiler.Core.Controls.MobileUserControl
     {
-        private AutofacConfig _autofacConfig = new AutofacConfig();//调用配置类
+        //private AutofacConfig _autofacConfig = new AutofacConfig();//调用配置类
 
         /// <summary>
         /// 点击行项，进入资产详情

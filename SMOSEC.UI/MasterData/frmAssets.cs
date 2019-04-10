@@ -52,6 +52,7 @@ namespace SMOSEC.UI.MasterData
 
                 DataTable table = _autofacConfig.SettingService.GetAllAss();
                 gridAssRows.Cells.Clear();
+                Label1.Text = "总共 " + table.Rows.Count + " 条数据";
                 //table.Columns.Add("IsChecked");
                 //foreach (DataRow Row in table.Rows)
                 //{
@@ -303,6 +304,7 @@ namespace SMOSEC.UI.MasterData
                     gridAssRows.DataSource = table;
                     gridAssRows.DataBind();
                 }
+                Label1.Text = "总共 " + table.Rows.Count + " 条数据";
             }
             catch (Exception ex)
             {
@@ -328,6 +330,23 @@ namespace SMOSEC.UI.MasterData
             try
             {
                 barcodeScanner1.GetBarcode();
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
+        /// <summary>
+        /// 刷新按钮
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void imageButton2_Press(object sender, EventArgs e)
+        {
+            try
+            {
+                frmAssets frm = new frmAssets();
+                Show(frm);
             }
             catch (Exception ex)
             {
@@ -449,6 +468,14 @@ namespace SMOSEC.UI.MasterData
         {
             setBtnTag(popPro, btnPro);
         }
+        private void popPayman_Selected(object sender, EventArgs e)
+        {
+            setBtnTag(popPayman, btnPayman);
+        }
+        private void popUseman_Selected(object sender, EventArgs e)
+        {
+            setBtnTag(popUseman, btnUseman);
+        }
 
         /// <summary>
         /// 选择了部门/资产状态/资产大类
@@ -516,6 +543,72 @@ namespace SMOSEC.UI.MasterData
                 Toast(ex.Message);
             }
         }
+        /// <summary>
+        ///挂账人选择
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnPayman_Press(object sender, EventArgs e)
+        {
+            try
+            {
+                popPayman.Groups.Clear();       //数据清空
+                PopListGroup poli = new PopListGroup();
+                popPayman.Groups.Add(poli);
+                poli.AddListItem("全部", "-1");
+                List<cmdb_payman> deps = _autofacConfig.assPaymanService.GetAll();
+                foreach (cmdb_payman Row in deps)
+                {
+                    poli.AddListItem(Row.name, Row.id.ToString());
+                }
+                if (btnPayman.Tag != null)   //如果已有选中项，则显示选中效果
+                {
+                    foreach (PopListItem Item in poli.Items)
+                    {
+                        if (Item.Value == btnPayman.Tag.ToString())
+                            popPayman.SetSelections(Item);
+                    }
+                }
+                popPayman.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
+        /// <summary>
+        ///挂账人选择
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnUseman_Press(object sender, EventArgs e)
+        {
+            try
+            {
+                popUseman.Groups.Clear();       //数据清空
+                PopListGroup poli = new PopListGroup();
+                popUseman.Groups.Add(poli);
+                poli.AddListItem("全部", "-1");
+                List<cmdb_useman> deps = _autofacConfig.assUserService.GetAll();
+                foreach (cmdb_useman Row in deps)
+                {
+                    poli.AddListItem(Row.name, Row.id.ToString());
+                }
+                if (btnUseman.Tag != null)   //如果已有选中项，则显示选中效果
+                {
+                    foreach (PopListItem Item in poli.Items)
+                    {
+                        if (Item.Value == btnUseman.Tag.ToString())
+                            popUseman.SetSelections(Item);
+                    }
+                }
+                popUseman.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
 
         /// <summary>
         /// 数据绑定
@@ -528,9 +621,16 @@ namespace SMOSEC.UI.MasterData
                 String Status = btnStatus.Tag == null ? "-1" : btnStatus.Tag.ToString();   //选择资产状态
                 String Type = btnType.Tag == null ? "-1" : btnType.Tag.ToString();
                 String Pro = btnPro.Tag == null ? "-1" : btnPro.Tag.ToString();
+                String Payman = btnPayman.Tag == null ? "-1" : btnPayman.Tag.ToString();
+                String Useman = btnUseman.Tag == null ? "-1" : btnUseman.Tag.ToString();
 
-                DataTable table = _autofacConfig.SettingService.QueryAssets(txtNote.Text, int.Parse(DepId), int.Parse(Status), int.Parse(Type),int.Parse(Pro));
+                DateTime dt1 = DateTime.Now;
+                DataTable table = _autofacConfig.SettingService.QueryAssets(txtNote.Text, int.Parse(DepId), int.Parse(Status), int.Parse(Type),
+                    int.Parse(Pro),int.Parse(Payman), int.Parse(Useman));
                 gridAssRows.Cells.Clear();
+                Label1.Text = "总共 " + table.Rows.Count + " 条数据";
+                DateTime dt2 = DateTime.Now;
+                double use1 = (dt2 - dt1).TotalMilliseconds;
                 //table.Columns.Add("IsChecked");
                 //foreach (DataRow Row in table.Rows)
                 //{
@@ -548,6 +648,8 @@ namespace SMOSEC.UI.MasterData
                     gridAssRows.DataSource = table;
                     gridAssRows.DataBind();
                 }
+                DateTime dt3 = DateTime.Now;
+                double use2 = (dt3 - dt2).TotalMilliseconds;
             }
             catch (Exception ex)
             {

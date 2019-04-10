@@ -371,7 +371,7 @@ namespace SMOSEC.UI.Layout
             this.SNPayman.Touchable = true;
             this.SNPayman.TouchOpacity = 100;
             this.SNPayman.Visible = false;
-            this.SNPayman.Press += new System.EventHandler(this.SNInventory_Press);
+            this.SNPayman.Press += new System.EventHandler(this.SNPayman_Press);
             // 
             // lblInventory
             // 

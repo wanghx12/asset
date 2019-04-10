@@ -574,7 +574,7 @@ namespace SMOSEC.UI.MasterData
                 if (popStatus.Selection != null)
                 {
                     txtStatus1.Text = popStatus.Selection.Text + "   > ";
-                    Status = short.Parse(popBrand.Selection.Value);
+                    Status = short.Parse(popStatus.Selection.Value);
                 }
             }
             catch (Exception ex)

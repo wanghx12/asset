@@ -76,6 +76,7 @@ namespace SMOSEC.Application.Services
             IAssetsRoleRepository assetsRoleRepository,
             IAssetsTeamRepository assetsTeamRepository,
             IAssetsUserRepository assetsUserRepository,
+            IDepartmentRepository assetsDepartmentRepository,
             IDbContext dbContext)
         {
             _unitOfWork = unitOfWork;
@@ -89,6 +90,7 @@ namespace SMOSEC.Application.Services
             _assetsRoleRepository = assetsRoleRepository;
             _assetsTeamRepository = assetsTeamRepository;
             _assetsUserRepository = assetsUserRepository;
+            _departmentRepository = assetsDepartmentRepository;
             SMOSECDbContext = (SMOSECDbContext)dbContext;
         }
 
@@ -283,7 +285,7 @@ namespace SMOSEC.Application.Services
         /// <returns></returns>
         public DataTable GetAllAss()
         {
-            var list = _AssetsRepository.GetAll().Where(x=>x.status !=6);
+            var list = _AssetsRepository.GetAll();
 
 
             //list = list.OrderByDescending(a => a.id);
@@ -300,7 +302,8 @@ namespace SMOSEC.Application.Services
                              //DepName = "",
                              status = assetse.status,
                              StatusName = "",
-                             LocationName = location.name,
+                             room = location.name,
+                             position = assetse.position,
                              //Name = assetse.NAME,
                              //Price = assetse.PRICE,
                              sn = assetse.sn,
@@ -463,7 +466,7 @@ namespace SMOSEC.Application.Services
         /// <param name="Status">资产状态</param>
         /// <param name="Type">资产类型</param>
         /// <returns></returns>
-        public DataTable QueryAssets(string SNOrName, int LocationId, int Status, int Type, int Pro)
+        public DataTable QueryAssets(string SNOrName, int LocationId, int Status, int Type, int Pro, int payman, int useman)
         {
             var result = _AssetsRepository.QueryAssets(SNOrName).AsNoTracking();
 
@@ -475,10 +478,16 @@ namespace SMOSEC.Application.Services
                 result = result.Where(a => a.asset_type_id == Type);
             if (Pro != -1)
                 result = result.Where(a => a.project_id == Pro);
+            if (payman != -1)
+                result = result.Where(a => a.pay_man_id == payman);
+            if (useman != -1)
+                result = result.Where(a => a.use_man_id == useman);
 
             DataTable table = LINQToDataTable.ToDataTable(result);
             table.Columns.Add("StatusName");
             table.Columns.Add("Brand");
+            table.Columns.Add("room");
+            //table.Columns.Add("position");
             //table.Columns.Add("LocationName");
 
             foreach (DataRow row in table.Rows)
@@ -503,6 +512,14 @@ namespace SMOSEC.Application.Services
                     row["Brand"] = brand.name;
                 }
 
+                cmdb_machineroom room = _departmentRepository.GetByID(int.Parse(row["machine_room_id"].ToString())).AsNoTracking().FirstOrDefault();
+                if (room != null)
+                {
+                    row["room"] = room.name;
+                }
+                //row["position"] = row["position"].ToString();
+
+
             }
 
                 return table;
@@ -523,6 +540,7 @@ namespace SMOSEC.Application.Services
 
             table.Columns.Add("StatusName");
             table.Columns.Add("Brand");
+            table.Columns.Add("room");
             //table.Columns.Add("LocationName");
 
             foreach (DataRow row in table.Rows)
@@ -532,6 +550,11 @@ namespace SMOSEC.Application.Services
                 if (brand != null)
                 {
                     row["Brand"] = brand.name;
+                }
+                cmdb_machineroom room = _departmentRepository.GetByID(int.Parse(row["machine_room_id"].ToString())).AsNoTracking().FirstOrDefault();
+                if (room != null)
+                {
+                    row["room"] = room.name;
                 }
             }
             return table;

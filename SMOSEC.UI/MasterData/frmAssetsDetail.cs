@@ -6,6 +6,7 @@ using SMOSEC.Domain.Entity;
 using SMOSEC.DTOs.OutputDTO;
 using Smobiler.Device;
 using SMOSEC.DTOs.Enum;
+using SMOSEC.UI.AssetsManager;
 
 namespace SMOSEC.UI.MasterData
 {
@@ -72,7 +73,36 @@ namespace SMOSEC.UI.MasterData
                 Toast(ex.Message);
             }
         }
-
+        /// <summary>
+        /// 跳转到资产编辑界面
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnRepair_Press(object sender, EventArgs e)
+        {
+            try
+            {
+                //if (Client.Session["permission"].ToString() == "guest")
+                //{
+                //    throw new Exception("对不起，您没有修改权限！");
+                //}
+                frmRepairCreateSN frm = new frmRepairCreateSN(SN);
+                //frmRepairCreateSN assetsDetailEdit = new frmAssetsDetailEdit { SN = SN };
+                Show(frm, (MobileForm sender1, object args) =>
+                {
+                    if (frm.ShowResult == ShowResult.Yes)
+                    {
+                        ShowResult = ShowResult.Yes;
+                        Bind();
+                    }
+                });
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
+    
         /// <summary>
         /// 绑定数据
         /// </summary>

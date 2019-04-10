@@ -1,0 +1,45 @@
+2019-03-25 14:54:29 [Server] Starting 
+2019-03-25 14:54:30 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019-03-25 14:54:30 [Server] Started 
+2019-03-25 14:54:30 [AutoSet] Start 
+2019-03-25 15:00:26 [10.112.125.95:62516] ClientAccept 
+2019-03-25 15:00:27 [10.112.125.95:62516] Client HandShake 
+2019-03-25 15:00:27 [7055B107_50A0_414B_841C_A3FE8998E15A] STTP-NewClient 
+2019-03-25 15:00:28 [10.112.125.95-7055B107_50A0_414B_841C_A3FE8998E15A] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.7.0","coreVersion":"4.7.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler"}} 
+2019-03-25 15:00:28 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStart-Starting with NewClient -  
+2019-03-25 15:00:28 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmLogon 
+2019-03-25 15:00:29 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStart-Started with NewClient 
+2019-03-25 15:00:33 [10.112.125.95:62516] EndReceive 0 - ShutDown 
+2019-03-25 15:00:51 [10.112.44.155:48965] ClientAccept 
+2019-03-25 15:00:51 [10.112.44.155:48965] Client HandShake 
+2019-03-25 15:00:51 [86999403244106] STTP-NewClient 
+2019-03-25 15:00:51 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"4.5","coreVersion":"4.5.0"} 
+2019-03-25 15:00:51 [86999403244106] OnStart-Starting with NewClient -  
+2019-03-25 15:00:51 [86999403244106] Show-frmLogon 
+2019-03-25 15:00:51 [86999403244106] OnStart-Started with NewClient 
+2019-03-25 15:01:42 [86999403244106] Show-frmAssets 
+2019-03-25 15:01:49 [86999403244106] Show-frmBorrowOrder 
+2019-03-25 15:01:54 [86999403244106] Show-frmBoCreate 
+2019-03-25 15:02:30 [86999403244106] Close-frmBoCreate 
+2019-03-25 15:02:31 [86999403244106] Refresh-Pop-frmBorrowOrder 
+2019-03-25 15:02:32 [86999403244106] Show-frmBoDetail 
+2019-03-25 15:02:41 [86999403244106] Close-frmBoDetail 
+2019-03-25 15:02:41 [86999403244106] Refresh-Pop-frmBorrowOrder 
+2019-03-25 15:02:44 [86999403244106] Show-frmBoDetail 
+2019-03-25 15:02:57 [86999403244106] Close-frmBoDetail 
+2019-03-25 15:02:57 [86999403244106] Refresh-Pop-frmBorrowOrder 
+2019-03-25 15:03:05 [10.112.44.155:48965] EndReceive 0 - ShutDown 
+2019-03-25 15:30:34 [7055B107_50A0_414B_841C_A3FE8998E15A] SessionTimeOut- 
+2019-03-25 15:30:34 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStop-Stoping-SessionTimeOut-True-- 
+2019-03-25 15:30:34 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStop-Stoped 
+2019-03-25 15:33:35 [86999403244106] SessionTimeOut- 
+2019-03-25 15:33:35 [86999403244106] OnStop-Stoping-SessionTimeOut-True-- 
+2019-03-25 15:33:35 [86999403244106] OnStop-Stoped 

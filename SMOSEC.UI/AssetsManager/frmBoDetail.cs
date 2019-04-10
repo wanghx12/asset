@@ -140,6 +140,39 @@ namespace SMOSEC.UI.AssetsManager
                 Toast(ex.Message);
             }
         }
+        /// <summary>
+        /// 添加借用资产
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnadd_Press(object sender, EventArgs e)
+        {
+            try
+            {
+                if (txtsn.Text == "")
+                {
+                    throw new Exception("请输入sn号后再点击ADD按钮");
+                }
+
+                DataTable info = _autofacConfig.SettingService.GetUnUsedAssEx(txtsn.Text);
+                if (info.Rows.Count == 0)
+                {
+                    throw new Exception("未在闲置物品中找到该物品");
+                }
+                else
+                {
+                    DataRow row = info.Rows[0];
+                    var type = _autofacConfig.assTypeService.GetByID(int.Parse(row["asset_type_id"].ToString()));
+                    var brand = _autofacConfig.assBrandService.GetByID(int.Parse(row["brand_id"].ToString()));
+                    AddAss(int.Parse(row["id"].ToString()), txtsn.Text, type.name, brand.name);
+                    BindListView(); //重新绑定数据
+                }
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
 
         /// <summary>
         /// 绑定数据
@@ -205,24 +238,25 @@ namespace SMOSEC.UI.AssetsManager
                 //    throw new Exception("该表单已过期！");
                 //}
 
-                ReturnInfo returnInfo = _autofacConfig.AssetsService.DelAssBorrowOrderRow(sn, BoId);
+                    ReturnInfo returnInfo = _autofacConfig.AssetsService.DelAssBorrowOrderRow(sn, BoId);
 
-                if (returnInfo.IsSuccess)
-                {
-                    ShowResult = ShowResult.Yes;
-                    ((frmBoDetail)Form).Bind();
+                    if (returnInfo.IsSuccess)
+                    {
+                        ShowResult = ShowResult.Yes;
+                        ((frmBoDetail)Form).Bind();
 
-                    //DataRow row = AssTable.Rows.Find(sn);
-                    //AssTable.Rows.Remove(row);
-                    //AssIdList.Remove(sn);
-                    //BindListView();//fixme
-                    Toast("归还资产成功");
-                    //Close();
-                }
-                else
-                {
-                    Toast(returnInfo.ErrorInfo);
-                }
+                        //DataRow row = AssTable.Rows.Find(sn);
+                        //AssTable.Rows.Remove(row);
+                        //AssIdList.Remove(sn);
+                        //BindListView();//fixme
+                        Toast("归还资产成功");
+                        //Close();
+                    }
+                    else
+                    {
+                        Toast(returnInfo.ErrorInfo);
+                    }
+                
             }
             catch (Exception ex)
             {
@@ -230,6 +264,23 @@ namespace SMOSEC.UI.AssetsManager
             }
         }
 
+        /// <summary>
+        /// 从列表中删除资产
+        /// </summary>
+        /// <param name="assId">资产编号</param>
+        public void RemoveAsslist(string sn)
+        {
+            try
+            {
+                DataRow row = AssTable.Rows.Find(sn);
+                AssTable.Rows.Remove(row);
+                AssIdList.Remove(sn);
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
 
         /// <summary>
         /// 保存借用单

@@ -42,8 +42,6 @@ namespace SMOSEC.UI.MasterData
             this.txtFactor = new Smobiler.Core.Controls.TextBox();
             this.fiSearch = new Smobiler.Core.Controls.FontIcon();
             this.r2000Scanner1 = new Smobiler.Device.R2000Scanner();
-            this.Title1 = new SMOSEC.UI.UserControl.MenuTitle();
-            this.panel3 = new Smobiler.Core.Controls.Panel();
             this.fontIcon3 = new Smobiler.Core.Controls.FontIcon();
             this.txtSnOrName = new Smobiler.Core.Controls.TextBox();
             this.barcodeScanner1 = new Smobiler.Core.Controls.BarcodeScanner();
@@ -56,13 +54,28 @@ namespace SMOSEC.UI.MasterData
             this.panel1 = new Smobiler.Core.Controls.Panel();
             this.fontIcon1 = new Smobiler.Core.Controls.FontIcon();
             this.txtNote = new Smobiler.Core.Controls.TextBox();
+            this.imageButton2 = new Smobiler.Core.Controls.ImageButton();
+            this.panelScan1 = new Smobiler.Core.Controls.Panel();
+            this.image1 = new Smobiler.Core.Controls.Image();
+            this.label10 = new Smobiler.Core.Controls.Label();
+            this.panelScan2 = new Smobiler.Core.Controls.Panel();
+            this.image2 = new Smobiler.Core.Controls.Image();
+            this.label20 = new Smobiler.Core.Controls.Label();
             this.tpSearch = new Smobiler.Core.Controls.Panel();
             this.btnDep = new Smobiler.Core.Controls.Button();
             this.btnStatus = new Smobiler.Core.Controls.Button();
             this.btnType = new Smobiler.Core.Controls.Button();
             this.btnPro = new Smobiler.Core.Controls.Button();
+            this.btnPayman = new Smobiler.Core.Controls.Button();
+            this.btnUseman = new Smobiler.Core.Controls.Button();
+            this.Label1 = new Smobiler.Core.Controls.Label();
             this.popPro = new Smobiler.Core.Controls.PopList();
             this.gridAssRows = new Smobiler.Core.Controls.GridView();
+            this.panel4 = new Smobiler.Core.Controls.Panel();
+            this.Title1 = new SMOSEC.UI.UserControl.MenuTitle();
+            this.panel3 = new Smobiler.Core.Controls.Panel();
+            this.popPayman = new Smobiler.Core.Controls.PopList();
+            this.popUseman = new Smobiler.Core.Controls.PopList();
             // 
             // txtFactor
             // 
@@ -86,31 +99,6 @@ namespace SMOSEC.UI.MasterData
             // r2000Scanner1
             // 
             this.r2000Scanner1.Name = "r2000Scanner1";
-            // 
-            // Title1
-            // 
-            this.Title1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(164)))), ((int)(((byte)(229)))));
-            this.Title1.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
-            this.panel3});
-            this.Title1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Title1.FontSize = 15F;
-            this.Title1.ForeColor = System.Drawing.Color.Black;
-            this.Title1.Name = "Title1";
-            this.Title1.Size = new System.Drawing.Size(300, 40);
-            this.Title1.TemplateData = null;
-            this.Title1.TemplateItem = null;
-            this.Title1.TitleText = "资产列表";
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel3.BorderRadius = 4;
-            this.panel3.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
-            this.fontIcon3,
-            this.txtSnOrName});
-            this.panel3.Location = new System.Drawing.Point(50, 52);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(250, 20);
             // 
             // fontIcon3
             // 
@@ -149,7 +137,6 @@ namespace SMOSEC.UI.MasterData
             // 
             popListItem1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             popListItem1.Text = "全部";
-            popListItem2.Text = "-1";
             popListItem2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             popListItem2.Text = "在用";
             popListItem2.Value = "0";
@@ -193,7 +180,8 @@ namespace SMOSEC.UI.MasterData
             // 
             this.plSearch.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
             this.imageButton1,
-            this.panel1});
+            this.panel1,
+            this.imageButton2});
             this.plSearch.Dock = System.Windows.Forms.DockStyle.Top;
             this.plSearch.Location = new System.Drawing.Point(0, 95);
             this.plSearch.Name = "plSearch";
@@ -217,7 +205,7 @@ namespace SMOSEC.UI.MasterData
             this.txtNote});
             this.panel1.Location = new System.Drawing.Point(50, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(250, 20);
+            this.panel1.Size = new System.Drawing.Size(200, 20);
             // 
             // fontIcon1
             // 
@@ -232,10 +220,72 @@ namespace SMOSEC.UI.MasterData
             this.txtNote.BackColor = System.Drawing.Color.Transparent;
             this.txtNote.Location = new System.Drawing.Point(40, 0);
             this.txtNote.Name = "txtNote";
-            this.txtNote.Size = new System.Drawing.Size(200, 20);
+            this.txtNote.Size = new System.Drawing.Size(150, 20);
             this.txtNote.WaterMarkText = "请输入唯一号或资产条码";
             this.txtNote.WaterMarkTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(181)))), ((int)(((byte)(183)))));
             this.txtNote.TextChanged += new System.EventHandler(this.txtFactor_TextChanged);
+            // 
+            // imageButton2
+            // 
+            this.imageButton2.BackColor = System.Drawing.Color.White;
+            this.imageButton2.IconColor = System.Drawing.Color.Gray;
+            this.imageButton2.ImageType = Smobiler.Core.Controls.ImageEx.ImageStyle.FontIcon;
+            this.imageButton2.Location = new System.Drawing.Point(260, 8);
+            this.imageButton2.Name = "imageButton2";
+            this.imageButton2.ResourceID = "refresh";
+            this.imageButton2.ResourcePath = "";
+            this.imageButton2.Size = new System.Drawing.Size(28, 28);
+            this.imageButton2.Press += new System.EventHandler(this.imageButton2_Press);
+            // 
+            // panelScan1
+            // 
+            this.panelScan1.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
+            this.image1,
+            this.label10});
+            this.panelScan1.Location = new System.Drawing.Point(15, 40);
+            this.panelScan1.Name = "panelScan1";
+            this.panelScan1.Size = new System.Drawing.Size(120, 28);
+            this.panelScan1.Touchable = true;
+            this.panelScan1.Press += new System.EventHandler(this.imageButton1_Press);
+            // 
+            // image1
+            // 
+            this.image1.Location = new System.Drawing.Point(1, 1);
+            this.image1.Name = "image1";
+            this.image1.ResourceID = "scan";
+            this.image1.Size = new System.Drawing.Size(28, 28);
+            // 
+            // label10
+            // 
+            this.label10.Location = new System.Drawing.Point(38, 2);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(80, 25);
+            this.label10.Text = "扫描机房";
+            // 
+            // panelScan2
+            // 
+            this.panelScan2.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
+            this.image2,
+            this.label20});
+            this.panelScan2.Location = new System.Drawing.Point(165, 40);
+            this.panelScan2.Name = "panelScan2";
+            this.panelScan2.Size = new System.Drawing.Size(120, 28);
+            this.panelScan2.Touchable = true;
+            this.panelScan2.Press += new System.EventHandler(this.imageButton1_Press);
+            // 
+            // image2
+            // 
+            this.image2.Location = new System.Drawing.Point(1, 1);
+            this.image2.Name = "image2";
+            this.image2.ResourceID = "scan";
+            this.image2.Size = new System.Drawing.Size(28, 28);
+            // 
+            // label20
+            // 
+            this.label20.Location = new System.Drawing.Point(38, 2);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(80, 25);
+            this.label20.Text = "扫描挂账人";
             // 
             // tpSearch
             // 
@@ -246,11 +296,14 @@ namespace SMOSEC.UI.MasterData
             this.btnDep,
             this.btnStatus,
             this.btnType,
-            this.btnPro});
+            this.btnPro,
+            this.btnPayman,
+            this.btnUseman,
+            this.Label1});
             this.tpSearch.Dock = System.Windows.Forms.DockStyle.Top;
             this.tpSearch.Location = new System.Drawing.Point(250, 55);
             this.tpSearch.Name = "tpSearch";
-            this.tpSearch.Size = new System.Drawing.Size(300, 30);
+            this.tpSearch.Size = new System.Drawing.Size(300, 60);
             // 
             // btnDep
             // 
@@ -296,6 +349,35 @@ namespace SMOSEC.UI.MasterData
             this.btnPro.Text = "项目选择▼";
             this.btnPro.Press += new System.EventHandler(this.btnPro_Press);
             // 
+            // btnPayman
+            // 
+            this.btnPayman.BackColor = System.Drawing.Color.White;
+            this.btnPayman.BorderRadius = 0;
+            this.btnPayman.ForeColor = System.Drawing.Color.Black;
+            this.btnPayman.Location = new System.Drawing.Point(10, 30);
+            this.btnPayman.Name = "btnPayman";
+            this.btnPayman.Size = new System.Drawing.Size(70, 30);
+            this.btnPayman.Text = "挂账人▼";
+            this.btnPayman.Press += new System.EventHandler(this.btnPayman_Press);
+            // 
+            // btnUseman
+            // 
+            this.btnUseman.BackColor = System.Drawing.Color.White;
+            this.btnUseman.BorderRadius = 0;
+            this.btnUseman.ForeColor = System.Drawing.Color.Black;
+            this.btnUseman.Location = new System.Drawing.Point(80, 30);
+            this.btnUseman.Name = "btnUseman";
+            this.btnUseman.Size = new System.Drawing.Size(70, 30);
+            this.btnUseman.Text = "使用人▼";
+            this.btnUseman.Press += new System.EventHandler(this.btnUseman_Press);
+            // 
+            // Label1
+            // 
+            this.Label1.BackColor = System.Drawing.Color.White;
+            this.Label1.Location = new System.Drawing.Point(160, 30);
+            this.Label1.Name = "Label1";
+            //this.Label1.Size = new System.Drawing.Size(130, 30);
+            // 
             // popPro
             // 
             this.popPro.Name = "popPro";
@@ -309,13 +391,59 @@ namespace SMOSEC.UI.MasterData
             this.gridAssRows.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridAssRows.Flex = 1;
             this.gridAssRows.Name = "gridAssRows";
-            this.gridAssRows.PageSize = 10;
+            this.gridAssRows.PageSize = 5;
             this.gridAssRows.PageSizeLoadCompleteText = "已显示全部";
             this.gridAssRows.PageSizeLoadText = "下一页";
             this.gridAssRows.PageSizeTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
             this.gridAssRows.PageSizeTextSize = 11F;
             this.gridAssRows.Size = new System.Drawing.Size(0, 0);
             this.gridAssRows.TemplateControlName = "frmAssetsExLayout";
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
+            });
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 180);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(300, 30);
+            // 
+            // Title1
+            // 
+            this.Title1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(164)))), ((int)(((byte)(229)))));
+            this.Title1.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
+            this.panel3});
+            this.Title1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Title1.FontSize = 15F;
+            this.Title1.ForeColor = System.Drawing.Color.Black;
+            this.Title1.Name = "Title1";
+            this.Title1.Size = new System.Drawing.Size(300, 40);
+            this.Title1.TemplateData = null;
+            this.Title1.TemplateItem = null;
+            this.Title1.TitleText = "资产列表";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel3.BorderRadius = 4;
+            this.panel3.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
+            this.fontIcon3,
+            this.txtSnOrName});
+            this.panel3.Location = new System.Drawing.Point(50, 52);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(250, 20);
+            // 
+            // popPayman
+            // 
+            this.popPayman.Name = "popPayman";
+            this.popPayman.Title = "挂账人选择";
+            this.popPayman.Selected += new System.EventHandler(this.popPayman_Selected);
+            // 
+            // popUseman
+            // 
+            this.popUseman.Name = "popUseman";
+            this.popUseman.Title = "使用人选择";
+            this.popUseman.Selected += new System.EventHandler(this.popUseman_Selected);
             // 
             // frmAssets
             // 
@@ -340,7 +468,9 @@ namespace SMOSEC.UI.MasterData
             this.popType,
             this.popStatus,
             this.popDep,
-            this.popPro});
+            this.popPro,
+            this.popPayman,
+            this.popUseman});
             this.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
             this.Title1,
             this.plSearch,
@@ -381,5 +511,18 @@ namespace SMOSEC.UI.MasterData
         internal Smobiler.Core.Controls.GridView gridAssRows;
         private Smobiler.Core.Controls.Button btnPro;
         private Smobiler.Core.Controls.PopList popPro;
+        private Smobiler.Core.Controls.Label Label1;
+        private Smobiler.Core.Controls.Panel panel4;
+        private Smobiler.Core.Controls.ImageButton imageButton2;
+        private Smobiler.Core.Controls.Button btnPayman;
+        private Smobiler.Core.Controls.Button btnUseman;
+        private Smobiler.Core.Controls.PopList popPayman;
+        private Smobiler.Core.Controls.PopList popUseman;
+        private Smobiler.Core.Controls.Panel panelScan1;
+        private Smobiler.Core.Controls.Image image1;
+        private Smobiler.Core.Controls.Label label10;
+        private Smobiler.Core.Controls.Panel panelScan2;
+        private Smobiler.Core.Controls.Image image2;
+        private Smobiler.Core.Controls.Label label20;
     }
 }
