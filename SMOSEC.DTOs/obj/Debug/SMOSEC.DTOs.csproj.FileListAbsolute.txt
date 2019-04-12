@@ -18,3 +18,9 @@ D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.DTOs\bin\Debug\SMOSEC.DTOs.d
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.DTOs\bin\Debug\SMOSEC.DTOs.dll
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.DTOs\bin\Debug\SMOSEC.DTOs.pdb
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.DTOs\obj\Debug\SMOSEC.DTOs.csprojAssemblyReference.cache
+C:\whx\whx\SMOSEC.DTOs\bin\Debug\SMOSEC.DTOs.dll.config
+C:\whx\whx\SMOSEC.DTOs\bin\Debug\SMOSEC.DTOs.dll
+C:\whx\whx\SMOSEC.DTOs\bin\Debug\SMOSEC.DTOs.pdb
+C:\whx\whx\SMOSEC.DTOs\obj\Debug\SMOSEC.DTOs.csproj.CoreCompileInputs.cache
+C:\whx\whx\SMOSEC.DTOs\obj\Debug\SMOSEC.DTOs.dll
+C:\whx\whx\SMOSEC.DTOs\obj\Debug\SMOSEC.DTOs.pdb

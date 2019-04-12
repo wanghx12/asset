@@ -24,3 +24,15 @@ D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Domain\obj\Debug\SMOSEC.Doma
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Domain\bin\Debug\Smobiler.Core.Controls.dll
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Domain\bin\Debug\Smobiler.Core.dll
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Domain\bin\Debug\Smobiler.Plugins.dll
+C:\whx\whx\SMOSEC.Domain\bin\Debug\SMOSEC.Domain.dll.config
+C:\whx\whx\SMOSEC.Domain\bin\Debug\SMOSEC.Domain.dll
+C:\whx\whx\SMOSEC.Domain\bin\Debug\SMOSEC.Domain.pdb
+C:\whx\whx\SMOSEC.Domain\bin\Debug\EntityFramework.dll
+C:\whx\whx\SMOSEC.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\whx\whx\SMOSEC.Domain\bin\Debug\EntityFramework.xml
+C:\whx\whx\SMOSEC.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\whx\whx\SMOSEC.Domain\obj\Debug\SMOSEC.Domain.csproj.CoreCompileInputs.cache
+C:\whx\whx\SMOSEC.Domain\obj\Debug\SMOSEC.Domain.csproj.CopyComplete
+C:\whx\whx\SMOSEC.Domain\obj\Debug\SMOSEC.Domain.dll
+C:\whx\whx\SMOSEC.Domain\obj\Debug\SMOSEC.Domain.pdb
+C:\whx\whx\SMOSEC.Domain\obj\Debug\SMOSEC.Domain.csprojAssemblyReference.cache

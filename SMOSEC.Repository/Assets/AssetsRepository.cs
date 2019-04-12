@@ -213,5 +213,25 @@ namespace SMOSEC.Repository.Assets
         {
             return _entities.Any(a => a.sn == SN);
         }
+
+        /// <summary>
+        /// 根据机房查询资产
+        /// </summary>
+        public IQueryable<Domain.Entity.cmdb_asset> QueryAssetsByRoom(int room)
+        {
+            var result = _entities;
+            result = result.Where(a => a.machine_room_id == room);
+            return result;
+        }
+
+        /// <summary>
+        /// 根据挂帐人查询资产
+        /// </summary>
+        public IQueryable<Domain.Entity.cmdb_asset> QueryAssetsByPayman(int payman)
+        {
+            var result = _entities;
+            result = result.Where(a => a.pay_man_id == payman);
+            return result;
+        }
     }
 }

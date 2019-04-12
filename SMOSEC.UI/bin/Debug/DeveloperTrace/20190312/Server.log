@@ -1,138 +1,240 @@
-2019-03-12 09:41:52 [Server] Stoping 
-2019-03-12 09:41:52 [TcpAccept-EX] 无法访问已释放的对象。
+2019/03/12 10:23:31 [Server] Stoping 
+2019/03/12 10:23:31 [TcpAccept-EX] 无法访问已释放的对象。
 对象名:“System.Net.Sockets.Socket”。 
-2019-03-12 09:41:57 [Purging-EX] 正在中止线程。 
-2019-03-12 09:41:57 [Server] Stoped 
-2019-03-12 09:41:57 [Server] Starting 
-2019-03-12 09:41:57 [AutoSet] Stop 
-2019-03-12 09:41:57 [Initial] Version: 460.1540354032, HttpServerPort: 8080, TcpServerPort: 9000, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+2019/03/12 10:23:31 [Server] Stoped 
+2019/03/12 10:23:31 [AutoSet] Stop 
+2019/03/12 10:23:31 [Server] Starting 
+2019/03/12 10:23:31 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: False, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
  
-2019-03-12 09:41:57 [Server] Started 
-2019-03-12 09:41:57 [AutoSet] Start 
-2019-03-12 09:43:41 [Server] Starting 
-2019-03-12 09:43:42 [Initial] Version: 460.1540354032, HttpServerPort: 8080, TcpServerPort: 9000, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
- 
-2019-03-12 09:44:15 [Server] Started 
-2019-03-12 09:44:22 [AutoSet] Start 
-2019-03-12 09:48:18 [Server] Stoping 
-2019-03-12 09:48:18 [TcpAccept-EX] 无法访问已释放的对象。
+2019/03/12 10:23:31 [AutoSet] Start 
+2019/03/12 10:23:31 [Server] Started 
+2019/03/12 10:24:29 [10.110.128.199:1732] ClientAccept 
+2019/03/12 10:24:29 [10.110.128.199:1733] ClientAccept 
+2019/03/12 10:24:29 [10.110.128.199:1732] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/03/12 10:24:29 [10.110.128.199:1732] EndReceive 0 - ShutDown 
+2019/03/12 10:24:29 [10.110.128.199:1734] ClientAccept 
+2019/03/12 10:24:29 [10.110.128.199:1733] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/03/12 10:24:29 [10.110.128.199:1733] EndReceive 0 - ShutDown 
+2019/03/12 10:24:34 [10.110.128.199:1735] ClientAccept 
+2019/03/12 10:24:34 [10.110.128.199:1734] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/03/12 10:24:34 [10.110.128.199:1734] EndReceive 0 - ShutDown 
+2019/03/12 10:24:46 [10.110.128.199:1735] EndReceive 0 - ShutDown 
+2019/03/12 10:25:04 [10.110.128.199:1743] ClientAccept 
+2019/03/12 10:25:04 [10.110.128.199:1744] ClientAccept 
+2019/03/12 10:25:04 [10.110.128.199:1743] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/03/12 10:25:04 [10.110.128.199:1743] EndReceive 0 - ShutDown 
+2019/03/12 10:25:33 [10.110.128.199:1744] EndReceive 0 - ShutDown 
+2019/03/12 10:26:13 [10.112.125.95:52360] ClientAccept 
+2019/03/12 10:26:13 [10.112.125.95:52360] Client HandShake 
+2019/03/12 10:26:13 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019/03/12 10:26:13 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019/03/12 10:26:13 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019/03/12 10:26:14 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019/03/12 10:26:16 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019/03/12 10:27:09 [10.112.125.95:52360] EndReceive 0 - ShutDown 
+2019/03/12 10:28:44 [Server] Stoping 
+2019/03/12 10:28:44 [TcpAccept-EX] 无法访问已释放的对象。
 对象名:“System.Net.Sockets.Socket”。 
-2019-03-12 09:48:18 [Server] Stoped 
-2019-03-12 09:48:18 [AutoSet] Stop 
-2019-03-12 09:48:18 [Server] Starting 
-2019-03-12 09:48:18 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+2019/03/12 10:28:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-StopServer-True-- 
+2019/03/12 10:28:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019/03/12 10:28:44 [Server] Stoped 
+2019/03/12 10:30:53 [Server] Starting 
+2019/03/12 10:30:53 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
  
-2019-03-12 09:48:18 [Server] Started 
-2019-03-12 09:48:18 [AutoSet] Start 
-2019-03-12 09:48:44 [10.112.125.95:52143] ClientAccept 
-2019-03-12 09:48:44 [10.112.125.95:52143] Client HandShake 
-2019-03-12 09:48:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
-2019-03-12 09:48:44 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
-2019-03-12 09:48:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
-2019-03-12 09:48:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
-2019-03-12 09:48:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
-2019-03-12 09:48:51 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
-2019-03-12 09:49:02 [10.112.125.95:52143] EndReceive 0 - ShutDown 
-2019-03-12 09:49:21 [10.112.125.95:52151] ClientAccept 
-2019-03-12 09:49:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-ReStart-False-- 
-2019-03-12 09:49:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with ReStart -  
-2019-03-12 09:49:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
-2019-03-12 09:49:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with ReStart 
-2019-03-12 09:49:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
-2019-03-12 09:49:26 [10.112.125.95:52151] EndReceive 0 - ShutDown 
-2019-03-12 10:20:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] SessionTimeOut- 
-2019-03-12 10:20:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-SessionTimeOut-True-- 
-2019-03-12 10:20:19 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
-2019-03-12 14:04:49 [Server] Starting 
-2019-03-12 14:04:49 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+2019/03/12 10:30:53 [Server] Started 
+2019/03/12 10:30:53 [AutoSet] Start 
+2019/03/12 10:30:57 [10.112.125.95:52366] ClientAccept 
+2019/03/12 10:30:57 [10.112.125.95:52366] Client HandShake 
+2019/03/12 10:30:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019/03/12 10:30:57 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019/03/12 10:30:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019/03/12 10:30:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019/03/12 10:31:00 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019/03/12 10:32:49 [10.112.125.95:52366] EndReceive 0 - ShutDown 
+2019/03/12 10:33:39 [Server] Stoping 
+2019/03/12 10:33:39 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2019/03/12 10:33:39 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-StopServer-True-- 
+2019/03/12 10:33:39 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019/03/12 10:33:44 [Purging-EX] 正在中止线程。 
+2019/03/12 10:33:44 [Server] Stoped 
+2019/03/12 10:33:44 [AutoSet] Stop 
+2019/03/12 11:19:26 [Server] Starting 
+2019/03/12 11:19:27 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
  
-2019-03-12 14:04:49 [Server] Started 
-2019-03-12 14:04:49 [AutoSet] Start 
-2019-03-12 14:04:50 [10.112.125.95:53305] ClientAccept 
-2019-03-12 14:04:50 [10.112.125.95:53305] Client HandShake 
-2019-03-12 14:04:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
-2019-03-12 14:04:50 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
-2019-03-12 14:04:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
-2019-03-12 14:04:51 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
-2019-03-12 14:04:52 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
-2019-03-12 14:04:54 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
-2019-03-12 14:04:58 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssetsCreate 
-2019-03-12 14:05:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmAssetsCreate 
-2019-03-12 14:05:15 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmAssets 
-2019-03-12 14:05:28 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssetsCreate 
-2019-03-12 14:05:56 [10.112.125.95:53305] EndReceive 0 - ShutDown 
-2019-03-12 14:12:27 [Server] Starting 
-2019-03-12 14:12:27 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+2019/03/12 11:19:27 [Server] Started 
+2019/03/12 11:19:27 [AutoSet] Start 
+2019/03/12 11:19:51 [10.112.125.95:52436] ClientAccept 
+2019/03/12 11:19:51 [10.112.125.95:52436] Client HandShake 
+2019/03/12 11:19:51 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019/03/12 11:19:52 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019/03/12 11:19:52 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019/03/12 11:19:53 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019/03/12 11:19:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019/03/12 11:22:45 [Server] Stoping 
+2019/03/12 11:22:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-StopServer-True-- 
+2019/03/12 11:22:45 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2019/03/12 11:22:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019/03/12 11:22:50 [Purging-EX] 正在中止线程。 
+2019/03/12 11:22:50 [Server] Stoped 
+2019/03/12 11:22:50 [AutoSet] Stop 
+2019/03/12 12:31:31 [Server] Starting 
+2019/03/12 12:31:31 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
  
-2019-03-12 14:12:27 [Server] Started 
-2019-03-12 14:12:27 [AutoSet] Start 
-2019-03-12 14:12:32 [10.112.125.95:53321] ClientAccept 
-2019-03-12 14:12:32 [10.112.125.95:53321] Client HandShake 
-2019-03-12 14:12:32 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
-2019-03-12 14:12:32 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
-2019-03-12 14:12:32 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
-2019-03-12 14:12:32 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
-2019-03-12 14:12:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
-2019-03-12 14:12:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
-2019-03-12 14:12:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssetsCreate 
-2019-03-12 14:13:22 [Server] Starting 
-2019-03-12 14:13:22 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+2019/03/12 12:31:31 [Server] Started 
+2019/03/12 12:31:31 [AutoSet] Start 
+2019/03/12 12:31:56 [10.112.125.95:52788] ClientAccept 
+2019/03/12 12:31:56 [10.112.125.95:52788] Client HandShake 
+2019/03/12 12:31:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019/03/12 12:31:57 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019/03/12 12:31:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019/03/12 12:31:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019/03/12 12:32:00 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019/03/12 12:33:01 [10.112.125.95:52788] EndReceive 0 - ShutDown 
+2019/03/12 12:37:54 [Server] Stoping 
+2019/03/12 12:37:54 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2019/03/12 12:37:54 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-StopServer-True-- 
+2019/03/12 12:37:54 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019/03/12 12:37:59 [Purging-EX] 正在中止线程。 
+2019/03/12 12:37:59 [Server] Stoped 
+2019/03/12 12:38:00 [AutoSet] Stop 
+2019/03/12 12:50:08 [Server] Starting 
+2019/03/12 12:50:08 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
  
-2019-03-12 14:13:22 [Server] Started 
-2019-03-12 14:13:22 [AutoSet] Start 
-2019-03-12 14:13:24 [10.112.125.95:53337] ClientAccept 
-2019-03-12 14:13:24 [10.112.125.95:53337] Client HandShake 
-2019-03-12 14:13:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
-2019-03-12 14:13:24 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
-2019-03-12 14:13:24 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
-2019-03-12 14:13:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
-2019-03-12 14:13:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
-2019-03-12 14:13:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-True 
-2019-03-12 14:13:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Initial-frmLogon 
-2019-03-12 14:13:28 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
-2019-03-12 14:13:32 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssetsCreate 
-2019-03-12 14:14:02 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmAssetsCreate 
-2019-03-12 14:14:02 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmAssets 
-2019-03-12 14:14:04 [10.112.125.95:53337] EndReceive 0 - ShutDown 
+2019/03/12 12:50:08 [Server] Started 
+2019/03/12 12:50:08 [AutoSet] Start 
+2019/03/12 12:50:56 [10.112.125.95:52835] ClientAccept 
+2019/03/12 12:50:56 [10.112.125.95:52835] Client HandShake 
+2019/03/12 12:50:56 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019/03/12 12:50:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] ClientInfoRPC-False 
+2019/03/12 12:50:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with ClientInfoRPC -  
+2019/03/12 12:50:57 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019/03/12 12:51:00 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with ClientInfoRPC 
+2019/03/12 12:51:17 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019/03/12 12:51:25 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019/03/12 12:51:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019/03/12 12:51:36 [10.112.125.95:52835] EndReceive 0 - ShutDown 
+2019/03/12 13:22:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] SessionTimeOut- 
+2019/03/12 13:22:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-SessionTimeOut-True-- 
+2019/03/12 13:22:18 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019/03/12 13:55:34 [10.112.125.95:53202] ClientAccept 
+2019/03/12 13:55:34 [10.112.125.95:53202] Client HandShake 
+2019/03/12 13:55:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019/03/12 13:55:34 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019/03/12 13:55:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019/03/12 13:55:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019/03/12 13:55:34 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019/03/12 13:55:37 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019/03/12 13:56:04 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019/03/12 13:56:12 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019/03/12 13:56:16 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019/03/12 13:56:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019/03/12 13:56:30 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssetsDetail 
+2019/03/12 13:58:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmAssetsDetail 
+2019/03/12 13:58:36 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmAssets 
+2019/03/12 13:58:39 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmMessage 
+2019/03/12 13:58:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmMessage 
+2019/03/12 13:58:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmAssets 
+2019/03/12 13:58:45 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmRepairRowsSN 
+2019/03/12 13:58:52 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmBorrowOrder 
+2019/03/12 13:59:13 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019/03/12 13:59:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-ReStart-False-- 
+2019/03/12 13:59:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with ReStart -  
+2019/03/12 13:59:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019/03/12 13:59:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with ReStart 
+2019/03/12 13:59:26 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 
+2019/03/12 13:59:44 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019/03/12 13:59:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssetsCreate 
+2019/03/12 14:01:29 [10.112.125.95:53202] EndReceive 0 - ShutDown 
+2019/03/12 14:03:47 [10.112.125.95:53303] ClientAccept 
+2019/03/12 14:04:50 [10.112.125.95:53303] EndReceive 0 - ShutDown 
+2019/03/12 14:36:17 [Server] Starting 
+2019/03/12 14:36:17 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019/03/12 14:36:17 [AutoSet] Start 
+2019/03/12 14:36:17 [Server] Started 
+2019/03/12 14:37:37 [10.112.125.95:53496] ClientAccept 
+2019/03/12 14:37:37 [10.112.125.95:53496] Client HandShake 
+2019/03/12 14:37:37 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019/03/12 14:37:37 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019/03/12 14:37:37 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019/03/12 14:37:38 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019/03/12 14:37:40 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019/03/12 14:37:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssets 
+2019/03/12 14:37:54 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssetsCreate 
+2019/03/12 14:38:20 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmAssetsCreate 
+2019/03/12 14:38:20 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmAssets 
+2019/03/12 14:38:31 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssetsDetail 
+2019/03/12 14:38:33 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmAssetsDetailEdit 
+2019/03/12 14:38:35 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmAssetsDetailEdit 
+2019/03/12 14:38:35 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmAssetsDetail 
+2019/03/12 14:38:39 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Close-frmAssetsDetail 
+2019/03/12 14:38:41 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Refresh-Pop-frmAssets 
+2019/03/12 14:38:53 [10.112.125.95:53496] EndReceive 0 - ShutDown 
+2019/03/12 14:41:19 [Server] Starting 
+2019/03/12 14:41:20 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019/03/12 14:41:20 [Server] Started 
+2019/03/12 14:41:20 [AutoSet] Start 
+2019/03/12 15:55:49 [10.112.125.95:53793] ClientAccept 
+2019/03/12 15:55:49 [10.112.125.95:53793] Client HandShake 
+2019/03/12 15:55:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] STTP-NewClient 
+2019/03/12 15:55:49 [10.112.125.95-BCF720B2_C798_4088_9E46_C16D8CDC30C0] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.6.0","coreVersion":"4.6.0","autoBuild":false,"isCompany":true} 
+2019/03/12 15:55:49 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Starting with NewClient -  
+2019/03/12 15:55:50 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] Show-frmLogon 
+2019/03/12 15:55:52 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStart-Started with NewClient 
+2019/03/12 15:56:42 [10.112.125.95:53793] EndReceive 0 - ShutDown 
+2019/03/12 16:26:20 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] SessionTimeOut- 
+2019/03/12 16:26:20 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoping-SessionTimeOut-True-- 
+2019/03/12 16:26:20 [BCF720B2_C798_4088_9E46_C16D8CDC30C0] OnStop-Stoped 

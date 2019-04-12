@@ -48,3 +48,28 @@ D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Repository\bin\Debug\EntityF
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Repository\bin\Debug\MySql.Data.Entity.EF6.xml
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Repository\bin\Debug\MySql.Data.xml
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Repository\obj\Debug\SMOSEC.Repository.csproj.CopyComplete
+C:\whx\whx\SMOSEC.Repository\bin\Debug\SMOSEC.Repository.dll.config
+C:\whx\whx\SMOSEC.Repository\bin\Debug\SMOSEC.Repository.dll
+C:\whx\whx\SMOSEC.Repository\bin\Debug\SMOSEC.Repository.pdb
+C:\whx\whx\SMOSEC.Repository\bin\Debug\EntityFramework.dll
+C:\whx\whx\SMOSEC.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\whx\whx\SMOSEC.Repository\bin\Debug\SMOSEC.Domain.dll
+C:\whx\whx\SMOSEC.Repository\bin\Debug\SMOSEC.DTOs.dll
+C:\whx\whx\SMOSEC.Repository\bin\Debug\SMOSEC.Infrastructure.dll
+C:\whx\whx\SMOSEC.Repository\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\whx\whx\SMOSEC.Repository\bin\Debug\MySql.Data.dll
+C:\whx\whx\SMOSEC.Repository\bin\Debug\SMOSEC.Domain.pdb
+C:\whx\whx\SMOSEC.Repository\bin\Debug\SMOSEC.Domain.dll.config
+C:\whx\whx\SMOSEC.Repository\bin\Debug\SMOSEC.DTOs.pdb
+C:\whx\whx\SMOSEC.Repository\bin\Debug\SMOSEC.DTOs.dll.config
+C:\whx\whx\SMOSEC.Repository\bin\Debug\SMOSEC.Infrastructure.pdb
+C:\whx\whx\SMOSEC.Repository\bin\Debug\SMOSEC.Infrastructure.dll.config
+C:\whx\whx\SMOSEC.Repository\bin\Debug\EntityFramework.xml
+C:\whx\whx\SMOSEC.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\whx\whx\SMOSEC.Repository\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\whx\whx\SMOSEC.Repository\bin\Debug\MySql.Data.xml
+C:\whx\whx\SMOSEC.Repository\obj\Debug\SMOSEC.Repository.csprojAssemblyReference.cache
+C:\whx\whx\SMOSEC.Repository\obj\Debug\SMOSEC.Repository.csproj.CoreCompileInputs.cache
+C:\whx\whx\SMOSEC.Repository\obj\Debug\SMOSEC.Repository.csproj.CopyComplete
+C:\whx\whx\SMOSEC.Repository\obj\Debug\SMOSEC.Repository.dll
+C:\whx\whx\SMOSEC.Repository\obj\Debug\SMOSEC.Repository.pdb

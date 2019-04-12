@@ -65,3 +65,36 @@ D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Application\bin\Debug\Entity
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Application\bin\Debug\MySql.Data.Entity.EF6.xml
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Application\bin\Debug\MySql.Data.xml
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Application\obj\Debug\SMOSEC.Application.csproj.CopyComplete
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.Application.dll.config
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.Application.dll
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.Application.pdb
+C:\whx\whx\SMOSEC.Application\bin\Debug\AutoMapper.dll
+C:\whx\whx\SMOSEC.Application\bin\Debug\EntityFramework.dll
+C:\whx\whx\SMOSEC.Application\bin\Debug\EntityFramework.SqlServer.dll
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.CommLib.dll
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.Domain.dll
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.DTOs.dll
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.Infrastructure.dll
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.Repository.dll
+C:\whx\whx\SMOSEC.Application\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\whx\whx\SMOSEC.Application\bin\Debug\MySql.Data.dll
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.CommLib.pdb
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.CommLib.dll.config
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.Domain.pdb
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.Domain.dll.config
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.DTOs.pdb
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.DTOs.dll.config
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.Infrastructure.pdb
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.Infrastructure.dll.config
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.Repository.pdb
+C:\whx\whx\SMOSEC.Application\bin\Debug\SMOSEC.Repository.dll.config
+C:\whx\whx\SMOSEC.Application\bin\Debug\AutoMapper.xml
+C:\whx\whx\SMOSEC.Application\bin\Debug\EntityFramework.xml
+C:\whx\whx\SMOSEC.Application\bin\Debug\EntityFramework.SqlServer.xml
+C:\whx\whx\SMOSEC.Application\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\whx\whx\SMOSEC.Application\bin\Debug\MySql.Data.xml
+C:\whx\whx\SMOSEC.Application\obj\Debug\SMOSEC.Application.csprojAssemblyReference.cache
+C:\whx\whx\SMOSEC.Application\obj\Debug\SMOSEC.Application.csproj.CoreCompileInputs.cache
+C:\whx\whx\SMOSEC.Application\obj\Debug\SMOSEC.Application.csproj.CopyComplete
+C:\whx\whx\SMOSEC.Application\obj\Debug\SMOSEC.Application.dll
+C:\whx\whx\SMOSEC.Application\obj\Debug\SMOSEC.Application.pdb

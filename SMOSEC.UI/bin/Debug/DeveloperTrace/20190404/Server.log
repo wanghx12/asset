@@ -1,114 +1,183 @@
-2019-04-04 10:11:44 [Server] Starting 
-2019-04-04 10:11:44 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+2019/04/04 00:02:51 [127.0.0.1:57377] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 00:02:51 [127.0.0.1:57928] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 00:33:21 [127.0.0.1:57928] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 00:33:21 [127.0.0.1:58477] ClientAccept 
+2019/04/04 00:33:21 [127.0.0.1:58477] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 01:03:51 [127.0.0.1:58477] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 01:03:51 [127.0.0.1:59018] ClientAccept 
+2019/04/04 01:03:51 [127.0.0.1:59018] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 01:34:21 [127.0.0.1:59018] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 01:34:21 [127.0.0.1:59562] ClientAccept 
+2019/04/04 01:34:21 [127.0.0.1:59562] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 02:04:51 [127.0.0.1:59562] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 02:04:51 [127.0.0.1:60105] ClientAccept 
+2019/04/04 02:04:51 [127.0.0.1:60105] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 02:35:21 [127.0.0.1:60105] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 02:35:21 [127.0.0.1:60649] ClientAccept 
+2019/04/04 02:35:21 [127.0.0.1:60649] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 03:05:51 [127.0.0.1:60649] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 03:05:51 [127.0.0.1:61188] ClientAccept 
+2019/04/04 03:05:51 [127.0.0.1:61188] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 03:36:21 [127.0.0.1:61188] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 03:36:21 [127.0.0.1:61735] ClientAccept 
+2019/04/04 03:36:21 [127.0.0.1:61735] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 04:06:51 [127.0.0.1:61735] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 04:06:51 [127.0.0.1:62275] ClientAccept 
+2019/04/04 04:06:51 [127.0.0.1:62275] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 04:37:21 [127.0.0.1:62275] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 04:37:21 [127.0.0.1:62820] ClientAccept 
+2019/04/04 04:37:21 [127.0.0.1:62820] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 05:07:51 [127.0.0.1:62820] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 05:07:51 [127.0.0.1:63357] ClientAccept 
+2019/04/04 05:07:51 [127.0.0.1:63357] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 05:38:21 [127.0.0.1:63357] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 05:38:21 [127.0.0.1:63901] ClientAccept 
+2019/04/04 05:38:21 [127.0.0.1:63901] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 06:08:51 [127.0.0.1:63901] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 06:08:51 [127.0.0.1:64442] ClientAccept 
+2019/04/04 06:08:51 [127.0.0.1:64442] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 06:39:21 [127.0.0.1:64442] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 06:39:21 [127.0.0.1:64986] ClientAccept 
+2019/04/04 06:39:21 [127.0.0.1:64986] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 07:09:51 [127.0.0.1:64986] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 07:09:51 [127.0.0.1:65521] ClientAccept 
+2019/04/04 07:09:51 [127.0.0.1:65521] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 07:40:21 [127.0.0.1:65521] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 07:40:21 [127.0.0.1:49695] ClientAccept 
+2019/04/04 07:40:21 [127.0.0.1:49695] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 08:10:51 [127.0.0.1:49695] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 08:10:51 [127.0.0.1:50319] ClientAccept 
+2019/04/04 08:10:51 [127.0.0.1:50319] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 08:41:21 [127.0.0.1:50319] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 08:41:21 [127.0.0.1:50868] ClientAccept 
+2019/04/04 08:41:21 [127.0.0.1:50868] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 09:11:51 [127.0.0.1:50868] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 09:11:52 [127.0.0.1:51574] ClientAccept 
+2019/04/04 09:11:52 [127.0.0.1:51574] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 09:42:22 [127.0.0.1:51574] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 09:42:23 [127.0.0.1:52119] ClientAccept 
+2019/04/04 09:42:23 [127.0.0.1:52119] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 10:12:53 [127.0.0.1:52119] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 10:12:53 [127.0.0.1:53211] ClientAccept 
+2019/04/04 10:12:53 [127.0.0.1:53211] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 10:30:15 [Server] Stoping 
+2019/04/04 10:30:15 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2019/04/04 10:30:20 [Purging-EX] 正在中止线程。 
+2019/04/04 10:30:20 [Server] Stoped 
+2019/04/04 10:31:26 [Server] Starting 
+2019/04/04 10:31:26 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: False, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
  
-2019-04-04 10:11:44 [Server] Started 
-2019-04-04 10:11:45 [AutoSet] Start 
-2019-04-04 10:13:09 [10.112.44.155:39501] ClientAccept 
-2019-04-04 10:13:09 [10.112.44.155:39501] Client HandShake 
-2019-04-04 10:13:09 [86999403244106] STTP-NewClient 
-2019-04-04 10:13:10 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"4.5","coreVersion":"4.5.0"} 
-2019-04-04 10:13:10 [86999403244106] OnStart-Starting with NewClient -  
-2019-04-04 10:13:10 [86999403244106] Show-frmLogon 
-2019-04-04 10:13:12 [86999403244106] OnStart-Started with NewClient 
-2019-04-04 10:13:18 [86999403244106] Show-frmAssets 
-2019-04-04 10:16:14 [86999403244106] Show-frmAssets 
-2019-04-04 10:16:54 [10.112.44.155:39501] EndReceive 0 - ShutDown 
-2019-04-04 10:16:59 [10.112.44.155:39543] ClientAccept 
-2019-04-04 10:16:59 [86999403244106] Refresh-False 
-2019-04-04 10:16:59 [86999403244106] Refresh-Push-frmAssets 
-2019-04-04 10:19:12 [Server] Starting 
-2019-04-04 10:19:12 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
- 
-2019-04-04 10:19:12 [Server] Started 
-2019-04-04 10:19:12 [AutoSet] Start 
-2019-04-04 10:19:17 [10.112.44.155:39571] ClientAccept 
-2019-04-04 10:19:17 [10.112.44.155:39571] Client HandShake 
-2019-04-04 10:19:17 [86999403244106] STTP-NewClient 
-2019-04-04 10:19:17 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"4.5","coreVersion":"4.5.0"} 
-2019-04-04 10:19:17 [86999403244106] OnStart-Starting with NewClient -  
-2019-04-04 10:19:18 [86999403244106] Show-frmLogon 
-2019-04-04 10:19:19 [86999403244106] OnStart-Started with NewClient 
-2019-04-04 10:19:23 [86999403244106] Show-frmAssets 
-2019-04-04 10:21:54 [Server] Starting 
-2019-04-04 10:21:54 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
- 
-2019-04-04 10:21:54 [Server] Started 
-2019-04-04 10:21:54 [AutoSet] Start 
-2019-04-04 10:21:55 [10.112.44.155:39605] ClientAccept 
-2019-04-04 10:21:55 [10.112.44.155:39605] Client HandShake 
-2019-04-04 10:21:55 [86999403244106] STTP-NewClient 
-2019-04-04 10:21:55 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"4.5","coreVersion":"4.5.0"} 
-2019-04-04 10:21:55 [86999403244106] OnStart-Starting with NewClient -  
-2019-04-04 10:21:56 [86999403244106] Show-frmLogon 
-2019-04-04 10:21:57 [86999403244106] OnStart-Started with NewClient 
-2019-04-04 10:21:57 [86999403244106] Refresh-True 
-2019-04-04 10:21:57 [86999403244106] Refresh-Initial-frmLogon 
-2019-04-04 10:22:03 [86999403244106] Show-frmAssets 
-2019-04-04 10:23:43 [10.112.44.155:39605] EndReceive 0 - ShutDown 
-2019-04-04 10:23:49 [10.112.44.155:39639] ClientAccept 
-2019-04-04 10:23:53 [86999403244106] Refresh-True 
-2019-04-04 10:23:53 [86999403244106] Refresh-Initial-frmAssets 
-2019-04-04 10:24:12 [86999403244106] Show-frmAssets 
-2019-04-04 10:27:30 [Server] Starting 
-2019-04-04 10:27:30 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
- 
-2019-04-04 10:27:30 [Server] Started 
-2019-04-04 10:27:30 [AutoSet] Start 
-2019-04-04 10:27:33 [10.112.44.155:39687] ClientAccept 
-2019-04-04 10:27:33 [10.112.44.155:39687] Client HandShake 
-2019-04-04 10:27:33 [86999403244106] STTP-NewClient 
-2019-04-04 10:27:33 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"4.5","coreVersion":"4.5.0"} 
-2019-04-04 10:27:33 [86999403244106] OnStart-Starting with NewClient -  
-2019-04-04 10:27:33 [86999403244106] Show-frmLogon 
-2019-04-04 10:27:35 [86999403244106] OnStart-Started with NewClient 
-2019-04-04 10:27:35 [86999403244106] Refresh-True 
-2019-04-04 10:27:35 [86999403244106] Refresh-Initial-frmLogon 
-2019-04-04 10:27:39 [86999403244106] Show-frmAssets 
-2019-04-04 10:29:18 [Server] Starting 
-2019-04-04 10:29:18 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
- 
-2019-04-04 10:29:18 [Server] Started 
-2019-04-04 10:29:18 [AutoSet] Start 
-2019-04-04 10:29:20 [10.112.44.155:39711] ClientAccept 
-2019-04-04 10:29:20 [10.112.44.155:39711] Client HandShake 
-2019-04-04 10:29:20 [86999403244106] STTP-NewClient 
-2019-04-04 10:29:20 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"4.5","coreVersion":"4.5.0"} 
-2019-04-04 10:29:20 [86999403244106] OnStart-Starting with NewClient -  
-2019-04-04 10:29:20 [86999403244106] Show-frmLogon 
-2019-04-04 10:29:22 [86999403244106] OnStart-Started with NewClient 
-2019-04-04 10:29:26 [86999403244106] Show-frmAssets 
+2019/04/04 10:31:26 [Server] Started 
+2019/04/04 10:31:26 [AutoSet] Start 
+2019/04/04 10:31:55 [10.112.44.155:39074] ClientAccept 
+2019/04/04 10:31:55 [10.112.44.155:39074] Client HandShake 
+2019/04/04 10:31:55 [86999403244106] STTP-NewClient 
+2019/04/04 10:31:55 [86999403244106] OnStart-Starting with ClientInfoRPC -  
+2019/04/04 10:31:55 [86999403244106] ClientInfoRPC-False 
+2019/04/04 10:31:56 [86999403244106] Show-frmLogon 
+2019/04/04 10:31:58 [86999403244106] OnStart-Started with ClientInfoRPC 
+2019/04/04 10:32:02 [86999403244106] Show-frmAssets 
+2019/04/04 10:32:42 [86999403244106] Show-frmAssets 
+2019/04/04 10:36:28 [86999403244106] Show-frmRepairRowsSN 
+2019/04/04 10:36:31 [86999403244106] Show-frmRepairDetailSN 
+2019/04/04 10:36:37 [86999403244106] Close-frmRepairDetailSN 
+2019/04/04 10:36:37 [86999403244106] Refresh-Pop-frmRepairRowsSN 
+2019/04/04 10:36:38 [86999403244106] Show-frmRepairDetailSN 
+2019/04/04 10:36:48 [86999403244106] Refresh-Pop-frmRepairRowsSN 
+2019/04/04 10:36:48 [86999403244106] Close-frmRepairDetailSN 
+2019/04/04 10:36:49 [86999403244106] Show-frmRepairDetailSN 
+2019/04/04 10:36:50 [86999403244106] Close-frmRepairDetailSN 
+2019/04/04 10:36:50 [86999403244106] Refresh-Pop-frmRepairRowsSN 
+2019/04/04 10:37:03 [86999403244106] Show-frmAssets 
+2019/04/04 10:42:11 [10.112.44.155:39074] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 10:43:23 [127.0.0.1:55461] ClientAccept 
+2019/04/04 10:43:23 [127.0.0.1:55461] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 11:07:34 [86999403244106] SessionTimeOut- 
+2019/04/04 11:07:34 [86999403244106] OnStop-Stoping-SessionTimeOut-True-- 
+2019/04/04 11:07:34 [86999403244106] OnStop-Stoped 
+2019/04/04 11:13:53 [127.0.0.1:55461] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 11:13:53 [127.0.0.1:57625] ClientAccept 
+2019/04/04 11:13:53 [127.0.0.1:57625] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 11:44:23 [127.0.0.1:57625] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 11:44:23 [127.0.0.1:60088] ClientAccept 
+2019/04/04 11:44:23 [127.0.0.1:60088] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 12:14:53 [127.0.0.1:60088] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 12:14:53 [127.0.0.1:62255] ClientAccept 
+2019/04/04 12:14:53 [127.0.0.1:62255] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 12:45:23 [127.0.0.1:62255] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 12:45:24 [127.0.0.1:64418] ClientAccept 
+2019/04/04 12:45:24 [127.0.0.1:64418] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 13:15:54 [127.0.0.1:64418] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 13:15:54 [127.0.0.1:50214] ClientAccept 
+2019/04/04 13:15:54 [127.0.0.1:50214] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 13:46:24 [127.0.0.1:50214] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 13:46:24 [127.0.0.1:52390] ClientAccept 
+2019/04/04 13:46:24 [127.0.0.1:52390] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 14:16:54 [127.0.0.1:52390] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 14:16:54 [127.0.0.1:53730] ClientAccept 
+2019/04/04 14:16:54 [127.0.0.1:53730] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 14:47:24 [127.0.0.1:53730] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 14:47:24 [127.0.0.1:54671] ClientAccept 
+2019/04/04 14:47:24 [127.0.0.1:54671] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 15:17:54 [127.0.0.1:54671] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 15:17:54 [127.0.0.1:55404] ClientAccept 
+2019/04/04 15:17:54 [127.0.0.1:55404] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 15:48:24 [127.0.0.1:55404] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 15:48:24 [127.0.0.1:55957] ClientAccept 
+2019/04/04 15:48:24 [127.0.0.1:55957] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 16:18:54 [127.0.0.1:55957] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 16:18:54 [127.0.0.1:57540] ClientAccept 
+2019/04/04 16:18:54 [127.0.0.1:57540] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 16:49:24 [127.0.0.1:57540] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 16:49:24 [127.0.0.1:58600] ClientAccept 
+2019/04/04 16:49:24 [127.0.0.1:58600] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 17:19:54 [127.0.0.1:58600] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 17:19:55 [127.0.0.1:59908] ClientAccept 
+2019/04/04 17:19:55 [127.0.0.1:59908] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 17:50:25 [127.0.0.1:59908] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 17:50:25 [127.0.0.1:60740] ClientAccept 
+2019/04/04 17:50:25 [127.0.0.1:60740] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 18:20:55 [127.0.0.1:60740] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 18:20:55 [127.0.0.1:62045] ClientAccept 
+2019/04/04 18:20:55 [127.0.0.1:62045] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 18:51:25 [127.0.0.1:62045] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 18:51:25 [127.0.0.1:62585] ClientAccept 
+2019/04/04 18:51:25 [127.0.0.1:62585] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 19:21:55 [127.0.0.1:62585] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 19:21:55 [127.0.0.1:63128] ClientAccept 
+2019/04/04 19:21:55 [127.0.0.1:63128] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 19:52:25 [127.0.0.1:63128] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 19:52:25 [127.0.0.1:63680] ClientAccept 
+2019/04/04 19:52:25 [127.0.0.1:63680] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 20:22:55 [127.0.0.1:63680] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 20:22:55 [127.0.0.1:64219] ClientAccept 
+2019/04/04 20:22:55 [127.0.0.1:64219] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 20:53:26 [127.0.0.1:64219] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 20:53:26 [127.0.0.1:64763] ClientAccept 
+2019/04/04 20:53:26 [127.0.0.1:64763] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 21:23:56 [127.0.0.1:64763] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 21:23:56 [127.0.0.1:65298] ClientAccept 
+2019/04/04 21:23:56 [127.0.0.1:65298] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 21:54:26 [127.0.0.1:65298] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 21:54:26 [127.0.0.1:49470] ClientAccept 
+2019/04/04 21:54:26 [127.0.0.1:49470] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 22:24:56 [127.0.0.1:49470] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 22:24:56 [127.0.0.1:50006] ClientAccept 
+2019/04/04 22:24:56 [127.0.0.1:50006] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 22:55:26 [127.0.0.1:50006] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 22:55:27 [127.0.0.1:50546] ClientAccept 
+2019/04/04 22:55:27 [127.0.0.1:50546] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 23:25:57 [127.0.0.1:50546] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 23:25:57 [127.0.0.1:51083] ClientAccept 
+2019/04/04 23:25:57 [127.0.0.1:51083] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/04/04 23:56:27 [127.0.0.1:51083] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/04 23:56:27 [127.0.0.1:51633] ClientAccept 
+2019/04/04 23:56:27 [127.0.0.1:51633] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 

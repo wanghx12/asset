@@ -1,25 +1,224 @@
-2019-04-02 15:31:44 [Server] Starting 
-2019-04-02 15:31:44 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+2019/04/02 10:14:23 [10.112.21.97:38410] ClientAccept 
+2019/04/02 10:14:23 [10.112.21.97:38410] Client HandShake 
+2019/04/02 10:14:23 [10.112.21.97-869386049743738] {"deviceOS":"Android","deviceOSVersion":"9","deviceModel":"ONEPLUS A6010","screenSize":{"width":1080,"height":2261},"density":2.625,"version":"1.0.1","coreVersion":"4.6.0","autoBuild":true,"isCompany":false} 
+2019/04/02 10:14:23 [869386049743738] Refresh-True 
+2019/04/02 10:14:23 [869386049743738] Refresh-Initial-frmAssetsDetail 
+2019/04/02 10:14:31 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 10:14:31 [869386049743738] Refresh-Push-frmAssets 
+2019/04/02 10:15:17 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 10:15:19 [869386049743738] Show-frmRepairCreateSN 
+2019/04/02 10:15:20 [869386049743738] Close-frmRepairCreateSN 
+2019/04/02 10:15:20 [869386049743738] Refresh-Pop-frmAssetsDetail 
+2019/04/02 10:15:22 [869386049743738] Show-frmAssetsDetailEdit 
+2019/04/02 10:15:28 [869386049743738] Close-frmAssetsDetailEdit 
+2019/04/02 10:15:28 [869386049743738] Refresh-Pop-frmAssetsDetail 
+2019/04/02 10:15:29 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 10:15:29 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 10:15:31 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 10:15:31 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 10:15:31 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 10:15:35 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 10:15:38 [869386049743738] Show-frmAssetsDetailEdit 
+2019/04/02 10:15:44 [869386049743738] Close-frmAssetsDetailEdit 
+2019/04/02 10:15:44 [869386049743738] Refresh-Pop-frmAssetsDetail 
+2019/04/02 10:15:46 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 10:15:46 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 10:15:50 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 10:15:52 [869386049743738] Show-frmAssetsDetailEdit 
+2019/04/02 10:15:57 [869386049743738] Close-frmAssetsDetailEdit 
+2019/04/02 10:15:57 [869386049743738] Refresh-Pop-frmAssetsDetail 
+2019/04/02 10:15:59 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 10:15:59 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 10:16:06 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 10:16:07 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 10:16:07 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 10:16:07 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 10:16:08 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 10:16:08 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 10:16:09 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 10:16:10 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 10:16:10 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 10:16:11 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 10:16:12 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 10:16:12 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 10:16:13 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 10:16:13 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 10:16:13 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 10:16:14 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 10:16:15 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 10:16:15 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 10:16:16 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 10:16:16 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 10:16:16 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 10:16:18 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 10:16:18 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 10:16:18 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 10:24:17 [869386049743738] Refresh-True 
+2019/04/02 10:24:17 [869386049743738] Refresh-Initial-frmAssets 
+2019/04/02 10:25:04 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 10:25:22 [869386049743738] Show-frmAssetsDetailEdit 
+2019/04/02 10:25:46 [869386049743738] Close-frmAssetsDetailEdit 
+2019/04/02 10:25:46 [869386049743738] Refresh-Pop-frmAssetsDetail 
+2019/04/02 10:25:50 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 10:25:50 [869386049743738] Refresh-Push-frmAssets 
+2019/04/02 10:25:51 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 15:07:47 [10.112.21.97:48104] ClientAccept 
+2019/04/02 15:07:47 [10.112.21.97:48104] Client HandShake 
+2019/04/02 15:07:47 [10.112.21.97-869386049743738] {"deviceOS":"Android","deviceOSVersion":"9","deviceModel":"ONEPLUS A6010","screenSize":{"width":1080,"height":2261},"density":2.625,"version":"1.0.1","coreVersion":"4.6.0","autoBuild":true,"isCompany":false} 
+2019/04/02 15:07:47 [869386049743738] Refresh-Initial-frmAssetsDetail 
+2019/04/02 15:07:47 [869386049743738] Refresh-True 
+2019/04/02 15:07:47 [869386049743738] Refresh-True 
+2019/04/02 15:07:47 [869386049743738] Refresh-Initial-frmAssetsDetail 
+2019/04/02 15:07:49 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 15:07:49 [869386049743738] Refresh-Push-frmAssets 
+2019/04/02 15:08:14 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 15:08:19 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 15:08:19 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 15:14:11 [10.112.21.97:48104] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/02 15:32:58 [10.112.44.155:42255] ClientAccept 
+2019/04/02 15:32:58 [10.112.44.155:42255] Client HandShake 
+2019/04/02 15:32:58 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"1.0.1","coreVersion":"4.6.0","autoBuild":true,"isCompany":false} 
+2019/04/02 15:32:58 [86999403244106] Refresh-True 
+2019/04/02 15:32:58 [86999403244106] Refresh-Initial-frmAssets 
+2019/04/02 15:33:08 [86999403244106] Show-frmMessage 
+2019/04/02 15:33:11 [86999403244106] Close-frmMessage 
+2019/04/02 15:33:11 [86999403244106] Refresh-Push-frmAssets 
+2019/04/02 15:37:13 [Server] Stoping 
+2019/04/02 15:37:13 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] OnStop-Stoping-StopServer-True-- 
+2019/04/02 15:37:13 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2019/04/02 15:37:13 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] OnStop-Stoped 
+2019/04/02 15:37:13 [86999403244106] OnStop-Stoping-StopServer-True-- 
+2019/04/02 15:37:13 [86999403244106] OnStop-Stoped 
+2019/04/02 15:37:13 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStop-Stoping-StopServer-True-- 
+2019/04/02 15:37:13 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStop-Stoped 
+2019/04/02 15:37:13 [351886080518738] OnStop-Stoping-StopServer-True-- 
+2019/04/02 15:37:13 [351886080518738] OnStop-Stoped 
+2019/04/02 15:37:13 [869386049743738] OnStop-Stoping-StopServer-True-- 
+2019/04/02 15:37:13 [869386049743738] OnStop-Stoped 
+2019/04/02 15:37:13 [D4DEBBC3_FFC0_4726_9B27_79B716EDA985] OnStop-Stoping-StopServer-True-- 
+2019/04/02 15:37:13 [D4DEBBC3_FFC0_4726_9B27_79B716EDA985] OnStop-Stoped 
+2019/04/02 15:37:13 [Server] Stoped 
+2019/04/02 15:37:13 [AutoSet] Stop 
+2019/04/02 15:41:07 [Server] Starting 
+2019/04/02 15:41:07 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
  
-2019-04-02 15:31:44 [Server] Started 
-2019-04-02 15:31:44 [AutoSet] Start 
-2019-04-02 15:31:45 [10.112.44.155:47905] ClientAccept 
-2019-04-02 15:31:45 [10.112.44.155:47905] Client HandShake 
-2019-04-02 15:31:45 [86999403244106] STTP-NewClient 
-2019-04-02 15:31:46 [10.112.44.155-86999403244106] {"deviceOS":"Android","deviceOSVersion":"8.1.0","deviceModel":"Lenovo L78011","screenSize":{"width":1080,"height":2102},"density":3.0,"version":"4.5","coreVersion":"4.5.0"} 
-2019-04-02 15:31:46 [86999403244106] OnStart-Starting with NewClient -  
-2019-04-02 15:31:46 [86999403244106] Show-frmLogon 
-2019-04-02 15:31:48 [86999403244106] OnStart-Started with NewClient 
-2019-04-02 15:31:48 [86999403244106] Refresh-True 
-2019-04-02 15:31:48 [86999403244106] Refresh-Initial-frmLogon 
-2019-04-02 15:31:48 [86999403244106] Refresh-True 
-2019-04-02 15:31:48 [86999403244106] Refresh-Initial-frmLogon 
-2019-04-02 15:31:51 [86999403244106] Show-frmAssets 
-2019-04-02 15:32:17 [86999403244106] Show-frmAssets 
+2019/04/02 15:41:07 [Server] Started 
+2019/04/02 15:41:07 [AutoSet] Start 
+2019/04/02 15:41:09 [Server] Stoping 
+2019/04/02 15:41:09 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2019/04/02 15:41:52 [Server] Starting 
+2019/04/02 15:41:52 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: False, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019/04/02 15:41:52 [Server] Started 
+2019/04/02 15:41:52 [AutoSet] Start 
+2019/04/02 15:42:02 [10.112.44.155:42297] ClientAccept 
+2019/04/02 15:42:02 [10.112.44.155:42297] Client HandShake 
+2019/04/02 15:42:02 [86999403244106] STTP-NewClient 
+2019/04/02 15:42:02 [86999403244106] ClientInfoRPC-False 
+2019/04/02 15:42:02 [86999403244106] OnStart-Starting with ClientInfoRPC -  
+2019/04/02 15:42:03 [86999403244106] Show-frmLogon 
+2019/04/02 15:42:05 [86999403244106] OnStart-Started with ClientInfoRPC 
+2019/04/02 15:42:11 [86999403244106] Show-frmAssets 
+2019/04/02 15:44:23 [Server] Stoping 
+2019/04/02 15:44:23 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2019/04/02 15:44:23 [86999403244106] OnStop-Stoping-StopServer-True-- 
+2019/04/02 15:44:23 [86999403244106] OnStop-Stoped 
+2019/04/02 15:44:28 [Server] Stoped 
+2019/04/02 15:44:28 [AutoSet] Stop 
+2019/04/02 15:44:28 [Purging-EX] 正在中止线程。 
+2019/04/02 15:45:33 [Server] Starting 
+2019/04/02 15:45:33 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: False, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019/04/02 15:45:33 [Server] Started 
+2019/04/02 15:45:33 [AutoSet] Start 
+2019/04/02 15:45:52 [10.112.44.155:42321] ClientAccept 
+2019/04/02 15:45:52 [10.112.44.155:42321] Client HandShake 
+2019/04/02 15:45:52 [86999403244106] STTP-NewClient 
+2019/04/02 15:45:52 [86999403244106] ClientInfoRPC-False 
+2019/04/02 15:45:52 [86999403244106] OnStart-Starting with ClientInfoRPC -  
+2019/04/02 15:45:53 [86999403244106] Show-frmLogon 
+2019/04/02 15:45:55 [86999403244106] OnStart-Started with ClientInfoRPC 
+2019/04/02 15:46:03 [86999403244106] Show-frmAssets 
+2019/04/02 15:52:22 [Server] Stoping 
+2019/04/02 15:52:22 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2019/04/02 15:52:22 [86999403244106] OnStop-Stoping-StopServer-True-- 
+2019/04/02 15:52:22 [86999403244106] OnStop-Stoped 
+2019/04/02 15:52:27 [Purging-EX] 正在中止线程。 
+2019/04/02 15:52:27 [Server] Stoped 
+2019/04/02 15:59:21 [Server] Starting 
+2019/04/02 15:59:21 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: False, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019/04/02 15:59:21 [AutoSet] Start 
+2019/04/02 15:59:21 [Server] Started 
+2019/04/02 15:59:35 [10.112.44.155:42459] ClientAccept 
+2019/04/02 15:59:35 [10.112.44.155:42459] Client HandShake 
+2019/04/02 15:59:35 [86999403244106] STTP-NewClient 
+2019/04/02 15:59:35 [86999403244106] Refresh-False 
+2019/04/02 15:59:35 [86999403244106] ClientInfoRPC-False 
+2019/04/02 15:59:35 [86999403244106] OnStart-Starting with ClientInfoRPC -  
+2019/04/02 15:59:36 [86999403244106] Show-frmLogon 
+2019/04/02 15:59:39 [86999403244106] OnStart-Started with ClientInfoRPC 
+2019/04/02 15:59:43 [86999403244106] Show-frmAssets 
+2019/04/02 16:04:27 [10.112.44.155:42459] STML-EX-远程主机强迫关闭了一个现有的连接。 
+2019/04/02 16:31:23 [86999403244106] SessionTimeOut- 
+2019/04/02 16:31:23 [86999403244106] OnStop-Stoping-SessionTimeOut-True-- 
+2019/04/02 16:31:23 [86999403244106] OnStop-Stoped 
+2019/04/02 17:16:39 [10.112.21.97:39058] ClientAccept 
+2019/04/02 17:16:39 [10.112.21.97:39058] Client HandShake 
+2019/04/02 17:16:39 [869386049743738] STTP-NewClient 
+2019/04/02 17:16:39 [10.112.21.97-869386049743738] {"deviceOS":"Android","deviceOSVersion":"9","deviceModel":"ONEPLUS A6010","screenSize":{"width":1080,"height":2261},"density":2.625,"version":"1.0.1","coreVersion":"4.6.0","autoBuild":true,"isCompany":false} 
+2019/04/02 17:16:39 [869386049743738] OnStart-Starting with NewClient -  
+2019/04/02 17:16:39 [869386049743738] Show-frmLogon 
+2019/04/02 17:16:39 [869386049743738] OnStart-Started with NewClient 
+2019/04/02 17:16:43 [869386049743738] Show-frmAssets 
+2019/04/02 17:16:55 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 17:16:58 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 17:16:58 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 17:17:23 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 17:17:30 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 17:17:30 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 17:17:32 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 17:17:34 [869386049743738] Show-frmAssetsDetailEdit 
+2019/04/02 17:17:35 [869386049743738] Close-frmAssetsDetailEdit 
+2019/04/02 17:17:35 [869386049743738] Refresh-Pop-frmAssetsDetail 
+2019/04/02 17:17:36 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 17:17:36 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 17:17:59 [869386049743738] Show-frmAssetsDetail 
+2019/04/02 17:18:01 [869386049743738] Close-frmAssetsDetail 
+2019/04/02 17:18:01 [869386049743738] Refresh-Pop-frmAssets 
+2019/04/02 17:19:13 [10.112.21.97:39058] EndReceive 0 - ShutDown 
+2019/04/02 17:48:25 [869386049743738] SessionTimeOut- 
+2019/04/02 17:48:25 [869386049743738] OnStop-Stoping-SessionTimeOut-True-- 
+2019/04/02 17:48:25 [869386049743738] OnStop-Stoped 

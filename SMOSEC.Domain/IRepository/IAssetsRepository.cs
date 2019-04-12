@@ -102,5 +102,15 @@ namespace SMOSEC.Domain.IRepository
         /// <param name="typeId">类型编号</param>
         /// <param name="DepartmentId">部门编号</param>
         IQueryable<cmdb_asset> GetInventoryAssetses(int LocationId, int typeId);
+
+        /// <summary>
+        /// 根据机房查询资产
+        /// </summary>
+        IQueryable<cmdb_asset> QueryAssetsByRoom(int room);
+
+        /// <summary>
+        /// 根据挂帐人查询资产
+        /// </summary>
+        IQueryable<cmdb_asset> QueryAssetsByPayman(int payman);
     }
 }

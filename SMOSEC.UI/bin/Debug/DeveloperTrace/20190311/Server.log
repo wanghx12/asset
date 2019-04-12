@@ -448,33 +448,73 @@
 2019-03-11 15:28:43 [AutoSet] Stop 
 2019-03-11 15:28:43 [TcpAccept-EX] 无法访问已释放的对象。
 对象名:“System.Net.Sockets.Socket”。 
-2019-03-11 19:47:30 [Server] Starting 
-2019-03-11 19:47:30 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 22, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+2019/03/11 19:30:01 [Server] Starting 
+2019/03/11 19:30:01 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 22, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
  
-2019-03-11 19:47:30 [Server] Started 
-2019-03-11 19:47:31 [AutoSet] Start 
-2019-03-11 19:47:48 [Server] Stoping 
-2019-03-11 19:47:48 [TcpAccept-EX] 无法访问已释放的对象。
+2019/03/11 19:30:11 [Server] Starting 
+2019/03/11 19:30:11 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 22, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019/03/11 19:30:11 [Server] Started 
+2019/03/11 19:30:11 [AutoSet] Start 
+2019/03/11 19:34:36 [Server] Stoping 
+2019/03/11 19:34:36 [TcpAccept-EX] 无法访问已释放的对象。
 对象名:“System.Net.Sockets.Socket”。 
-2019-03-11 19:47:53 [Purging-EX] 正在中止线程。 
-2019-03-11 19:47:53 [Server] Stoped 
-2019-03-11 19:47:53 [AutoSet] Stop 
-2019-03-11 19:47:53 [Server] Starting 
-2019-03-11 19:47:53 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+2019/03/11 19:34:41 [Purging-EX] 正在中止线程。 
+2019/03/11 19:34:41 [Server] Stoped 
+2019/03/11 19:34:41 [AutoSet] Stop 
+2019/03/11 19:34:41 [Server] Starting 
+2019/03/11 19:34:41 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
  
-2019-03-11 19:47:53 [Server] Started 
-2019-03-11 19:47:53 [AutoSet] Start 
+2019/03/11 19:35:10 [Server] Stoping 
+2019/03/11 19:35:10 [HTTP-StopServer-EX] 无法访问已释放的对象。
+对象名:“System.Net.HttpListener”。 
+2019/03/11 19:35:10 [Server] Stoped 
+2019/03/11 19:35:30 [Server] Starting 
+2019/03/11 19:35:30 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: False, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019/03/11 19:35:31 [Server] Starting 
+2019/03/11 19:35:31 [Initial] Version: 460.1540354032, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: False, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
+ 
+2019/03/11 19:35:31 [Server] Started 
+2019/03/11 19:35:31 [AutoSet] Start 
+2019/03/11 19:46:40 [127.0.0.1:49530] ClientAccept 
+2019/03/11 19:46:40 [127.0.0.1:49530] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/03/11 19:46:56 [127.0.0.1:49530] EndReceive 0 - ShutDown 
+2019/03/11 19:46:56 [127.0.0.1:49534] ClientAccept 
+2019/03/11 19:46:56 [127.0.0.1:49534] STMLProtocol-EX-STMLProtocolException Level:fatal, Code:UnexpectedMessage 
+2019/03/11 19:46:57 [127.0.0.1:49534] EndReceive 0 - ShutDown 

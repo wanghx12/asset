@@ -7,6 +7,7 @@ using SMOSEC.DTOs.OutputDTO;
 using System.Collections.Generic;
 using SMOSEC.Domain.Entity;
 using SMOSEC.DTOs.Enum;
+using System.Text.RegularExpressions;
 
 namespace SMOSEC.UI.MasterData
 {
@@ -18,11 +19,10 @@ namespace SMOSEC.UI.MasterData
     {
         #region 变量
         private AutofacConfig _autofacConfig = new AutofacConfig();//调用配置类
+        public DataTable AssTable = new DataTable();
+        public int page_count;
 
         public string SelectAssId;  //当前选择的资产
-
-        private string UserId;
-        private int LocatinId;
 
         #endregion
         /// <summary>
@@ -43,16 +43,15 @@ namespace SMOSEC.UI.MasterData
         {
             try
             {
-                LocatinId = 0;
                 //if (Client.Session["Role"].ToString() != "ADMIN")
                 //{
                 //    var user = _autofacConfig.coreUserService.GetUserByID(UserId);
                 //    LocatinId = user.USER_LOCATIONID;
                 //}
 
-                DataTable table = _autofacConfig.SettingService.GetAllAss();
+                AssTable = _autofacConfig.SettingService.GetAllAss();
                 gridAssRows.Cells.Clear();
-                Label1.Text = "总共 " + table.Rows.Count + " 条数据";
+                Label1.Text = "共 " + AssTable.Rows.Count + " 条数据";
                 //table.Columns.Add("IsChecked");
                 //foreach (DataRow Row in table.Rows)
                 //{
@@ -65,9 +64,16 @@ namespace SMOSEC.UI.MasterData
                 //        Row["IsChecked"] = false;
                 //    }
                 //}
-                if (table.Rows.Count > 0)
+                if (AssTable.Rows.Count > 0)
                 {
-                    gridAssRows.DataSource = table;
+                    DataTable dt1 = AssTable.Clone();
+                    page_count = 0;
+                    for (int i = 0; i < 5; i++)
+                    {
+                        AssTable.Rows[i]["StatusName"] = Enum.GetName(typeof(STATUS), AssTable.Rows[i]["status"]);
+                        dt1.ImportRow(AssTable.Rows[i]);
+                    }
+                    gridAssRows.DataSource = dt1;
                     gridAssRows.DataBind();
                 }
             }
@@ -285,26 +291,29 @@ namespace SMOSEC.UI.MasterData
             try
             {
                 string barCode = e.Value;
-                DataTable table = _autofacConfig.SettingService.GetAssetsBySN(barCode);
+                AssTable = _autofacConfig.SettingService.GetAssetsBySN(barCode);
                 gridAssRows.Cells.Clear();
-                //table.Columns.Add("IsChecked");
-                //foreach (DataRow Row in table.Rows)
-                //{
-                //    if (Row["uuid"].ToString() == SelectAssId)
-                //    {
-                //        Row["IsChecked"] = true;
-                //    }
-                //    else
-                //    {
-                //        Row["IsChecked"] = false;
-                //    }
-                //}
-                if (table.Rows.Count > 0)
+                Label1.Text = "共 " + AssTable.Rows.Count + " 条数据";
+
+                if (AssTable.Rows.Count > 0)
                 {
-                    gridAssRows.DataSource = table;
+                    DataTable dt1 = AssTable.Clone();
+                    page_count = 0;
+                    int end_num = page_count * 5 + 5;
+
+                    if (AssTable.Rows.Count < 5)
+                    {
+                        end_num = AssTable.Rows.Count;
+                    }
+
+                    for (int i = 0; i < end_num; i++)
+                    {
+                        AssTable.Rows[i]["StatusName"] = Enum.GetName(typeof(STATUS), AssTable.Rows[i]["status"]);
+                        dt1.ImportRow(AssTable.Rows[i]);
+                    }
+                    gridAssRows.DataSource = dt1;
                     gridAssRows.DataBind();
                 }
-                Label1.Text = "总共 " + table.Rows.Count + " 条数据";
             }
             catch (Exception ex)
             {
@@ -354,6 +363,193 @@ namespace SMOSEC.UI.MasterData
             }
         }
         /// <summary>
+        /// 手机扫描机房二维码
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void imageButton3_Press(object sender, EventArgs e)
+        {
+            try
+            {
+                barcodeScanner3.GetBarcode();
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
+        /// <summary>
+        /// 手机扫描挂账人二维码
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void imageButton4_Press(object sender, EventArgs e)
+        {
+            try
+            {
+                barcodeScanner4.GetBarcode();
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
+        /// <summary>
+        /// 手机二维码扫描到机房二维码信息时
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void barcodeScanner3_BarcodeScanned(object sender, BarcodeResultArgs e)
+        {
+            try
+            {
+                string barCode = e.Value;
+                if (! Regex.IsMatch(barCode, @"^\d+$"))
+                {
+                    throw new Exception("扫描的二维码格式不正确");
+                }
+
+                AssTable = _autofacConfig.SettingService.GetAssetsByRoom(int.Parse(barCode));
+                gridAssRows.Cells.Clear();
+                Label1.Text = "共 " + AssTable.Rows.Count + " 条数据";
+
+                if (AssTable.Rows.Count > 0)
+                {
+                    DataTable dt1 = AssTable.Clone();
+                    page_count = 0;
+                    int end_num = page_count * 5 + 5;
+
+                    if (AssTable.Rows.Count < 5)
+                    {
+                        end_num = AssTable.Rows.Count;
+                    }
+
+                    for (int i = 0; i < end_num; i++)
+                    {
+                        AssTable.Rows[i]["StatusName"] = Enum.GetName(typeof(STATUS), AssTable.Rows[i]["status"]);
+                        dt1.ImportRow(AssTable.Rows[i]);
+                    }
+                    gridAssRows.DataSource = dt1;
+                    gridAssRows.DataBind();
+                }
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// 手机二维码扫描到挂账人二维码信息时
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void barcodeScanner4_BarcodeScanned(object sender, BarcodeResultArgs e)
+        {
+            try
+            {
+                string barCode = e.Value;
+                if (!Regex.IsMatch(barCode, @"^\d+$"))
+                {
+                    throw new Exception("扫描的二维码格式不正确");
+                }
+
+                AssTable = _autofacConfig.SettingService.GetAssetsByPayman(int.Parse(barCode));
+                gridAssRows.Cells.Clear();
+                Label1.Text = "共 " + AssTable.Rows.Count + " 条数据";
+
+                if (AssTable.Rows.Count > 0)
+                {
+                    DataTable dt1 = AssTable.Clone();
+                    page_count = 0;
+                    int end_num = page_count * 5 + 5;
+
+                    if (AssTable.Rows.Count < 5)
+                    {
+                        end_num = AssTable.Rows.Count;
+                    }
+
+                    for (int i = 0; i < end_num; i++)
+                    {
+                        AssTable.Rows[i]["StatusName"] = Enum.GetName(typeof(STATUS), AssTable.Rows[i]["status"]);
+                        dt1.ImportRow(AssTable.Rows[i]);
+                    }
+                    gridAssRows.DataSource = dt1;
+                    gridAssRows.DataBind();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
+        /// <summary>
+        /// 下一页
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void next_page_Press(object sender, EventArgs e)
+        {
+            try
+            {
+                if (page_count >= AssTable.Rows.Count / 5)
+                    throw new Exception("已经是尾页");
+
+                DataTable dt1 = AssTable.Clone();
+                page_count ++;
+                int end_num = page_count * 5 + 5;
+                if (page_count == AssTable.Rows.Count / 5)
+                {
+                    end_num = page_count * 5 + AssTable.Rows.Count % 5;
+                }
+                for (int i = page_count*5; i < end_num; i++)
+                {
+                    AssTable.Rows[i]["StatusName"] = Enum.GetName(typeof(STATUS), AssTable.Rows[i]["status"]);
+                    dt1.ImportRow(AssTable.Rows[i]);
+                }
+                if (dt1.Rows.Count > 0)
+                {
+                    gridAssRows.DataSource = dt1;
+                    gridAssRows.DataBind();
+                }
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
+        /// <summary>
+        /// 上一页
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void pre_page_Press(object sender, EventArgs e)
+        {
+            try
+            {
+                if (page_count == 0)
+                    throw new Exception("已经是首页");
+
+                DataTable dt1 = AssTable.Clone();
+                page_count--;
+                for (int i = page_count * 5; i < page_count * 5 + 5; i++)
+                {
+                    AssTable.Rows[i]["StatusName"] = Enum.GetName(typeof(STATUS), AssTable.Rows[i]["status"]);
+                    dt1.ImportRow(AssTable.Rows[i]);
+                }
+                if (dt1.Rows.Count > 0)
+                {
+                    gridAssRows.DataSource = dt1;
+                    gridAssRows.DataBind();
+                }
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
+        /// <summary>
         /// 机房选择
         /// </summary>
         /// <param name="sender"></param>
@@ -394,6 +590,14 @@ namespace SMOSEC.UI.MasterData
         private void popDep_Selected(object sender, EventArgs e)
         {
             setBtnTag(popDep, btnDep);
+            if (btnDep.Tag != null)
+            {
+                btnDep.Text = popDep.Selection.Text;
+            }
+            else if (btnDep.Tag == null)
+            {
+                btnDep.Text = "机房选择▼";
+            }
         }
         /// <summary>
         /// 资产状态选择
@@ -412,6 +616,14 @@ namespace SMOSEC.UI.MasterData
         private void popStatus_Selected(object sender, EventArgs e)
         {
             setBtnTag(popStatus, btnStatus);
+            if (btnStatus.Tag != null)
+            {
+                btnStatus.Text = popStatus.Selection.Text;
+            }
+            else if (btnStatus.Tag == null)
+            {
+                btnStatus.Text = "资产状态▼";
+            }
         }
         /// <summary>
         /// 资产类别选择
@@ -457,6 +669,14 @@ namespace SMOSEC.UI.MasterData
         private void popType_Selected(object sender, EventArgs e)
         {
             setBtnTag(popType, btnType);
+            if (btnType.Tag != null)
+            {
+                btnType.Text = popType.Selection.Text;
+            }
+            else if (btnType.Tag == null)
+            {
+                btnType.Text = "类别选择▼";
+            }
         }
 
         /// <summary>
@@ -467,14 +687,38 @@ namespace SMOSEC.UI.MasterData
         private void popPro_Selected(object sender, EventArgs e)
         {
             setBtnTag(popPro, btnPro);
+            if (btnPro.Tag != null)
+            {
+                btnPro.Text = popPro.Selection.Text;
+            }
+            else if (btnPro.Tag == null)
+            {
+                btnPro.Text = "项目选择▼";
+            }
         }
         private void popPayman_Selected(object sender, EventArgs e)
         {
             setBtnTag(popPayman, btnPayman);
+            if (btnPayman.Tag != null)
+            {
+                btnPayman.Text = popPayman.Selection.Text;
+            }
+            else if (btnPayman.Tag == null)
+            {
+                btnPayman.Text = "挂账人▼";
+            }
         }
         private void popUseman_Selected(object sender, EventArgs e)
         {
             setBtnTag(popUseman, btnUseman);
+            if (btnUseman.Tag != null)
+            {
+                btnUseman.Text = popUseman.Selection.Text;
+            }
+            else if (btnUseman.Tag == null)
+            {
+                btnUseman.Text = "使用人▼";
+            }
         }
 
         /// <summary>
@@ -488,12 +732,12 @@ namespace SMOSEC.UI.MasterData
             if (String.IsNullOrEmpty(popList.Selection.Text) == false)
             //if (popList.Selection.Text != "-1")
             {
-                if (button.Tag == null)
+                if (button.Tag == null && popList.Selection.Value != "-1")
                 {
-                    button.Tag = popList.Selection.Value;         //选择大类编号
-                    SearchData();
+                        button.Tag = popList.Selection.Value;         //选择大类编号
+                        SearchData();
                 }
-                else if (popList.Selection.Value == "")
+                else if (popList.Selection.Value == "-1")
                 {
                     button.Tag = null;
                     SearchData();
@@ -624,13 +868,33 @@ namespace SMOSEC.UI.MasterData
                 String Payman = btnPayman.Tag == null ? "-1" : btnPayman.Tag.ToString();
                 String Useman = btnUseman.Tag == null ? "-1" : btnUseman.Tag.ToString();
 
-                DateTime dt1 = DateTime.Now;
-                DataTable table = _autofacConfig.SettingService.QueryAssets(txtNote.Text, int.Parse(DepId), int.Parse(Status), int.Parse(Type),
+                DateTime t1 = DateTime.Now;
+                AssTable  = _autofacConfig.SettingService.QueryAssets(txtNote.Text, int.Parse(DepId), int.Parse(Status), int.Parse(Type),
                     int.Parse(Pro),int.Parse(Payman), int.Parse(Useman));
                 gridAssRows.Cells.Clear();
-                Label1.Text = "总共 " + table.Rows.Count + " 条数据";
-                DateTime dt2 = DateTime.Now;
-                double use1 = (dt2 - dt1).TotalMilliseconds;
+                Label1.Text = "共 " + AssTable.Rows.Count + " 条数据";
+                DateTime t2 = DateTime.Now;
+                double use1 = (t2 - t1).TotalMilliseconds;
+
+                if (AssTable.Rows.Count > 0)
+                {
+                    DataTable dt1 = AssTable.Clone();
+                    page_count = 0;
+                    int end_num = page_count * 5 + 5;
+                    if (AssTable.Rows.Count < 5)
+                    {
+                        end_num = AssTable.Rows.Count;
+                    }
+
+                    for (int i = 0; i < end_num; i++)
+                    {
+                        AssTable.Rows[i]["StatusName"] = Enum.GetName(typeof(STATUS), AssTable.Rows[i]["status"]);
+                        dt1.ImportRow(AssTable.Rows[i]);
+                    }
+
+                    gridAssRows.DataSource = dt1;
+                    gridAssRows.DataBind();
+                }
                 //table.Columns.Add("IsChecked");
                 //foreach (DataRow Row in table.Rows)
                 //{
@@ -643,13 +907,8 @@ namespace SMOSEC.UI.MasterData
                 //        Row["IsChecked"] = false;
                 //    }
                 //}
-                if (table.Rows.Count > 0)
-                {
-                    gridAssRows.DataSource = table;
-                    gridAssRows.DataBind();
-                }
-                DateTime dt3 = DateTime.Now;
-                double use2 = (dt3 - dt2).TotalMilliseconds;
+                DateTime t3 = DateTime.Now;
+                double use2 = (t3 - t2).TotalMilliseconds;
             }
             catch (Exception ex)
             {

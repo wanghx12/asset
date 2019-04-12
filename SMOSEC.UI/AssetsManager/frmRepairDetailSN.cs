@@ -30,7 +30,7 @@ namespace SMOSEC.UI.AssetsManager
         {
             try
             {
-                ReturnInfo r = autofacConfig.assRepairOrderService.UpdateAssRepairOrder(ROID, "Î¬ÐÞÍê±Ï");
+                ReturnInfo r = autofacConfig.assRepairOrderService.UpdateAssRepairOrder(ROID, "ÐÞºÃ");
                 if (r.IsSuccess)
                 {
                     ShowResult = ShowResult.Yes;
@@ -58,7 +58,7 @@ namespace SMOSEC.UI.AssetsManager
         {
             try
             {
-                ReturnInfo r = autofacConfig.assRepairOrderService.UpdateAssRepairOrder(ROID, "Î¬ÐÞÊ§°Ü");
+                ReturnInfo r = autofacConfig.assRepairOrderService.UpdateAssRepairOrder(ROID, "Î´ÐÞºÃ");
                 if (r.IsSuccess)
                 {
                     ShowResult = ShowResult.Yes;

@@ -1,93 +1,63 @@
-2019-03-15 13:55:51 [Server] Starting 
-2019-03-15 13:55:51 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
+2019/03/15 09:57:27 [10.112.47.95:50335] ClientAccept 
+2019/03/15 09:57:27 [10.112.47.95:50335] Client HandShake 
+2019/03/15 09:57:27 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] STTP-NewClient 
+2019/03/15 09:57:27 [10.112.47.95-4C4C3870_76BE_4FE8_8D35_8D27D6636449] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone11,8","screenSize":{"width":750,"height":1624},"density":2.0,"version":"4.7.0","coreVersion":"4.7.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler"}} 
+2019/03/15 09:57:27 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] OnStart-Starting with NewClient -  
+2019/03/15 09:57:27 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] Show-frmLogon 
+2019/03/15 09:57:27 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] OnStart-Started with NewClient 
+2019/03/15 09:58:23 [10.112.47.95:50335] EndReceive 0 - ShutDown 
+2019/03/15 09:58:40 [10.112.47.95:50341] ClientAccept 
+2019/03/15 09:58:46 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] Show-frmAssets 
+2019/03/15 09:59:56 [10.112.47.95:50341] EndReceive 0 - ShutDown 
+2019/03/15 10:29:49 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] SessionTimeOut- 
+2019/03/15 10:29:49 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] OnStop-Stoping-SessionTimeOut-True-- 
+2019/03/15 10:29:49 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] OnStop-Stoped 
+2019/03/15 13:50:19 [10.112.125.95:50576] ClientAccept 
+2019/03/15 13:50:19 [10.112.125.95:50576] Client HandShake 
+2019/03/15 13:50:19 [7055B107_50A0_414B_841C_A3FE8998E15A] STTP-NewClient 
+2019/03/15 13:50:19 [10.112.125.95-7055B107_50A0_414B_841C_A3FE8998E15A] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.7.0","coreVersion":"4.7.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler"}} 
+2019/03/15 13:50:19 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStart-Starting with NewClient -  
+2019/03/15 13:50:19 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmLogon 
+2019/03/15 13:50:19 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStart-Started with NewClient 
+2019/03/15 13:50:20 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmAssets 
+2019/03/15 13:50:34 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmAssetsDetail 
+2019/03/15 13:50:49 [7055B107_50A0_414B_841C_A3FE8998E15A] Close-frmAssetsDetail 
+2019/03/15 13:50:49 [7055B107_50A0_414B_841C_A3FE8998E15A] Refresh-Pop-frmAssets 
+2019/03/15 13:54:14 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmBorrowOrder 
+2019/03/15 13:54:15 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmBoCreate 
+2019/03/15 13:54:23 [10.112.125.95:50576] EndReceive 0 - ShutDown 
+2019/03/15 14:24:57 [7055B107_50A0_414B_841C_A3FE8998E15A] SessionTimeOut- 
+2019/03/15 14:24:57 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStop-Stoping-SessionTimeOut-True-- 
+2019/03/15 14:24:57 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStop-Stoped 
+2019/03/15 14:29:55 [Server] Stoping 
+2019/03/15 14:29:55 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2019/03/15 14:29:57 [Server] Stoped 
+2019/03/15 14:29:57 [AutoSet] Stop 
+2019/03/15 14:30:39 [Server] Starting 
+2019/03/15 14:30:39 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: False, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
+        BasePath: C:\whx\whx\SMOSEC.UI\bin\Debug\
+        DefaultImagePath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Media
+        DefaultWebPath: C:\whx\whx\SMOSEC.UI\bin\Debug\Resources\Web
  
-2019-03-15 13:55:51 [Server] Started 
-2019-03-15 13:55:53 [AutoSet] Start 
-2019-03-15 13:56:00 [10.112.125.95:50614] ClientAccept 
-2019-03-15 13:56:00 [10.112.125.95:50614] Client HandShake 
-2019-03-15 13:56:00 [7055B107_50A0_414B_841C_A3FE8998E15A] STTP-NewClient 
-2019-03-15 13:56:01 [10.112.125.95-7055B107_50A0_414B_841C_A3FE8998E15A] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.7.0","coreVersion":"4.7.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler"}} 
-2019-03-15 13:56:01 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStart-Starting with NewClient -  
-2019-03-15 13:56:01 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmLogon 
-2019-03-15 13:56:03 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStart-Started with NewClient 
-2019-03-15 13:56:07 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmAssets 
-2019-03-15 13:56:11 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmBorrowOrder 
-2019-03-15 13:56:12 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmBoDetail 
-2019-03-15 13:56:45 [7055B107_50A0_414B_841C_A3FE8998E15A] Close-frmBoDetail 
-2019-03-15 13:56:45 [7055B107_50A0_414B_841C_A3FE8998E15A] Refresh-Pop-frmBorrowOrder 
-2019-03-15 13:56:48 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmBoDetail 
-2019-03-15 13:59:44 [10.112.125.95:50614] EndReceive 0 - ShutDown 
-2019-03-15 13:59:49 [10.112.125.95:50630] ClientAccept 
-2019-03-15 14:00:06 [7055B107_50A0_414B_841C_A3FE8998E15A] Close-frmBoDetail 
-2019-03-15 14:00:06 [7055B107_50A0_414B_841C_A3FE8998E15A] Refresh-Pop-frmBorrowOrder 
-2019-03-15 14:00:08 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmBoDetail 
-2019-03-15 14:01:31 [7055B107_50A0_414B_841C_A3FE8998E15A] Close-frmBoDetail 
-2019-03-15 14:01:31 [7055B107_50A0_414B_841C_A3FE8998E15A] Refresh-Pop-frmBorrowOrder 
-2019-03-15 14:01:32 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmBoDetail 
-2019-03-15 14:02:15 [10.112.125.95:50630] EndReceive 0 - ShutDown 
-2019-03-15 14:04:03 [10.112.125.95:50636] ClientAccept 
-2019-03-15 14:06:20 [10.112.125.95:50636] EndReceive 0 - ShutDown 
-2019-03-15 14:06:23 [10.112.125.95:50643] ClientAccept 
-2019-03-15 14:07:29 [10.112.125.95:50643] EndReceive 0 - ShutDown 
-2019-03-15 14:11:31 [10.112.125.95:50785] ClientAccept 
-2019-03-15 14:11:35 [10.112.125.95:50785] EndReceive 0 - ShutDown 
-2019-03-15 14:21:04 [Server] Starting 
-2019-03-15 14:21:05 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
- 
-2019-03-15 14:21:05 [Server] Started 
-2019-03-15 14:21:05 [AutoSet] Start 
-2019-03-15 14:21:17 [10.112.125.95:50798] ClientAccept 
-2019-03-15 14:21:17 [10.112.125.95:50798] Client HandShake 
-2019-03-15 14:21:17 [7055B107_50A0_414B_841C_A3FE8998E15A] STTP-NewClient 
-2019-03-15 14:21:17 [10.112.125.95-7055B107_50A0_414B_841C_A3FE8998E15A] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.7.0","coreVersion":"4.7.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler"}} 
-2019-03-15 14:21:17 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStart-Starting with NewClient -  
-2019-03-15 14:21:17 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmLogon 
-2019-03-15 14:21:19 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStart-Started with NewClient 
-2019-03-15 14:21:47 [10.112.125.95:50798] EndReceive 0 - ShutDown 
-2019-03-15 14:21:58 [10.112.125.95:50801] ClientAccept 
-2019-03-15 14:22:00 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmAssets 
-2019-03-15 14:22:05 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmBorrowOrder 
-2019-03-15 14:22:06 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmBoDetail 
-2019-03-15 14:22:09 [7055B107_50A0_414B_841C_A3FE8998E15A] Close-frmBoDetail 
-2019-03-15 14:22:09 [7055B107_50A0_414B_841C_A3FE8998E15A] Refresh-Pop-frmBorrowOrder 
-2019-03-15 14:22:10 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmBoDetail 
-2019-03-15 14:24:55 [Server] Starting 
-2019-03-15 14:24:55 [Initial] Version: 460.1540354032, HttpServerPort: 80, TcpServerPort: 8080, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, MirrorPatternMaxVerifyTimes: 3, RelativeScreen: True, TextFontScaling: True, IsSysLog: False
-        BasePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\
-        DefaultImagePath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Image
-        DefaultAudioPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Audio
-        DefaultDocumentPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Document
-        DefaultUploadPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Upload
-        DefaultMediaPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Media
-        DefaultWebPath: D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.UI\bin\Debug\Resources\Web
- 
-2019-03-15 14:24:55 [Server] Started 
-2019-03-15 14:24:55 [AutoSet] Start 
-2019-03-15 14:24:56 [10.112.125.95:50817] ClientAccept 
-2019-03-15 14:24:56 [10.112.125.95:50817] Client HandShake 
-2019-03-15 14:24:57 [7055B107_50A0_414B_841C_A3FE8998E15A] STTP-NewClient 
-2019-03-15 14:24:57 [10.112.125.95-7055B107_50A0_414B_841C_A3FE8998E15A] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone10,3","screenSize":{"width":1125,"height":2436},"density":3.0,"version":"4.7.0","coreVersion":"4.7.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler"}} 
-2019-03-15 14:24:57 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStart-Starting with NewClient -  
-2019-03-15 14:24:57 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmLogon 
-2019-03-15 14:24:58 [7055B107_50A0_414B_841C_A3FE8998E15A] OnStart-Started with NewClient 
-2019-03-15 14:25:01 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmAssets 
-2019-03-15 14:25:07 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmBorrowOrder 
-2019-03-15 14:25:08 [7055B107_50A0_414B_841C_A3FE8998E15A] Show-frmBoDetail 
-2019-03-15 14:26:03 [10.112.125.95:50817] EndReceive 0 - ShutDown 
-2019-03-15 14:26:10 [10.112.125.95:50832] ClientAccept 
-2019-03-15 14:26:44 [7055B107_50A0_414B_841C_A3FE8998E15A] Close-frmBoDetail 
-2019-03-15 14:26:44 [7055B107_50A0_414B_841C_A3FE8998E15A] Refresh-Pop-frmBorrowOrder 
+2019/03/15 14:30:40 [AutoSet] Start 
+2019/03/15 14:30:40 [Server] Started 
+2019/03/15 17:11:39 [10.112.47.95:51386] ClientAccept 
+2019/03/15 17:11:39 [10.112.47.95:51386] Client HandShake 
+2019/03/15 17:11:39 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] STTP-NewClient 
+2019/03/15 17:11:39 [10.112.47.95-4C4C3870_76BE_4FE8_8D35_8D27D6636449] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone11,8","screenSize":{"width":750,"height":1624},"density":2.0,"version":"4.7.0","coreVersion":"4.7.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler"}} 
+2019/03/15 17:11:39 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] OnStart-Starting with NewClient -  
+2019/03/15 17:11:40 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] Show-frmLogon 
+2019/03/15 17:11:43 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] OnStart-Started with NewClient 
+2019/03/15 17:12:00 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] Show-frmAssets 
+2019/03/15 17:12:06 [10.112.47.95:51386] EndReceive 0 - ShutDown 
+2019/03/15 17:12:09 [10.112.47.95:51395] ClientAccept 
+2019/03/15 17:12:09 [10.112.47.95:51395] Client HandShake 
+2019/03/15 17:12:09 [10.112.47.95-4C4C3870_76BE_4FE8_8D35_8D27D6636449] {"deviceOS":"IOS","deviceOSVersion":"12.1.4","deviceModel":"iPhone11,8","screenSize":{"width":750,"height":1624},"density":2.0,"version":"4.7.0","coreVersion":"4.7.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler"}} 
+2019/03/15 17:12:09 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] Refresh-True 
+2019/03/15 17:12:09 [4C4C3870_76BE_4FE8_8D35_8D27D6636449] Refresh-Initial-frmAssets 
+2019/03/15 17:12:43 [10.112.47.95:51395] EndReceive 0 - ShutDown 

@@ -292,8 +292,7 @@ namespace SMOSEC.Application.Services
             var result = from assetse in list
                          join location in SMOSECDbContext.AssLocations on assetse.machine_room_id equals location.id
                          join type in SMOSECDbContext.AssetsTypes on assetse.asset_type_id equals type.id
-                         join brand in SMOSECDbContext.AssetsBrands on assetse.machine_room_id equals brand.id
-                         join team in SMOSECDbContext.AssetsTeam on assetse.machine_room_id equals team.id
+                         join brand in SMOSECDbContext.AssetsBrands on assetse.brand_id equals brand.id
                          select new
                          {
                              uuid = assetse.uuid,
@@ -310,13 +309,12 @@ namespace SMOSEC.Application.Services
                              TypeName = type.name,
                              remark = assetse.remark,
                              Brand = brand.name,
-                             Team = team.name
                         };
             DataTable table = LINQToDataTable.ToDataTable(result);
-            foreach (DataRow row in table.Rows)
-            {
-                row["StatusName"] = Enum.GetName(typeof(STATUS), row["status"]);           
-            }
+            //foreach (DataRow row in table.Rows)
+            //{
+            //    row["StatusName"] = Enum.GetName(typeof(STATUS), row["status"]);           
+            //}
             return table;
         }
 
@@ -468,6 +466,7 @@ namespace SMOSEC.Application.Services
         /// <returns></returns>
         public DataTable QueryAssets(string SNOrName, int LocationId, int Status, int Type, int Pro, int payman, int useman)
         {
+            DateTime t1 = DateTime.Now;
             var result = _AssetsRepository.QueryAssets(SNOrName).AsNoTracking();
 
             if (LocationId != -1)
@@ -483,46 +482,64 @@ namespace SMOSEC.Application.Services
             if (useman != -1)
                 result = result.Where(a => a.use_man_id == useman);
 
-            DataTable table = LINQToDataTable.ToDataTable(result);
-            table.Columns.Add("StatusName");
-            table.Columns.Add("Brand");
-            table.Columns.Add("room");
-            //table.Columns.Add("position");
-            //table.Columns.Add("LocationName");
+            var final_result = from assetse in result
+                         join location in SMOSECDbContext.AssLocations on assetse.machine_room_id equals location.id
+                         join type in SMOSECDbContext.AssetsTypes on assetse.asset_type_id equals type.id
+                         join brand in SMOSECDbContext.AssetsBrands on assetse.brand_id equals brand.id
+                         select new
+                         {
+                             uuid = assetse.uuid,
+                             status = assetse.status,
+                             StatusName = "",
+                             room = location.name,
+                             position = assetse.position,
+                             sn = assetse.sn,
+                             TypeName = type.name,
+                             remark = assetse.remark,
+                             Brand = brand.name,
+                         };
+            DataTable table = LINQToDataTable.ToDataTable(final_result);
+            return table;
 
-            foreach (DataRow row in table.Rows)
-            {
-                row["StatusName"] = Enum.GetName(typeof(STATUS), row["status"]);
+            //DataTable table = LINQToDataTable.ToDataTable(result);
+            //table.Columns.Add("StatusName");
+            //table.Columns.Add("Brand");
+            //table.Columns.Add("room");
+            ////table.Columns.Add("position");
+            ////table.Columns.Add("LocationName");
 
-                //cmdb_machineroom dep = _departmentRepository.GetByID(LocationId).FirstOrDefault();
-                //if (dep != null)
-                //{
-                //    row["LocationName"] = dep.name;
-                //}
+            //foreach (DataRow row in table.Rows)
+            //{
+            //    row["StatusName"] = Enum.GetName(typeof(STATUS), row["status"]);
 
-                //cmdb_assettype type = _assetsTypeRepository.GetByID(int.Parse(row["asset_type_id"].ToString())).AsNoTracking().FirstOrDefault();
-                //if (type != null)
-                //{
-                //    row["TypeName"] = type.name;
-                //}
+            //    //cmdb_machineroom dep = _departmentRepository.GetByID(LocationId).FirstOrDefault();
+            //    //if (dep != null)
+            //    //{
+            //    //    row["LocationName"] = dep.name;
+            //    //}
 
-                cmdb_brand brand = _assetsBrandRepository.GetByID(int.Parse(row["brand_id"].ToString())).AsNoTracking().FirstOrDefault();
-                if (brand != null)
-                {
-                    row["Brand"] = brand.name;
-                }
+            //    //cmdb_assettype type = _assetsTypeRepository.GetByID(int.Parse(row["asset_type_id"].ToString())).AsNoTracking().FirstOrDefault();
+            //    //if (type != null)
+            //    //{
+            //    //    row["TypeName"] = type.name;
+            //    //}
+            //    cmdb_brand brand = _assetsBrandRepository.GetByID(int.Parse(row["brand_id"].ToString())).AsNoTracking().FirstOrDefault();
+            //    if (brand != null)
+            //    {
+            //        row["Brand"] = brand.name;
+            //    }
 
-                cmdb_machineroom room = _departmentRepository.GetByID(int.Parse(row["machine_room_id"].ToString())).AsNoTracking().FirstOrDefault();
-                if (room != null)
-                {
-                    row["room"] = room.name;
-                }
-                //row["position"] = row["position"].ToString();
+            //    cmdb_machineroom room = _departmentRepository.GetByID(int.Parse(row["machine_room_id"].ToString())).AsNoTracking().FirstOrDefault();
+            //    if (room != null)
+            //    {
+            //        row["room"] = room.name;
+            //    }
+            //    //row["position"] = row["position"].ToString();
 
+            //}
 
-            }
-
-                return table;
+            //DateTime t2 = DateTime.Now;
+            //return table;
         }
 
         /// <summary>
@@ -535,31 +552,100 @@ namespace SMOSEC.Application.Services
         {
             //var result = _AssetsRepository.GetAssetsBySN(SN).AsNoTracking();
             var result = _AssetsRepository.QueryAssets(SN).AsNoTracking();
-            //return LINQToDataTable.ToDataTable(result);
-            DataTable table = LINQToDataTable.ToDataTable(result);
-
-            table.Columns.Add("StatusName");
-            table.Columns.Add("Brand");
-            table.Columns.Add("room");
-            //table.Columns.Add("LocationName");
-
-            foreach (DataRow row in table.Rows)
-            {
-                row["StatusName"] = Enum.GetName(typeof(STATUS), row["status"]);
-                cmdb_brand brand = _assetsBrandRepository.GetByID(int.Parse(row["brand_id"].ToString())).AsNoTracking().FirstOrDefault();
-                if (brand != null)
-                {
-                    row["Brand"] = brand.name;
-                }
-                cmdb_machineroom room = _departmentRepository.GetByID(int.Parse(row["machine_room_id"].ToString())).AsNoTracking().FirstOrDefault();
-                if (room != null)
-                {
-                    row["room"] = room.name;
-                }
-            }
+            var final_result = from assetse in result
+                               join location in SMOSECDbContext.AssLocations on assetse.machine_room_id equals location.id
+                               join type in SMOSECDbContext.AssetsTypes on assetse.asset_type_id equals type.id
+                               join brand in SMOSECDbContext.AssetsBrands on assetse.brand_id equals brand.id
+                               select new
+                               {
+                                   uuid = assetse.uuid,
+                                   status = assetse.status,
+                                   StatusName = "",
+                                   room = location.name,
+                                   position = assetse.position,
+                                   sn = assetse.sn,
+                                   TypeName = type.name,
+                                   remark = assetse.remark,
+                                   Brand = brand.name,
+                               };
+            DataTable table = LINQToDataTable.ToDataTable(final_result);
             return table;
+            //return LINQToDataTable.ToDataTable(result);
+            //DataTable table = LINQToDataTable.ToDataTable(result);
 
-            
+            //table.Columns.Add("StatusName");
+            //table.Columns.Add("Brand");
+            //table.Columns.Add("room");
+
+            //foreach (DataRow row in table.Rows)
+            //{
+            //    row["StatusName"] = Enum.GetName(typeof(STATUS), row["status"]);
+            //    cmdb_brand brand = _assetsBrandRepository.GetByID(int.Parse(row["brand_id"].ToString())).AsNoTracking().FirstOrDefault();
+            //    if (brand != null)
+            //    {
+            //        row["Brand"] = brand.name;
+            //    }
+            //    cmdb_machineroom room = _departmentRepository.GetByID(int.Parse(row["machine_room_id"].ToString())).AsNoTracking().FirstOrDefault();
+            //    if (room != null)
+            //    {
+            //        row["room"] = room.name;
+            //    }
+            //}
+            //return table;
+        }
+
+        /// <summary>
+        /// 根据机房得到资产信息
+        /// </summary>
+        /// <returns></returns>
+        public DataTable GetAssetsByRoom(int room)
+        {
+            var result = _AssetsRepository.QueryAssetsByRoom(room).AsNoTracking();
+            var final_result = from assetse in result
+                               join location in SMOSECDbContext.AssLocations on assetse.machine_room_id equals location.id
+                               join type in SMOSECDbContext.AssetsTypes on assetse.asset_type_id equals type.id
+                               join brand in SMOSECDbContext.AssetsBrands on assetse.brand_id equals brand.id
+                               select new
+                               {
+                                   uuid = assetse.uuid,
+                                   status = assetse.status,
+                                   StatusName = "",
+                                   room = location.name,
+                                   position = assetse.position,
+                                   sn = assetse.sn,
+                                   TypeName = type.name,
+                                   remark = assetse.remark,
+                                   Brand = brand.name,
+                               };
+            DataTable table = LINQToDataTable.ToDataTable(final_result);
+            return table;
+        }
+
+        /// <summary>
+        /// 根据挂账人得到资产信息
+        /// </summary>
+        /// <returns></returns>
+        public DataTable GetAssetsByPayman(int payman)
+        {
+            var result = _AssetsRepository.QueryAssetsByPayman(payman).AsNoTracking();
+            var final_result = from assetse in result
+                               join location in SMOSECDbContext.AssLocations on assetse.machine_room_id equals location.id
+                               join type in SMOSECDbContext.AssetsTypes on assetse.asset_type_id equals type.id
+                               join brand in SMOSECDbContext.AssetsBrands on assetse.brand_id equals brand.id
+                               select new
+                               {
+                                   uuid = assetse.uuid,
+                                   status = assetse.status,
+                                   StatusName = "",
+                                   room = location.name,
+                                   position = assetse.position,
+                                   sn = assetse.sn,
+                                   TypeName = type.name,
+                                   remark = assetse.remark,
+                                   Brand = brand.name,
+                               };
+            DataTable table = LINQToDataTable.ToDataTable(final_result);
+            return table;
         }
 
         /// <summary>

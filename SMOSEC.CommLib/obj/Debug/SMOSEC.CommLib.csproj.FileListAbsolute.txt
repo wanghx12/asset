@@ -12,3 +12,9 @@ D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.CommLib\obj\Debug\SMOSEC.Com
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.CommLib\obj\Debug\SMOSEC.CommLib.dll
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.CommLib\obj\Debug\SMOSEC.CommLib.pdb
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.CommLib\obj\Debug\SMOSEC.CommLib.csprojAssemblyReference.cache
+C:\whx\whx\SMOSEC.CommLib\bin\Debug\SMOSEC.CommLib.dll.config
+C:\whx\whx\SMOSEC.CommLib\bin\Debug\SMOSEC.CommLib.dll
+C:\whx\whx\SMOSEC.CommLib\bin\Debug\SMOSEC.CommLib.pdb
+C:\whx\whx\SMOSEC.CommLib\obj\Debug\SMOSEC.CommLib.csproj.CoreCompileInputs.cache
+C:\whx\whx\SMOSEC.CommLib\obj\Debug\SMOSEC.CommLib.dll
+C:\whx\whx\SMOSEC.CommLib\obj\Debug\SMOSEC.CommLib.pdb

@@ -119,11 +119,24 @@ namespace SMOSEC.Application.IServices
         /// </summary>
         /// <returns></returns>
         List<string> GetAllSns();
+        
         /// <summary>
         /// 得到所有的唯一号
         /// </summary>
         /// <returns></returns>
         List<string> GetAlluuid();
+
+        /// <summary>
+        /// 根据机房得到资产信息
+        /// </summary>
+        /// <returns></returns>
+        DataTable GetAssetsByRoom(int room);
+        
+        /// <summary>
+        /// 根据挂账人得到资产信息
+        /// </summary>
+        /// <returns></returns>
+        DataTable GetAssetsByPayman(int payman);
 
 
         #endregion

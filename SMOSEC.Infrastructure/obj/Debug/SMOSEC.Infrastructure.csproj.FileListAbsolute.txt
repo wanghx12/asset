@@ -36,3 +36,22 @@ D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Infrastructure\bin\Debug\Ent
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Infrastructure\bin\Debug\MySql.Data.xml
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Infrastructure\bin\Debug\MySql.Data.Entity.EF6.xml
 D:\Program Files (x86)\Smobiler Designer\whx\SMOSEC.Infrastructure\obj\Debug\SMOSEC.Infrastructure.csproj.CopyComplete
+C:\whx\whx\SMOSEC.Infrastructure\bin\Debug\SMOSEC.Infrastructure.dll.config
+C:\whx\whx\SMOSEC.Infrastructure\bin\Debug\SMOSEC.Infrastructure.dll
+C:\whx\whx\SMOSEC.Infrastructure\bin\Debug\SMOSEC.Infrastructure.pdb
+C:\whx\whx\SMOSEC.Infrastructure\bin\Debug\EntityFramework.dll
+C:\whx\whx\SMOSEC.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\whx\whx\SMOSEC.Infrastructure\bin\Debug\SMOSEC.Domain.dll
+C:\whx\whx\SMOSEC.Infrastructure\bin\Debug\SMOSEC.Domain.pdb
+C:\whx\whx\SMOSEC.Infrastructure\bin\Debug\SMOSEC.Domain.dll.config
+C:\whx\whx\SMOSEC.Infrastructure\bin\Debug\EntityFramework.xml
+C:\whx\whx\SMOSEC.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\whx\whx\SMOSEC.Infrastructure\bin\Debug\MySql.Data.xml
+C:\whx\whx\SMOSEC.Infrastructure\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\whx\whx\SMOSEC.Infrastructure\obj\Debug\SMOSEC.Infrastructure.csprojAssemblyReference.cache
+C:\whx\whx\SMOSEC.Infrastructure\obj\Debug\SMOSEC.Infrastructure.csproj.CoreCompileInputs.cache
+C:\whx\whx\SMOSEC.Infrastructure\obj\Debug\SMOSEC.Infrastructure.csproj.CopyComplete
+C:\whx\whx\SMOSEC.Infrastructure\obj\Debug\SMOSEC.Infrastructure.dll
+C:\whx\whx\SMOSEC.Infrastructure\obj\Debug\SMOSEC.Infrastructure.pdb
+C:\whx\whx\SMOSEC.Infrastructure\bin\Debug\MySql.Data.dll
+C:\whx\whx\SMOSEC.Infrastructure\bin\Debug\MySql.Data.Entity.EF6.dll
