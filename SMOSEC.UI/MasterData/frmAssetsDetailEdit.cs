@@ -36,6 +36,8 @@ namespace SMOSEC.UI.MasterData
         public int? Team_id;
         public int? CurrentUser;
         public short Status;
+        public Nullable<DateTime> give_time;
+        public Nullable<DateTime> return_time;
 
 
         #endregion
@@ -82,7 +84,6 @@ namespace SMOSEC.UI.MasterData
                     throw new Exception("请选择挂账人.");
                 }
 
-
                 AssetsInputDto assetsInputDto = new AssetsInputDto
                 {
                     //id = id,
@@ -101,10 +102,11 @@ namespace SMOSEC.UI.MasterData
                     //Role = txtRole1.Text,
                     //CurrentUserName = txtUserman1.Text,
 
-                    //give_time = txtBordate1.Value,
-                    //return_time = txtRedate1.Value,
-                    give_time = txtBordate1.Tag != null ? txtBordate1.Value : new Nullable<DateTime>(),
-                    return_time = txtRedate1.Tag != null ? txtRedate1.Value : new Nullable<DateTime>(),
+                    //give_time = txtBordate1.Tag != null ? txtBordate1.Value : new Nullable<DateTime>(),
+                    //return_time = txtRedate1.Tag != null ? txtRedate1.Value : new Nullable<DateTime>(),
+                    give_time = give_time,
+                    return_time = return_time,
+                   
                     remark = txtNote.Text,
 
                     asset_type_id = TypeId,
@@ -112,10 +114,14 @@ namespace SMOSEC.UI.MasterData
                     machine_room_id = LocationId,
                     pay_man_id = Pay_man_id,
 
-                    project_id = popPro.Selection != null ? Project_id : null,
-                    role_id = popRole.Selection != null ? Role_id : null,
-                    team_id = popTeam.Selection != null ? Team_id : null,
-                    use_man_id = popUser.Selection != null ? CurrentUser : null,
+                    //project_id = popPro.Selection != null ? Project_id : null,
+                    //role_id = popRole.Selection != null ? Role_id : null,
+                    //team_id = popTeam.Selection != null ? Team_id : null,
+                    //use_man_id = popUser.Selection != null ? CurrentUser : null,
+                    project_id = Project_id,
+                    role_id = Role_id,
+                    team_id = Team_id,
+                    use_man_id = CurrentUser,
                     modify_date = DateTime.Now
                 };
                 //MessageBox.Show(txtRedate1.Value.ToString());
@@ -123,8 +129,8 @@ namespace SMOSEC.UI.MasterData
                 ReturnInfo returnInfo = _autofacConfig.SettingService.UpdateAssets(assetsInputDto, username);
                 if (returnInfo.IsSuccess)
                 {
-                    ShowResult = ShowResult.No;
-                    //ShowResult = ShowResult.Yes;
+                    //ShowResult = ShowResult.No;
+                    ShowResult = ShowResult.Yes;
                     Close();
                     Toast("修改成功.");
                 }
@@ -150,7 +156,6 @@ namespace SMOSEC.UI.MasterData
             {
                 popBrand.Groups.Clear();
                 PopListGroup brandGroup = new PopListGroup(); //{ Title = "品牌型号" };
-
                 var brandlist = _autofacConfig.assBrandService.GetAll();
                 foreach (var dep in brandlist)
                 {
@@ -184,6 +189,7 @@ namespace SMOSEC.UI.MasterData
                     btnBrand.Text = popBrand.Selection.Text + "   > ";
                     Brandid = int.Parse(popBrand.Selection.Value);
                 }
+                
             }
             catch (Exception ex)
             {
@@ -324,6 +330,7 @@ namespace SMOSEC.UI.MasterData
             {
                 popPro.Groups.Clear();
                 PopListGroup brandGroup = new PopListGroup { Title = "品牌型号" };
+                brandGroup.AddListItem("-----------------", "-1");
                 var brandlist = _autofacConfig.assProService.GetAll();
                 foreach (var dep in brandlist)
                 {
@@ -351,7 +358,10 @@ namespace SMOSEC.UI.MasterData
                 {
                     txtPro1.Text = popPro.Selection.Text + "   > ";
                     Project_id = int.Parse(popPro.Selection.Value);
+                    if (popPro.Selection.Value == "-1")
+                        Project_id = null;
                 }
+
             }
             catch (Exception ex)
             {
@@ -365,6 +375,7 @@ namespace SMOSEC.UI.MasterData
             {
                 popTeam.Groups.Clear();
                 PopListGroup brandGroup = new PopListGroup { Title = "品牌型号" };
+                brandGroup.AddListItem("-----------------", "-1");
                 var brandlist = _autofacConfig.assTeamService.GetAll();
                 foreach (var dep in brandlist)
                 {
@@ -392,6 +403,8 @@ namespace SMOSEC.UI.MasterData
                 {
                     txtTeam1.Text = popTeam.Selection.Text + "   > ";
                     Team_id = int.Parse(popTeam.Selection.Value);
+                    if (popTeam.Selection.Value == "-1")
+                        Team_id = null;
                 }
             }
             catch (Exception ex)
@@ -405,7 +418,8 @@ namespace SMOSEC.UI.MasterData
             try
             {
                 popRole.Groups.Clear();
-                PopListGroup brandGroup = new PopListGroup { Title = "品牌型号" };
+                PopListGroup brandGroup = new PopListGroup { Title = "角色" };
+                brandGroup.AddListItem("-----------------", "-1");
                 var brandlist = _autofacConfig.assRoleService.GetAll();
                 foreach (var dep in brandlist)
                 {
@@ -433,6 +447,8 @@ namespace SMOSEC.UI.MasterData
                 {
                     txtRole1.Text = popRole.Selection.Text + "   > ";
                     Role_id = int.Parse(popRole.Selection.Value);
+                    if (popRole.Selection.Value == "-1")
+                        Role_id = null;
                 }
             }
             catch (Exception ex)
@@ -447,6 +463,7 @@ namespace SMOSEC.UI.MasterData
             {
                 popUser.Groups.Clear();
                 PopListGroup brandGroup = new PopListGroup { Title = "品牌型号" };
+                brandGroup.AddListItem("-----------------", "-1");
                 var brandlist = _autofacConfig.assUserService.GetAll();
                 foreach (var dep in brandlist)
                 {
@@ -474,6 +491,8 @@ namespace SMOSEC.UI.MasterData
                 {
                     txtUserman1.Text = popUser.Selection.Text + "   > ";
                     CurrentUser = int.Parse(popUser.Selection.Value);
+                    if (popUser.Selection.Value == "-1")
+                        CurrentUser = null;
                 }
             }
             catch (Exception ex)
@@ -674,6 +693,14 @@ namespace SMOSEC.UI.MasterData
                         DateTime boDate = outputDto.BorrowDate.Value;
                         txtBordate1.Value = boDate;
                         txtBordate1.Tag = true;
+
+                        txtBordate1.ZIndex = 1;
+                        txtBordate1.Size = new System.Drawing.Size(150, 40);
+                        btnbodate.Location = new System.Drawing.Point(250, 560);
+                        btnbodate.Size = new System.Drawing.Size(50, 40);
+                        btnbodate.Text = "清空";
+                        this.btnbodate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(164)))), ((int)(((byte)(229)))));
+                        give_time = txtBordate1.Value;
                     }
                     else
                     {
@@ -688,6 +715,14 @@ namespace SMOSEC.UI.MasterData
                         //MessageBox.Show(txtRedate1.Value.ToString());
                         txtRedate1.Value = outputDto.ReturnDate.Value;
                         txtBordate1.Tag = true;
+
+                        txtRedate1.ZIndex = 1;
+                        txtRedate1.Size = new System.Drawing.Size(150, 40);
+                        btnredate.Location = new System.Drawing.Point(250, 600);
+                        btnredate.Size = new System.Drawing.Size(50, 40);
+                        btnredate.Text = "清空";
+                        this.btnredate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(164)))), ((int)(((byte)(229)))));
+                        return_time = txtBordate1.Value;
                     }
                     else
                     {
@@ -718,7 +753,6 @@ namespace SMOSEC.UI.MasterData
                     Role_id = outputDto.role_id;
                     Team_id = outputDto.team_id;
                     CurrentUser = outputDto.CurrentUser;
-
                 }
             }
             catch (Exception ex)
@@ -737,7 +771,6 @@ namespace SMOSEC.UI.MasterData
             if (e.KeyCode == KeyCode.Back)
             {
                 Close();
-
             }
 
         }
@@ -837,6 +870,7 @@ namespace SMOSEC.UI.MasterData
             try
             {
                 txtBordate1.Tag = true;
+                give_time = txtBordate1.Value;
             }
             catch (Exception ex)
             {
@@ -849,12 +883,71 @@ namespace SMOSEC.UI.MasterData
             try
             {
                 txtRedate1.Tag = true;
+                return_time = txtRedate1.Value;
             }
             catch (Exception ex)
             {
                 Toast(ex.Message);
             }
         }
+        private void btnbodate_Press(object sender, EventArgs e)
+        {
+            try
+            {
+                if (txtBordate1.ZIndex == 0)
+                {
+                    txtBordate1.ZIndex = 1;
+                    txtBordate1.Size = new System.Drawing.Size(150, 40);
+                    btnbodate.Location = new System.Drawing.Point(250, 560);
+                    btnbodate.Size = new System.Drawing.Size(50, 40);
+                    btnbodate.Text = "清空";
+                    this.btnbodate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(164)))), ((int)(((byte)(229)))));
+                    give_time = txtBordate1.Value;
+                }
+                else
+                {
+                    txtBordate1.ZIndex = 0;
+                    btnbodate.Location = new System.Drawing.Point(100, 560);
+                    btnbodate.Size = new System.Drawing.Size(200, 40);
+                    this.btnbodate.BackColor = System.Drawing.Color.White;
+                    give_time = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
+
+        private void btnredate_Press(object sender, EventArgs e)
+        {
+            try
+            {
+                if (txtRedate1.ZIndex == 0)
+                {
+                    txtRedate1.ZIndex = 1;
+                    txtRedate1.Size = new System.Drawing.Size(150, 40);
+                    btnredate.Location = new System.Drawing.Point(250, 600);
+                    btnredate.Size = new System.Drawing.Size(50, 40);
+                    btnredate.Text = "清空";
+                    this.btnredate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(164)))), ((int)(((byte)(229)))));
+                    return_time = txtRedate1.Value;
+                }
+                else
+                {
+                    txtRedate1.ZIndex = 0;
+                    btnredate.Location = new System.Drawing.Point(100, 600);
+                    btnredate.Size = new System.Drawing.Size(200, 40);
+                    this.btnredate.BackColor = System.Drawing.Color.White;
+                    return_time = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Toast(ex.Message);
+            }
+        }
+
 
 
         //private void txtRedate_TextChanged(object sender, EventArgs e)

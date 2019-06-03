@@ -1,0 +1,6 @@
+1、代码安装：安装mysql-connector-net-6.9.12.msi，并且把ui里面的引用换成当前系统现有的；安装smobiler和.net 4.6以上版本；安装vs 2017
+2、app.config等地方，需要改动所有sql server的地方改为mysql.client
+3、有的designer绑定了gridview layout，要把指定的参数穿给它，否则页面就会报错
+4、对于每个service，要在AutofacConfig.cs里面注册，在Iservice里面定义，service里实现
+5、AutomapperConfig.cs定义了输入、输出和数据库实体类的关系。每个类都要在SMOSECDbContext中写个DbSet，不管用没用到，否则就报错
+6、Domain.IRepository中定义，repository中实现，调用的时候要加上AsNoTracking，否则也会报错

@@ -28,7 +28,6 @@ namespace SMOSEC.UI.MasterData
         [System.Diagnostics.DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            this.Title1 = new SMOSEC.UI.UserControl.Title();
             this.Panel2 = new Smobiler.Core.Controls.Panel();
             this.Button1 = new Smobiler.Core.Controls.Button();
             this.CamPicture = new Smobiler.Core.Controls.Camera();
@@ -67,6 +66,8 @@ namespace SMOSEC.UI.MasterData
             this.txtLocation = new Smobiler.Core.Controls.TextBox();
             this.txtBordate1 = new Smobiler.Core.Controls.DatePicker();
             this.txtRedate1 = new Smobiler.Core.Controls.DatePicker();
+            this.btnbodate = new Smobiler.Core.Controls.Button();
+            this.btnredate = new Smobiler.Core.Controls.Button();
             this.ImgBtnForSN = new Smobiler.Core.Controls.ImageButton();
             this.txtPayman1 = new Smobiler.Core.Controls.Button();
             this.r2000Scanner1 = new Smobiler.Device.R2000Scanner();
@@ -80,18 +81,7 @@ namespace SMOSEC.UI.MasterData
             this.popRole = new Smobiler.Core.Controls.PopList();
             this.popUser = new Smobiler.Core.Controls.PopList();
             this.popStatus = new Smobiler.Core.Controls.PopList();
-            // 
-            // Title1
-            // 
-            this.Title1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(164)))), ((int)(((byte)(229)))));
-            this.Title1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Title1.FontSize = 15F;
-            this.Title1.ForeColor = System.Drawing.Color.White;
-            this.Title1.Name = "Title1";
-            this.Title1.Size = new System.Drawing.Size(300, 40);
-            this.Title1.TemplateData = null;
-            this.Title1.TemplateItem = null;
-            this.Title1.TitleText = "资产编辑";
+            this.Title1 = new SMOSEC.UI.UserControl.Title();
             // 
             // Panel2
             // 
@@ -155,6 +145,8 @@ namespace SMOSEC.UI.MasterData
             this.txtLocation,
             this.txtBordate1,
             this.txtRedate1,
+            this.btnbodate,
+            this.btnredate,
             this.ImgBtnForSN,
             this.txtPayman1});
             this.Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -561,6 +553,7 @@ namespace SMOSEC.UI.MasterData
             this.txtBordate1.Name = "txtBordate1";
             this.txtBordate1.Padding = new Smobiler.Core.Controls.Padding(0F, 0F, 5F, 0F);
             this.txtBordate1.Size = new System.Drawing.Size(200, 40);
+            this.txtBordate1.Value = new System.DateTime(2019, 6, 3, 10, 42, 6, 0);
             this.txtBordate1.ValueChanged += new System.EventHandler(this.txtBordate1_ValueChanged);
             // 
             // txtRedate1
@@ -574,6 +567,30 @@ namespace SMOSEC.UI.MasterData
             this.txtRedate1.Padding = new Smobiler.Core.Controls.Padding(0F, 0F, 5F, 0F);
             this.txtRedate1.Size = new System.Drawing.Size(200, 40);
             this.txtRedate1.ValueChanged += new System.EventHandler(this.txtRedate1_ValueChanged);
+            // 
+            // btnbodate
+            // 
+            this.btnbodate.BackColor = System.Drawing.Color.White;
+            this.btnbodate.Border = new Smobiler.Core.Controls.Border(0F, 1F, 0F, 0F);
+            this.btnbodate.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.btnbodate.Location = new System.Drawing.Point(100, 560);
+            this.btnbodate.Name = "btnbodate";
+            this.btnbodate.Size = new System.Drawing.Size(200, 40);
+            this.btnbodate.Text = " > ";
+            this.btnbodate.ZIndex = 1;
+            this.btnbodate.Press += new System.EventHandler(this.btnbodate_Press);
+            // 
+            // btnredate
+            // 
+            this.btnredate.BackColor = System.Drawing.Color.White;
+            this.btnredate.Border = new Smobiler.Core.Controls.Border(0F, 1F, 0F, 0F);
+            this.btnredate.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.btnredate.Location = new System.Drawing.Point(100, 600);
+            this.btnredate.Name = "btnredate";
+            this.btnredate.Size = new System.Drawing.Size(200, 40);
+            this.btnredate.Text = " > ";
+            this.btnredate.ZIndex = 1;
+            this.btnredate.Press += new System.EventHandler(this.btnredate_Press);
             // 
             // ImgBtnForSN
             // 
@@ -664,6 +681,18 @@ namespace SMOSEC.UI.MasterData
             this.popStatus.Title = "资产状态";
             this.popStatus.Selected += new System.EventHandler(this.popStatus_Selected);
             // 
+            // Title1
+            // 
+            this.Title1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(164)))), ((int)(((byte)(229)))));
+            this.Title1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Title1.FontSize = 15F;
+            this.Title1.ForeColor = System.Drawing.Color.White;
+            this.Title1.Name = "Title1";
+            this.Title1.Size = new System.Drawing.Size(300, 40);
+            this.Title1.TemplateData = null;
+            this.Title1.TemplateItem = null;
+            this.Title1.TitleText = "资产编辑";
+            // 
             // frmAssetsDetailEdit
             // 
             this.BackColor = System.Drawing.Color.White;
@@ -746,6 +775,8 @@ namespace SMOSEC.UI.MasterData
         private Smobiler.Core.Controls.PopList popRole;
         private Smobiler.Core.Controls.PopList popUser;
         private Smobiler.Core.Controls.PopList popStatus;
+        private Smobiler.Core.Controls.Button btnbodate;
+        private Smobiler.Core.Controls.Button btnredate;
 
     }
 }

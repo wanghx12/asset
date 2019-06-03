@@ -60,7 +60,7 @@ namespace SMOSEC.Application.Services
                 {
                     username = dealman,
                     m_time = DateTime.Now,
-                    content = "添加--->挂账人" + "--->" + name,
+                    content = "添加--->挂帐人" + "--->" + name,
                 };
                 _unitOfWork.RegisterNew(pr);
 

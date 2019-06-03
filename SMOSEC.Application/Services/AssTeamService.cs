@@ -60,6 +60,7 @@ namespace SMOSEC.Application.Services
                 {
                     username = dealman,
                     m_time = DateTime.Now,
+                    //content = HttpUtility.UrlEncode("添加--->团队" + "--->" + name, Encoding.UTF8),
                     content = "添加--->团队" + "--->" + name,
                 };
                 _unitOfWork.RegisterNew(pr);

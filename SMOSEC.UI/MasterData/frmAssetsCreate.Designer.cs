@@ -216,7 +216,6 @@ namespace SMOSEC.UI.MasterData
             // 
             this.txtNUm.Border = new Smobiler.Core.Controls.Border(0F, 1F, 0F, 0F);
             this.txtNUm.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
-            this.txtName.HorizontalAlignment = Smobiler.Core.Controls.HorizontalAlignment.Right;
             this.txtNUm.Location = new System.Drawing.Point(100, 80);
             this.txtNUm.Name = "txtNUm";
             this.txtNUm.Padding = new Smobiler.Core.Controls.Padding(5F, 0F, 0F, 0F);
@@ -572,7 +571,6 @@ namespace SMOSEC.UI.MasterData
             this.txtBordate1.Name = "txtBordate1";
             this.txtBordate1.Padding = new Smobiler.Core.Controls.Padding(0F, 0F, 5F, 0F);
             this.txtBordate1.Size = new System.Drawing.Size(200, 40);
-            this.txtBordate1.Tag = null;
             this.txtBordate1.ValueChanged += new System.EventHandler(this.txtBordate1_ValueChanged);
             // 
             // txtRedate1
@@ -585,7 +583,6 @@ namespace SMOSEC.UI.MasterData
             this.txtRedate1.Name = "txtRedate1";
             this.txtRedate1.Padding = new Smobiler.Core.Controls.Padding(0F, 0F, 5F, 0F);
             this.txtRedate1.Size = new System.Drawing.Size(200, 40);
-            this.txtRedate1.Tag = null;
             this.txtRedate1.ValueChanged += new System.EventHandler(this.txtRedate1_ValueChanged);
             // 
             // txtPayman1
